@@ -1,0 +1,53 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-LXdLjeAF_6sROgin-8OIg">
+<!-- HTML_TAG_START --><h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#beit-for-face-mask-detection" id="beit-for-face-mask-detection" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		BEiT for Face Mask Detection
+	</span>
+</h1>
+<p>BEiT model pre-trained and fine-tuned on Self Currated Custom Face-Mask18K Dataset (18k images, 2 classes) at resolution 224x224. It was introduced in the paper BEIT: BERT Pre-Training of Image Transformers by Hangbo Bao, Li Dong and Furu Wei.  </p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-description" id="model-description" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model description
+	</span>
+</h2>
+<p>The BEiT model is a Vision Transformer (ViT), which is a transformer encoder model (BERT-like). In contrast to the original ViT model, BEiT is pretrained on a large collection of images in a self-supervised fashion, namely ImageNet-21k, at a resolution of 224x224 pixels. The pre-training objective for the model is to predict visual tokens from the encoder of OpenAI's DALL-E's VQ-VAE, based on masked patches. Next, the model was fine-tuned in a supervised fashion on ImageNet (also referred to as ILSVRC2012), a dataset comprising 1 million images and 1,000 classes, also at resolution 224x224.</p>
+<p>Images are presented to the model as a sequence of fixed-size patches (resolution 16x16), which are linearly embedded. Contrary to the original ViT models, BEiT models do use relative position embeddings (similar to T5) instead of absolute position embeddings, and perform classification of images by mean-pooling the final hidden states of the patches, instead of placing a linear layer on top of the final hidden state of the [CLS] token.</p>
+<p>By pre-training the model, it learns an inner representation of images that can then be used to extract features useful for downstream tasks: if you have a dataset of labeled images for instance, you can train a standard classifier by placing a linear layer on top of the pre-trained encoder. One typically places a linear layer on top of the [CLS] token, as the last hidden state of this token can be seen as a representation of an entire image. Alternatively, one can mean-pool the final hidden states of the patch embeddings, and place a linear layer on top of that.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-metrics" id="training-metrics" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training Metrics
+	</span>
+</h2>
+<pre><code>epoch                    =        0.55
+total_flos               = 576468516GF
+train_loss               =       0.151
+train_runtime            =  0:58:16.56
+train_samples_per_second =      16.505
+train_steps_per_second   =       1.032
+</code></pre>
+<hr/>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#evaluation-metrics" id="evaluation-metrics" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Evaluation Metrics
+	</span>
+</h2>
+<pre><code>epoch                   =       0.55
+eval_accuracy           =      0.975
+eval_loss               =     0.0803
+eval_runtime            = 0:03:13.02
+eval_samples_per_second =     18.629
+eval_steps_per_second   =      2.331
+</code></pre>
+<!-- HTML_TAG_END --></div>

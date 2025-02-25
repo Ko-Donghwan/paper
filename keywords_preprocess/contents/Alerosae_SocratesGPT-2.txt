@@ -1,0 +1,3 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-uI4ZAJi40f-sfyBDUWU7s">
+<!-- HTML_TAG_START --><p>This is a fine-tuned version of GPT-2, trained with the entire corpus of Plato's works. By generating text samples you should be able to generate ancient Greek philosophy on the fly!</p>
+<!-- HTML_TAG_END --></div>

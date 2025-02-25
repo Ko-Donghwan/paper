@@ -1,0 +1,5 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-oojCVqvw3XR_7iW5rjZAu">
+<!-- HTML_TAG_START --><p>A checkpoint for training Persian T5 model. This repository can be cloned and pre-training can be resumed. This model uses flax and is for training.</p>
+<p>For more information and getting the training code please refer to:</p>
+<p><a href="https://github.com/puraminy/parsT5" rel="nofollow">https://github.com/puraminy/parsT5</a></p>
+<!-- HTML_TAG_END --></div>

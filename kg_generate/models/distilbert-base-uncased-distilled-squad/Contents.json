@@ -1,0 +1,5 @@
+{
+    "ModelArchitecture": "Transformer",
+    "Purpose": "question answering",
+    "ModelTrainingTime": "90 hours"
+}

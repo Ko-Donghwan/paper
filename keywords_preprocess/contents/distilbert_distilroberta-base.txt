@@ -1,0 +1,271 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-anClayooAmncHCDfgm5hr">
+<!-- HTML_TAG_START --><h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-card-for-distilroberta-base" id="model-card-for-distilroberta-base" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model Card for DistilRoBERTa base
+	</span>
+</h1>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#table-of-contents" id="table-of-contents" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Table of Contents
+	</span>
+</h1>
+<ol>
+<li><a href="#model-details" rel="nofollow">Model Details</a></li>
+<li><a href="#uses" rel="nofollow">Uses</a></li>
+<li><a href="#bias-risks-and-limitations" rel="nofollow">Bias, Risks, and Limitations</a></li>
+<li><a href="#training-details" rel="nofollow">Training Details</a></li>
+<li><a href="#evaluation" rel="nofollow">Evaluation</a></li>
+<li><a href="#environmental-impact" rel="nofollow">Environmental Impact</a></li>
+<li><a href="#citation" rel="nofollow">Citation</a></li>
+<li><a href="#how-to-get-started-with-the-model" rel="nofollow">How To Get Started With the Model</a></li>
+</ol>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-details" id="model-details" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model Details
+	</span>
+</h1>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-description" id="model-description" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model Description
+	</span>
+</h2>
+<p>This model is a distilled version of the <a href="https://huggingface.co/roberta-base" rel="nofollow">RoBERTa-base model</a>. It follows the same training procedure as <a href="https://huggingface.co/distilbert-base-uncased" rel="nofollow">DistilBERT</a>.
+The code for the distillation process can be found <a href="https://github.com/huggingface/transformers/tree/master/examples/distillation" rel="nofollow">here</a>.
+This model is case-sensitive: it makes a difference between english and English.</p>
+<p>The model has 6 layers, 768 dimension and 12 heads, totalizing 82M parameters (compared to 125M parameters for RoBERTa-base).
+On average DistilRoBERTa is twice as fast as Roberta-base.</p>
+<p>We encourage users of this model card to check out the <a href="https://huggingface.co/roberta-base" rel="nofollow">RoBERTa-base model card</a> to learn more about usage, limitations and potential biases.</p>
+<ul>
+<li><strong>Developed by:</strong> Victor Sanh, Lysandre Debut, Julien Chaumond, Thomas Wolf (Hugging Face)</li>
+<li><strong>Model type:</strong> Transformer-based language model</li>
+<li><strong>Language(s) (NLP):</strong> English</li>
+<li><strong>License:</strong> Apache 2.0</li>
+<li><strong>Related Models:</strong> <a href="https://huggingface.co/roberta-base" rel="nofollow">RoBERTa-base model card</a></li>
+<li><strong>Resources for more information:</strong> <ul>
+<li><a href="https://github.com/huggingface/transformers/blob/main/examples/research_projects/distillation/README.md" rel="nofollow">GitHub Repository</a></li>
+<li><a href="https://arxiv.org/abs/1910.01108" rel="nofollow">Associated Paper</a></li>
+</ul>
+</li>
+</ul>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#uses" id="uses" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Uses
+	</span>
+</h1>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#direct-use-and-downstream-use" id="direct-use-and-downstream-use" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Direct Use and Downstream Use
+	</span>
+</h2>
+<p>You can use the raw model for masked language modeling, but it's mostly intended to be fine-tuned on a downstream task. See the <a href="https://huggingface.co/models?filter=roberta" rel="nofollow">model hub</a> to look for fine-tuned versions on a task that interests you.</p>
+<p>Note that this model is primarily aimed at being fine-tuned on tasks that use the whole sentence (potentially masked) to make decisions, such as sequence classification, token classification or question answering. For tasks such as text generation you should look at model like GPT2.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#out-of-scope-use" id="out-of-scope-use" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Out of Scope Use
+	</span>
+</h2>
+<p>The model should not be used to intentionally create hostile or alienating environments for people. The model was not trained to be factual or true representations of people or events, and therefore using the models to generate such content is out-of-scope for the abilities of this model.</p>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#bias-risks-and-limitations" id="bias-risks-and-limitations" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Bias, Risks, and Limitations
+	</span>
+</h1>
+<p>Significant research has explored bias and fairness issues with language models (see, e.g., <a href="https://aclanthology.org/2021.acl-long.330.pdf" rel="nofollow">Sheng et al. (2021)</a> and <a href="https://dl.acm.org/doi/pdf/10.1145/3442188.3445922" rel="nofollow">Bender et al. (2021)</a>). Predictions generated by the model may include disturbing and harmful stereotypes across protected classes; identity characteristics; and sensitive, social, and occupational groups. For example:</p>
+<pre><code class="language-python"><span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> pipeline
+<span class="hljs-meta">&gt;&gt;&gt; </span>unmasker = pipeline(<span class="hljs-string">'fill-mask'</span>, model=<span class="hljs-string">'distilroberta-base'</span>)
+<span class="hljs-meta">&gt;&gt;&gt; </span>unmasker(<span class="hljs-string">"The man worked as a &lt;mask&gt;."</span>)
+[{<span class="hljs-string">'score'</span>: <span class="hljs-number">0.1237526461482048</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">'The man worked as a waiter.'</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">38233</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' waiter'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.08968018740415573</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">'The man worked as a waitress.'</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">35698</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' waitress'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.08387645334005356</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">'The man worked as a bartender.'</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">33080</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' bartender'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.061059024184942245</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">'The man worked as a mechanic.'</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">25682</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' mechanic'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.03804653510451317</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">'The man worked as a courier.'</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">37171</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' courier'</span>}]
+  
+<span class="hljs-meta">&gt;&gt;&gt; </span>unmasker(<span class="hljs-string">"The woman worked as a &lt;mask&gt;."</span>)
+[{<span class="hljs-string">'score'</span>: <span class="hljs-number">0.23149248957633972</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">'The woman worked as a waitress.'</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">35698</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' waitress'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.07563332468271255</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">'The woman worked as a waiter.'</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">38233</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' waiter'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.06983394920825958</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">'The woman worked as a bartender.'</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">33080</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' bartender'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.05411609262228012</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">'The woman worked as a nurse.'</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">9008</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' nurse'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.04995106905698776</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">'The woman worked as a maid.'</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">29754</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' maid'</span>}]
+</code></pre>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#recommendations" id="recommendations" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Recommendations
+	</span>
+</h2>
+<p>Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model.</p>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-details" id="training-details" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training Details
+	</span>
+</h1>
+<p>DistilRoBERTa was pre-trained on <a href="https://skylion007.github.io/OpenWebTextCorpus/" rel="nofollow">OpenWebTextCorpus</a>, a reproduction of OpenAI's WebText dataset (it is ~4 times less training data than the teacher RoBERTa). See the <a href="https://huggingface.co/roberta-base/blob/main/README.md" rel="nofollow">roberta-base model card</a> for further details on training.</p>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#evaluation" id="evaluation" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Evaluation
+	</span>
+</h1>
+<p>When fine-tuned on downstream tasks, this model achieves the following results (see <a href="https://github.com/huggingface/transformers/blob/main/examples/research_projects/distillation/README.md" rel="nofollow">GitHub Repo</a>):</p>
+<p>Glue test results:</p>
+<div class="max-w-full overflow-auto">
+<table>
+<thead><tr>
+<th align="center">Task</th>
+<th align="center">MNLI</th>
+<th align="center">QQP</th>
+<th align="center">QNLI</th>
+<th align="center">SST-2</th>
+<th align="center">CoLA</th>
+<th align="center">STS-B</th>
+<th align="center">MRPC</th>
+<th align="center">RTE</th>
+</tr>
+</thead><tbody><tr>
+<td align="center"></td>
+<td align="center">84.0</td>
+<td align="center">89.4</td>
+<td align="center">90.8</td>
+<td align="center">92.5</td>
+<td align="center">59.3</td>
+<td align="center">88.3</td>
+<td align="center">86.6</td>
+<td align="center">67.9</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#environmental-impact" id="environmental-impact" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Environmental Impact
+	</span>
+</h1>
+<p>Carbon emissions can be estimated using the <a href="https://mlco2.github.io/impact#compute" rel="nofollow">Machine Learning Impact calculator</a> presented in <a href="https://arxiv.org/abs/1910.09700" rel="nofollow">Lacoste et al. (2019)</a>.</p>
+<ul>
+<li><strong>Hardware Type:</strong> More information needed</li>
+<li><strong>Hours used:</strong> More information needed</li>
+<li><strong>Cloud Provider:</strong> More information needed</li>
+<li><strong>Compute Region:</strong> More information needed</li>
+<li><strong>Carbon Emitted:</strong> More information needed</li>
+</ul>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#citation" id="citation" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Citation
+	</span>
+</h1>
+<pre><code class="language-bibtex">@article{Sanh2019DistilBERTAD,
+  title={DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter},
+  author={Victor Sanh and Lysandre Debut and Julien Chaumond and Thomas Wolf},
+  journal={ArXiv},
+  year={2019},
+  volume={abs/1910.01108}
+}
+</code></pre>
+<p>APA</p>
+<ul>
+<li>Sanh, V., Debut, L., Chaumond, J., &amp; Wolf, T. (2019). DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. arXiv preprint arXiv:1910.01108.</li>
+</ul>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#how-to-get-started-with-the-model" id="how-to-get-started-with-the-model" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		How to Get Started With the Model
+	</span>
+</h1>
+<p>You can use the model directly with a pipeline for masked language modeling: </p>
+<pre><code class="language-python"><span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> pipeline
+<span class="hljs-meta">&gt;&gt;&gt; </span>unmasker = pipeline(<span class="hljs-string">'fill-mask'</span>, model=<span class="hljs-string">'distilroberta-base'</span>)
+<span class="hljs-meta">&gt;&gt;&gt; </span>unmasker(<span class="hljs-string">"Hello I'm a &lt;mask&gt; model."</span>)
+[{<span class="hljs-string">'score'</span>: <span class="hljs-number">0.04673689603805542</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">"Hello I'm a business model."</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">265</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' business'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.03846118599176407</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">"Hello I'm a freelance model."</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">18150</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' freelance'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.03308931365609169</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">"Hello I'm a fashion model."</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">2734</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' fashion'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.03018997237086296</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">"Hello I'm a role model."</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">774</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' role'</span>},
+ {<span class="hljs-string">'score'</span>: <span class="hljs-number">0.02111748233437538</span>,
+  <span class="hljs-string">'sequence'</span>: <span class="hljs-string">"Hello I'm a Playboy model."</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">24526</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">' Playboy'</span>}]
+</code></pre>
+<a href="https://huggingface.co/exbert/?model=distilroberta-base">
+<img src="https://cdn-media.huggingface.co/exbert/button.png" width="300px"/>
+</a>
+<!-- HTML_TAG_END --></div>

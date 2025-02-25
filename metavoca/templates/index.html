@@ -1,0 +1,3383 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Metadata Items for interoperating AI Models</title>
+    <script
+      src="https://www.w3.org/Tools/respec/respec-w3c"
+      class="remove"
+      defer
+    ></script>
+    <script class="remove">
+      // All config options at https://respec.org/docs/
+      var respecConfig = {
+        specStatus: "ED",
+        editors: [
+          { name: "Donghwan Ko", url: "https://amilab.kr/" },
+          { name: "Jangwon Gim", url: "https://amilab.kr/" }
+        ],
+        // github: "some-org/mySpec",
+        // shortName: "dahut",
+        // xref: "web-platform",
+        // group: "my-working-group",
+      };
+    </script>
+  </head>
+  <body>
+    <section id="abstract" class="introductory">
+      <h2>Abstract</h2>
+      <p>
+        이 페이지는 AI 모델을 운영하기 위해 필요한 항목, AI모델간 상호운용을 할 때 필요한 속성, AI모델마다 개별적으로 필요한 속성을 정리한 페이지입니다. 
+        카테고리는 총 9개로 구성되며 모델의 기본 정보와 특징, 성능 및 평가, 데이터세트, 파생 모델 관리, 사용 및 제약 사항, 관리, 배포, 학습을 위한 메타데이터로 구성됩니다.
+      </p>
+    </section>
+    <section id="hfmetadata">
+      <h2>AI모델을 표현하기 위한 온톨로지</h2>
+      <p>AI모델을 표현하기 위한 온톨로지</p>
+      <figure id="figure">
+        <img src="https://dl-asset.cyberlink.com/web/prog/learning-center/html/18101/MyEdit-17-midjourney-alternatives/img/1200x400.jpg" height="900" width="500">
+        <figcaption>
+          <span class="fig-title">AI모델을 표현하기 위한 온톨로지의 핵심 클래스와 관계</span>
+        </figcaption>
+      </figure>
+      <figure id="figure">
+        <img src="../static/metadata.png" height="900" width="500">
+        <figcaption>
+          <span class="fig-title">AI모델을 표현하기 위한 온톨로지의 핵심 클래스와 관계</span>
+        </figcaption>
+      </figure>
+    </section>
+    <section id="namespace"><!--OddPage-->
+      <h2>Namespace</h2>    
+      <table id="table-namespaces" class="simple">
+          <thead>
+              <tr>
+                  <th>접두사(prefix)</th>
+                  <th>Namespace <abbr title="Internationalized Resource Identifier">IRI</abbr></th>
+                  <th>Source</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td><code>dcat</code></td>
+                  <td><code>http://www.w3.org/ns/dcat#</code></td>
+                  <td>[<cite><a class="bibref" data-link-type="biblio" href="#bib-vocab-dcat" title="Data Catalog Vocabulary (DCAT)">VOCAB-DCAT<!---0.616800%--></a></cite><!---0.616800%-->]</td>
+              </tr>
+              <tr>
+                  <td><code>dct</code></td>
+                  <td><code>http://purl.org/dc/terms/</code></td>
+                  <td>[<cite><a class="bibref" data-link-type="biblio" href="#bib-dcterms" title="DCMI Metadata Terms">DCTERMS<!---0.616800%--></a></cite><!---0.616800%-->]</td>
+              </tr>
+              <tr>
+                  <td><code>rdf</code></td>
+                  <td><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></td>
+                  <td>[<cite><a class="bibref" data-link-type="biblio" href="#bib-rdf-syntax-grammar" title="RDF 1.1 XML Syntax">RDF-SYNTAX-GRAMMAR<!---0.616800%--></a></cite><!---0.616800%-->]</td>
+              </tr>
+              <tr>
+                  <td><code>rdfs</code></td>
+                  <td><code>http://www.w3.org/2000/01/rdf-schema#</code></td>
+                  <td>[<cite><a class="bibref" data-link-type="biblio" href="#bib-rdf-schema" title="RDF Schema 1.1">RDF-SCHEMA<!---0.616800%--></a></cite><!---0.616800%-->]</td>
+              </tr>
+              <tr>
+                  <td><code>skos</code></td>
+                  <td><code>http://www.w3.org/2004/02/skos/core#</code></td>
+                  <td>[<cite><a class="bibref" data-link-type="biblio" href="#bib-skos-reference" title="SKOS Simple Knowledge Organization System Reference">SKOS-REFERENCE<!---0.616800%--></a></cite><!---0.616800%-->]</td>
+              </tr>
+          </tbody>
+      </table>
+    </section>
+    <section>
+      <!-- properties related AI model -->
+      <h2>Category Information</h2>
+        <h3>Property: BasicInformation</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>BasicInformation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:BasicInformation</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Basic Information</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Category defined to collect basic model information</code></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Property: ModelCharacteristic</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>ModelCharacteristic</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:ModelCharacteristic</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Model Characteristic</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Category defined to collect model characteristic information</code></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Property: PerformanceandEvaluation</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>PerformanceandEvaluation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:PerformanceandEvaluation</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Performance and Evaluation</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Category defined to collect model performance information</code></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Property: Dataset</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>Dataset</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>dcat:Dataset</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Dataset</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Category defined to collect dataset information</code></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Property: DerivedModelManagement</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>DerivedModelManagement</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>DerivedModelManagement</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Derived Model Management</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Category defined to collect information for derived model management</code></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Property: UsageAndRestrictions</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>UsageAndRestrictions</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>UsageAndRestrictions</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Derived Model Management</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Category defined to collect model usage and restriction information</code></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Property: ManagementInformation</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>ManagementInformation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>ManagementInformation</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Management Information</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Category defined to collect model management information</code></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Property: DeploymentDetails</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>DeploymentDetails</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>DeploymentDetails</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Deployment Details</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Category defined to collect model deployment information</code></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Property: TrainingDetails</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>TrainingDetails</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>TrainingDetails</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Training Details</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Category defined to collect model training information</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    <section>
+      <h2>Category 1. Basic Information</h2>
+        <h3>Property: ModelIdentification</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>BasicInformation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:ModelIdentification</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>ModelIdentification</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Unique identifier assigned to the model.</code></td>
+            </tr>
+          </tbody>
+        </table>
+        <h4>Subordinate Property: ModelID</h4>
+          <table class="def">
+            <tbody>
+              <tr>
+                <th>Super Property: </th>
+                <td><code>ModelIdentification</code></td>
+              </tr>
+              <tr>
+                <th>Property: </th>
+                <td><code>koai:ModelID</code></td>
+              </tr>
+              <tr>
+                <th>Label: </th>
+                <td><code>Model ID</code></td>
+              </tr>
+              <tr>
+                <th>Format: </th>
+                <td><code>str</code></td>
+              </tr>
+              <tr>
+                <th>Hugging Face: </th>
+                <td><code>Yes</code></td>
+              </tr>
+              <tr>
+                <th>Directly Usable in Gradio: </th>
+                <td><code>Yes</code></td>
+              </tr>
+              <tr>
+                <th>Description:</th>
+                <td><code>ID defined to identify an AI model.</code></td>
+              </tr>
+            </tbody>
+          </table>
+          <h4>Subordinate Property: ModelSHA</h4>
+          <table class="def">
+            <tbody>
+              <tr>
+                <th>Super Property: </th>
+                <td><code>ModelIdentification</code></td>
+              </tr>
+              <tr>
+                <th>Property: </th>
+                <td><code>koai:ModelSHA</code></td>
+              </tr>
+              <tr>
+                <th>Label: </th>
+                <td><code>Model SHA</code></td>
+              </tr>
+              <tr>
+                <th>Format: </th>
+                <td><code>str</code></td>
+              </tr>
+              <tr>
+                <th>Hugging Face: </th>
+                <td><code>Yes</code></td>
+              </tr>
+              <tr>
+                <th>Directly Usable in Gradio: </th>
+                <td><code>No</code></td>
+              </tr>
+              <tr>
+                <th>Description:</th>
+                <td><code>Hash Value defined to identify an AI model.</code></td>
+              </tr>
+            </tbody>
+          </table>
+
+        <h3>Property: ModelVersion</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>BasicInformation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:ModelVersion</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Model Version</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>float</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Model version providing information about updates, improvements, or modifications</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: PipelineTag</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>BasicInformation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:PipelineTag</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Pipeline Tag</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Tag specifying the task type the model is designed to perform</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: ModelArchitecture</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>BasicInformation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:ModelArchitecture</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Model Architecture</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Name of the model’s basic structure or architecture</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: ModelTrainingTime</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>BasicInformation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:ModelTrainingTime</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Model Training Time</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>integer</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Total time required to train the model</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: ModelUpdateFrequency</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>BasicInformation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:ModelUpdateFrequency</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Model Update Frequency</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>float</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Model update frequency</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </section>
+      <section>
+        <h2>Category 2. Model Characteristic</h2>
+
+        <h3>Property: InputType</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>ModelCharacteristic</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:InputType</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Input Type</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Input types the model can process</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: OutputType</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>ModelCharacteristic</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:OutputType</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Output Type</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Output types the model can process</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: SupportedLanguages</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>ModelCharacteristic</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:SupportedLanguages</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Supported Languages</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Languages the model can process</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: Library</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>ModelCharacteristic</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:Library</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Library</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Libraries compatible with the model</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Category 3. Performance and Evaluation</h3>
+        <h3>Property: PerformanceMetrics</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>PerformanceandEvaluation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:PerformanceMetrics</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Performance Metrics</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Metrics for evaluating the model's performance</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Subordinate Property: ClassificationMetric</h4>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Super Property: </th>
+              <td><code>koai:PerformanceMetrics</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:ClassificationMetric</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Classification Metric</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>float</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Metrics for evaluating classification tasks</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Subordinate Property: ObjectDetectionMetric</h4>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Super Property: </th>
+              <td><code>koai:PerformanceMetrics</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:ObjectDetectionMetric</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Object Detection Metric</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>float</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Metrics for evaluating object detection tasks</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Subordinate Property: SequenceGenerationMetric</h4>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Super Property: </th>
+              <td><code>koai:PerformanceMetrics</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:SequenceGenerationMetric</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Sequence Generation Metric</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>float</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Metrics for evaluating sequence generation tasks</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: Benchmarks</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>PerformanceandEvaluation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:Benchmarks</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Benchmarks</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Standard datasets for evaluating and comparing the model's performance</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Category 4. Dataset</h2>
+
+        <h3>Property: Identification</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>Dataset</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>dcat:Dataset</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Dataset</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Unique identifier assigned to reference the dataset</code></td>
+            </tr>
+          </tbody>
+        </table>
+        <h4>Subordinate Property: DatasetID</h4>
+          <table class="def">
+            <tbody>
+              <tr>
+                <th>Super Property: </th>
+                <td><code>Identification</code></td>
+              </tr>
+              <tr>
+                <th>Property: </th>
+                <td><code>koai:DatasetID</code></td>
+              </tr>
+              <tr>
+                <th>Label: </th>
+                <td><code>Dataset ID</code></td>
+              </tr>
+              <tr>
+                <th>Format: </th>
+                <td><code>str</code></td>
+              </tr>
+              <tr>
+                <th>Hugging Face: </th>
+                <td><code>Yes</code></td>
+              </tr>
+              <tr>
+                <th>Directly Usable in Gradio: </th>
+                <td><code>Yes</code></td>
+              </tr>
+              <tr>
+                <th>Description:</th>
+                <td><code>Unique identifier assigned to reference the dataset</code></td>
+              </tr>
+            </tbody>
+          </table>
+          <h4>Subordinate Property: DatasetSHA</h4>
+          <table class="def">
+            <tbody>
+              <tr>
+                <th>Super Property: </th>
+                <td><code>Identification</code></td>
+              </tr>
+              <tr>
+                <th>Property: </th>
+                <td><code>koai:DatasetSHA</code></td>
+              </tr>
+              <tr>
+                <th>Label: </th>
+                <td><code>Dataset SHA</code></td>
+              </tr>
+              <tr>
+                <th>Format: </th>
+                <td><code>str</code></td>
+              </tr>
+              <tr>
+                <th>Hugging Face: </th>
+                <td><code>Yes</code></td>
+              </tr>
+              <tr>
+                <th>Directly Usable in Gradio: </th>
+                <td><code>No</code></td>
+              </tr>
+              <tr>
+                <th>Description:</th>
+                <td><code>Hash value representing a specific version or state of the dataset</code></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Property: DatasetDescription</h3>
+          <table class="def">
+            <tbody>
+              <tr>
+                <th>Category: </th>
+                <td><code>Dataset</code></td>
+              </tr>
+              <tr>
+                <th>Property: </th>
+                <td><code>koai:DatasetDescription</code></td>
+              </tr>
+              <tr>
+                <th>Label: </th>
+                <td><code>Dataset Description</code></td>
+              </tr>
+              <tr>
+                <th>Format: </th>
+                <td><code>str</code></td>
+              </tr>
+              <tr>
+                <th>Hugging Face: </th>
+                <td><code>Yes</code></td>
+              </tr>
+              <tr>
+                <th>Directly Usable in Gradio: </th>
+                <td><code>No</code></td>
+              </tr>
+              <tr>
+                <th>Description:</th>
+                <td><code>Attribute describing the characteristics of the dataset</code></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3>Property: DatasetLicense</h3>
+          <table class="def">
+            <tbody>
+              <tr>
+                <th>Category: </th>
+                <td><code>Dataset</code></td>
+              </tr>
+              <tr>
+                <th>Property: </th>
+                <td><code>koai:DatasetLicense</code></td>
+              </tr>
+              <tr>
+                <th>Label: </th>
+                <td><code>Dataset License</code></td>
+              </tr>
+              <tr>
+                <th>Format: </th>
+                <td><code>str</code></td>
+              </tr>
+              <tr>
+                <th>Hugging Face: </th>
+                <td><code>Yes</code></td>
+              </tr>
+              <tr>
+                <th>Directly Usable in Gradio: </th>
+                <td><code>No</code></td>
+              </tr>
+              <tr>
+                <th>Description:</th>
+                <td><code>License information specifying usage rights and restrictions for the dataset</code></td>
+              </tr>
+            </tbody>
+          </table>
+
+        <h3>Property: DatasetVersion</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>Dataset</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:DatasetVersion</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Dataset Version</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Dataset version important for tracking updates, changes, or improvements</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: DatasetURL</h3>
+          <table class="def">
+            <tbody>
+              <tr>
+                <th>Category: </th>
+                <td><code>Dataset</code></td>
+              </tr>
+              <tr>
+                <th>Property: </th>
+                <td><code>koai:DatasetURL</code></td>
+              </tr>
+              <tr>
+                <th>Label: </th>
+                <td><code>DatasetURL</code></td>
+              </tr>
+              <tr>
+                <th>Format: </th>
+                <td><code>str</code></td>
+              </tr>
+              <tr>
+                <th>Hugging Face: </th>
+                <td><code>Yes</code></td>
+              </tr>
+              <tr>
+                <th>Directly Usable in Gradio: </th>
+                <td><code>No</code></td>
+              </tr>
+              <tr>
+                <th>Description:</th>
+                <td><code>Link to the dataset</code></td>
+              </tr>
+            </tbody>
+          </table>
+          <h3>Property: DataSplits</h3>
+            <table class="def">
+              <tbody>
+                <tr>
+                  <th>Category: </th>
+                  <td><code>Dataset</code></td>
+                </tr>
+                <tr>
+                  <th>Property: </th>
+                  <td><code>koai:DataSplits</code></td>
+                </tr>
+                <tr>
+                  <th>Label: </th>
+                  <td><code>Data Splits</code></td>
+                </tr>
+                <tr>
+                  <th>Format: </th>
+                  <td><code>str</code></td>
+                </tr>
+                <tr>
+                  <th>Hugging Face: </th>
+                  <td><code>Yes</code></td>
+                </tr>
+                <tr>
+                  <th>Directly Usable in Gradio: </th>
+                  <td><code>No</code></td>
+                </tr>
+                <tr>
+                  <th>Description:</th>
+                  <td><code>Information on how the dataset is split</code></td>
+                </tr>
+              </tbody>
+            </table>
+      </section>
+      <section>
+        <h2>Category 5. Derived Model Management</h2>
+
+        <h3>Property: BaseModel</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>DerivedModelManagement</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:BaseModel</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Base Model</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Base model of the derived models</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: AdaptedModel</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>DerivedModelManagement</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:AdaptedModel</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Adapted Model</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Model created by fine-tuning or adapting with specific data for a particular purpose</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: FinetunedModel</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>DerivedModelManagement</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:FinetunedModel</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Finetuned Model</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Model trained with datasets to enhance performance in a specific domain</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: QuantizedModel</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>DerivedModelManagement</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:QuantizedModel</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Quantized Model</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>New model created with reduced parameters for optimized, low-resource usage</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: MergedModel</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>DerivedModelManagement</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:MergedModel</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Merged Model</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>New model created by merging multiple models</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: DerivativeMethod</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>DerivedModelManagement</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:DerivativeMethod</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Derivative Method</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Method used to create the derived model</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: DerivativeDate</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>DerivedModelManagement</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:DerivativeDate</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Derivative Date</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Creation date of the derived model</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Category 6. Usage and Restrictions</h2>
+
+        <h3>Property: License</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>UsageandRestrictions</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:License</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>License</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>License indicating usage rights for the model</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: IntendedUse</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>UsageandRestrictions</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:IntendedUse</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Intended Use</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Recommended or intended application domain for the model</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: Limitations</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>UsageandRestrictions</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:Limitations</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Limitations</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Model limitations</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: EthicalConsiderations</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>UsageandRestrictions</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:EthicalConsiderations</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Ethical Considerations</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Ethical considerations related to the model</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Category 7. Management Information</h2>
+
+        <h3>Property: LastUpdated</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>ManagementInformation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:LastUpdated</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Last Updated</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Date when the model's metadata was last updated</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: Contact</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>ManagementInformation</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:Contact</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Contact</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Contact information for the developer or administrator</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Category 8. Deployment Details</h2>
+
+        <h3>Property: DeploymentPlatform</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>DeploymentDetails</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:DeploymentPlatform</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Deployment Platform</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Platforms where the model can be deployed</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: Compatibility</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>DeploymentDetails</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:Compatibility</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Compatibility</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Description of the model’s compatibility with software, hardware, or frameworks</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Category 9. Training Details</h2>
+
+        <h3>Property: TrainingProcedure</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>TrainingDetails</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:TrainingProcedure</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Training Procedure</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Steps or methodology used during the model’s training</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: TrainingEnvironment</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>TrainingDetails</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:TrainingEnvironment</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Training Environment</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Environment required for running the model</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Subordinate Property: Hardware</h4>
+          <table class="def">
+            <tbody>
+              <tr>
+                <th>Super Property: </th>
+                <td><code>TrainingEnvironment</code></td>
+              </tr>
+              <tr>
+                <th>Property: </th>
+                <td><code>koai:Hardware</code></td>
+              </tr>
+              <tr>
+                <th>Label: </th>
+                <td><code>Hardware</code></td>
+              </tr>
+              <tr>
+                <th>Format: </th>
+                <td><code>str</code></td>
+              </tr>
+              <tr>
+                <th>Hugging Face: </th>
+                <td><code>Yes</code></td>
+              </tr>
+              <tr>
+                <th>Directly Usable in Gradio: </th>
+                <td><code>No</code></td>
+              </tr>
+              <tr>
+                <th>Description:</th>
+                <td><code>Hardware required for running the model</code></td>
+              </tr>
+            </tbody>
+          </table>
+
+        <h4>Subordinate Property: OperatingSystemCompatibility</h4>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Super Property: </th>
+              <td><code>TrainingEnvironment</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:OperatingSystemCompatibility</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Operating System Compatibility</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Operating systems compatible with running the model</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Subordinate Property: FrameworkVersions</h4>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Super Property: </th>
+              <td><code>TrainingEnvironment</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:FrameworkVersions</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Framework Versions</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Framework versions compatible with or used by the model</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Property: HyperParameterSetting</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>TrainingDetails</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:HyperParameterSetting</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>HyperParameter Setting</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Hyperparameters Setting used during the training process</code></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Subordinate Property: TrainingHyperparameters</h3>
+        <table class="def">
+          <tbody>
+            <tr>
+              <th>Category: </th>
+              <td><code>TrainingDetails</code></td>
+            </tr>
+            <tr>
+              <th>Property: </th>
+              <td><code>koai:TrainingHyperparameters</code></td>
+            </tr>
+            <tr>
+              <th>Label: </th>
+              <td><code>Training Hyperparameters</code></td>
+            </tr>
+            <tr>
+              <th>Format: </th>
+              <td><code>str</code></td>
+            </tr>
+            <tr>
+              <th>Hugging Face: </th>
+              <td><code>Yes</code></td>
+            </tr>
+            <tr>
+              <th>Directly Usable in Gradio: </th>
+              <td><code>No</code></td>
+            </tr>
+            <tr>
+              <th>Description:</th>
+              <td><code>Hyperparameters used during the training process</code></td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+
+    <section>
+      <h2>Predicates about BaseModel, Category</h2>
+      <h3>Predicates: hasBasicInformation</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasBasicInformation</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has BasicInformation</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BaseModel</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:BasicInformation</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>This relationship signifies that the base model contains essential information about itself</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasModelCharacteristic</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasModelCharacteristic</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Model Characteristic</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BaseModel</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:ModelCharacteristic</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>This indicates that the base model has specific characteristics or properties that define its core functionality</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasPerformanceAndEvaluation</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasPerformanceAndEvaluation</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Performance and Evaluation</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BaseModel</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:PerformanceAndEvaluation</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>This relationship represents that the base model includes data on its performance metrics and evaluation results</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasDerivedModelManagement</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasDerivedModelManagement</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Derived Model Management</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BaseModel</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:DerivedModelManagement</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>This denotes the model’s connection to the management of derived models.</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasUsageAndRestrictions</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasUsageAndRestrictions</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>has Usage and Restrictions</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BaseModel</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:UsageAndRestrictions</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>This signifies that the base model includes guidelines or limitations on its use</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasManagementInformation</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasManagementInformation</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Management Information</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BaseModel</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:MangementInformation</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>This indicates that the model has associated management information</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasDeploymentDetails</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasDeploymentDetails</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Deployment Details</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BaseModel</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:DeploymentDetails</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>This relationship points to information regarding the deployment of the base model</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasTrainingDetails</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasTrainingDetails</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Training Details</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BaseModel</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:TrainingDetails</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>This represents the model's connection to its training process details</code></td>
+          </tr>
+        </tbody>
+      </table>
+  </section>
+
+    <section>
+      <h2>Category 1. Basic Information Predicates</h2>
+      <h3>Predicates: hasIdentification</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasIdentification</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Identification</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BasicInformation</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:Identification</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>Associates the model with its unique identifier, whether an ID or SHA.</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasModelID</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasModelID</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Model ID</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:ModelIdentification</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:ModelID</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>Specifies that the identification category includes or is associated with a specific ID</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasModelSHA</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasModelSHA</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Model SHA</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:ModelIdentification</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:ModelSHA</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>Specifically points to the SHA identifier of the model, if applicable.</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasModelVersion</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasModelVersion</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Model Version</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BasicInformation</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:ModelVersion</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>Links the model to a specific version identifier.</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasPipelineTag</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasPipelineTag</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>has Pipeline Tag</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BasicInformation</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:PipelineTag</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>Associates the model with a specific pipeline tag for categorization or usage.
+            </code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasArchitecture</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasArchitecture</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Architecture</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BasicInformation</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:ModelArchitecture</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>Specifies the model’s architecture</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasTrainingTime</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasTrainingTime</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Training Time</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BasicInformation</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:TrainingTime</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>Specifies the time taken to train the model</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Predicates: hasUpdateFrequency</h3>
+      <table class="def">
+        <tbody>
+          <tr>
+            <th>Predicate Name: </th>
+            <td><code>hasUpdateFrequency</code></td>
+          </tr>
+          <tr>
+            <th>Label: </th>
+            <td><code>Has Update Frequency</code></td>
+          </tr>
+          <tr>
+            <th>domain: </th>
+            <td><code>koai:BasicInformation</code></td>
+          </tr>
+          <tr>
+            <th>range: </th>
+            <td><code>koai:UpdateFrequency</code></td>
+          </tr>
+          <tr>
+            <th>Comment: </th>
+            <td><code>Describes how often the model is updated</code></td>
+          </tr>
+        </tbody>
+      </table>
+  </section>
+
+  <section>
+    <h2>Category 2. Model Characteristic Predicates</h2>
+    <h3>Predicates: hasInputType</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasInputType</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Has Input Type</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>koai:ModelCharacteristic</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:InputType</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Specifies the types of input that the model can process</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasOutputType</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasOutputType</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Has Output Type</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>koai:ModelCharacteristic</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:OutputType</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Specifies the types of output that the model can process</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: SupportLanguages</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>SupportLanguages</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Support Languages</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>koai:ModelCharacteristic</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:SupportedLanguages</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Indicates the languages that the model supports</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: usesLibrary</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>usesLibrary</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>usesLibrary</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>koai:ModelCharacteristic</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:Library</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Specifies the programming or machine learning libraries used by the model for its implementation.</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Category 3. Performance and Evaluation Predicates</h2>
+    <h3>Predicates: hasPerformanceMetrics</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasPerformanceMetrics</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>has PerformanceMetrics</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>koai:PerformanceandEvaluation</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:PerformanceMetrics</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Specifies the various performance metrics used to evaluate the model</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: includesMetric</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>includesMetric</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Includes Metric</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>PerformanceMetrics</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:ClassificationMetric, koai:ObjectDetectionMetric, koai:SequenceGenerationMetric</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Indicates that the model's performance evaluation includes metrics specific to tasks</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: assessedUsingBenchmark</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>assessedUsingBenchmark</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Assessed Using Benchmark</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>koai:PerformanceandEvaluation</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:Benchmarks</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Indicates that the model’s performance is assessed using specific benchmarks or datasets</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasMetricType</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasMetricType</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Has Metric Type</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>koai:ClassificationMetric, koai:ObjectDetectionMetric, koai:SequenceGenerationMetric</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:MetricType</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Specifies the type of the performance metric.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasMetricValue</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasMetricValue</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Has Metric Value</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>koai:ClassificationMetric, koai:ObjectDetectionMetric, koai:SequenceGenerationMetric</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:MetricValue</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Represents the value of the performance metric.</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Category 4. Dataset Predicates</h2>
+    <h3>Predicates: hasIdentification</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasIdentification</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Has Identification</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>dcat:Dataset</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:DatasetIdentification</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Associates the dataset with its unique identifier, whether an ID or SHA.</code></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Predicates: hasID</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasID</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>has ID</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>koai:Identification</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:DatasetID</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Specifies that the identification category includes or is associated with a specific ID</code></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Predicates: hasSHA</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasSHA</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>has SHA</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>koai:Identification</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:DatasetSHA</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Specifically points to the SHA identifier of the dataset, if applicable.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasDescription</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasDescription</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>has Description</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>dcat:Dataset</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:DatasetDescription</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Provides a description of the dataset.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: licensedUnder</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>licensedUnder</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>licensed Under</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>dcat:Dataset</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>dcterms:LicenseDocument</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Indicates the license terms applicable to the dataset</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasVersion</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasVersion</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>has Version</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>dcat:Dataset</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:DatasetVersion</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Associates the dataset with a specific version.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasURL</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasURL</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>has Dataset URL</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>dcat:Dataset</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:DatasetURL</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Provides the URL where the dataset can be accessed or referenced.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasDataSplitsInformation</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasDataSplitsInformation</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>has Data Splits Information</code></td>
+        </tr>
+        <tr>
+          <th>domain: </th>
+          <td><code>dcat:Dataset</code></td>
+        </tr>
+        <tr>
+          <th>range: </th>
+          <td><code>koai:DataSplits</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>links a dataset or dataset-related entity to specific details about how the data is split.</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Category 5. Derived Model Management Predicates</h2>
+
+    <h3>Predicates: isAdaptedFrom</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>isAdaptedFrom</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:AdaptedModel</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:BaseModel</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Indicates that the derived model was adapted from the base model</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasAdapterModel</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>hasAdapterModel</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:BaseModel</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:AdaptedModel</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td> <code>Specifies that the base model has an adapted version</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: isFineTunedFrom</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>isFineTunedFrom</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:FineTunedModel</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:BaseModel</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Implies that the derived model is a fine-tuned version of the base model.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasFineTunedModel</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>hasFineTunedModel</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:BaseModel</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:FineTunedModel</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Indicates that the base model has a fine-tuned variant</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: isQuantizedFrom</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>isQuantizedFrom</td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:QuantizedModel</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:BaseModel</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Denotes that the derived model is a quantized version of the base model, optimized for performance or reduced size.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasQuantizedModel</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>hasQuantizedModel</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:BaseModel</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:QuantizedModel</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Specifies that the base model has a quantized variant.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: isMergedFrom</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>isMergedFrom</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:MergedModel</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:BaseModel</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Indicates that the derived model is the result of merging two or more base models.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasMergedModel</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>hasMergedModel</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:BaseModel</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>MergedModel</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td>
+            <code>Specifies that the base model was created by combining it with other models.</code>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasDerivativeMethod</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasDerivativeMethod</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>has Derivative Method</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:DerivedModelManagement</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:DerivativeMethod</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Indicates the specific method used to derive the model (e.g., fine-tuning, quantization, adaptation)</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasDerivativeDate</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasDerivativeDate</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>has Derivative Date</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:DerivedModelManagement</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:DerivativeDate</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Specifies the date on which the derived model was created, indicating its derivation timeline.</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Category 6. Usage and Restrictions Predicates</h2>
+
+    <h3>Predicates: hasLicenseInformation</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasLicenseInformation</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>has LicenseInformation</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:UsageAndRestrictions</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>dcterms:LicenseDocument</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Specifies the licensing terms and conditions applicable to the derived model, detailing usage rights, restrictions, and any associated legal requirements.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: useGuidelinesInclude</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>useGuidelinesInclude</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:UsageandRestrictions</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:IntendedUse</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td>
+            <code>Specifies guidelines or intended use cases for the model, outlining the contexts in which the model is recommended to be used.</code>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasLimitations</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>hasLimitations</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:UsageAndRestrictions</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:Limitations</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td>
+            <code>Defines any limitations or constraints associated with the model</code>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: includesEthicalConsiderations</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>includesEthicalConsiderations</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:UsageAndRestrictions</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:EthicalConsiderations</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td>
+            <code>Specifies ethical concerns or guidelines related to the model’s use</code>
+          </td>
+        </tr>
+      </tbody>
+    </table>   
+  </section>
+
+  <section>
+    <h2>Category 7. Management Information Predicates</h2>
+
+    <h3>Predicates: hasLastUpdateDate</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasLastUpdateDate</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Has Last UpdateDate</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:ManagementInformation</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:LastUpdates</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Indicates the date when the information or model was last updated.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasContactInformation</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>hasContactInformation</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:ManagementInformation</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:Contact</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td>
+            <code>Provides contact details related to management or maintenance</code>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Category 8. Deployment Details Predicates</h2>
+
+    <h3>Predicates: hasDeploymentPlatform</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasDeploymentPlatform</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Has Deployment Platform</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:DeploymentDetails</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:DeploymentPlatform</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Identifies the platform(s) used for deployment</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: ensuresCompatibility</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>ensuresCompatibility</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Ensures Compatibility</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:DeploymentPlatform</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:Compatibility</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Implies that the deployment details ensure compatibility with other models or systems</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Category 9. Training Details Predicates</h2>
+
+    <h3>Predicates: hasProcedure</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasProcedure</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Has Procedure</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:TrainingDetails</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:TrainingProcedure</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Links TrainingDetails to the specific procedures followed in the training process.</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasEnvironment</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Names: </th>
+          <td><code>hasEnvironment</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Has Environment</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:TrainingDetails</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:TrainingEnvironment</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Indicates the environment used for training, covering details like hardware and software settings</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: usesHardware</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>usesHardware</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Uses Hardware</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:TrainingEnvironment</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:Hardware</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Describes the hardware involved in the training environment</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: requiresOS</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>requiresOS</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Requires OS</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:TrainingEnvironment</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:OperatingSystemCompatibility</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Lists the operating systems needed or compatible with the training environment</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: utilizesFramework</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>utilizesFramework</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Utilizes Framework</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:TrainingEnvironment</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:FrameworkVersions</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Specifies the frameworks and their versions used in training</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: hasHyperParameterSetting</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>hasHyperParameterSetting</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Has HyperParameter Setting</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>koai:TrainingDetails</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>mls:HyperParameterSetting</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Points to the configuration of hyperparameters for training</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Predicates: includesHyperparameters</h3>
+    <table class="def">
+      <tbody>
+        <tr>
+          <th>Predicate Name: </th>
+          <td><code>includesHyperparameters</code></td>
+        </tr>
+        <tr>
+          <th>Label: </th>
+          <td><code>Includes Hyperparameters</code></td>
+        </tr>
+        <tr>
+          <th>Domain: </th>
+          <td><code>mls:HyperParameterSetting</code></td>
+        </tr>
+        <tr>
+          <th>Range: </th>
+          <td><code>koai:TrainingHyperparameters</code></td>
+        </tr>
+        <tr>
+          <th>Comment: </th>
+          <td><code>Enumerates individual hyperparameters within a hyperparameter setting</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </section>
+  </body>
+</html>

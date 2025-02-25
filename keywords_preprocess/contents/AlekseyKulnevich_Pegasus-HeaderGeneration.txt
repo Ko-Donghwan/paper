@@ -1,0 +1,52 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-uVvk-mWmMSEnRUaXOc7sM">
+<!-- HTML_TAG_START --><p><strong>Usage HuggingFace Transformers for header generation task</strong></p>
+<pre><code>from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+model = AutoModelForSeq2SeqLM.from_pretrained("AlekseyKulnevich/Pegasus-HeaderGeneration")
+tokenizer = PegasusTokenizer.from_pretrained('google/pegasus-large')
+input_text # your text 
+input_ = tokenizer.batch_encode_plus([input_text], max_length=1024, pad_to_max_length=True, 
+                truncation=True, padding='longest', return_tensors='pt')
+input_ids = input_['input_ids'] 
+input_mask = input_['attention_mask']
+headers = model.generate(input_ids=input_ids, 
+                         attention_mask=input_mask, 
+                         num_beams=32, 
+                         no_repeat_ngram_size=2, 
+                         early_stopping=True, 
+                         num_return_sequences=10)
+headers = tokenizer.batch_decode(headers, skip_special_tokens=True)
+</code></pre>
+<p><strong>Decoder configuration examples:</strong><br/><a href="https://www.bbc.com/news/science-environment-59775105" rel="nofollow"><strong>Input text you can see here</strong></a> </p>
+<pre><code>headers = model.generate(input_ids=input_ids, 
+                         attention_mask=input_mask, 
+                         num_beams=32, 
+                         no_repeat_ngram_size=2, 
+                         early_stopping=True, 
+                         num_return_sequences=20)
+tokenizer.batch_decode(headers, skip_special_tokens=True)
+</code></pre>
+<p>output: </p>
+<ol>
+<li><em>the impact of climate change on tropical cyclones</em></li>
+<li><em>the impact of human induced climate change on tropical cyclones</em></li>
+<li><em>the impact of climate change on tropical cyclone formation in the midlatitudes</em></li>
+<li><em>how climate change will expand the range of tropical cyclones?</em></li>
+<li><em>the impact of climate change on tropical cyclones in the midlatitudes</em></li>
+<li><em>global warming will expand the range of tropical cyclones</em></li>
+<li><em>climate change will expand the range of tropical cyclones</em></li>
+<li><em>the impact of climate change on tropical cyclone formation</em></li>
+<li><em>the impact of human induced climate change on tropical cyclone formation</em></li>
+<li><em>tropical cyclones in the mid-latitudes</em></li>
+<li><em>climate change will expand the range of tropical cyclones in the middle latitudes</em></li>
+<li><em>global warming will expand the range of tropical cyclones, a new study says</em></li>
+<li><em>the impacts of climate change on tropical cyclones</em></li>
+<li><em>the impact of global warming on tropical cyclones</em></li>
+<li><em>climate change will expand the range of tropical cyclones, a new study says</em></li>
+<li><em>global warming will expand the range of tropical cyclones in the middle latitudes</em></li>
+<li><em>the effects of climate change on tropical cyclones</em></li>
+<li><em>how climate change will expand the range of tropical cyclones</em></li>
+<li><em>climate change will expand the range of tropical cyclones over the equator</em></li>
+<li><em>the impact of human induced climate change on tropical cyclones.</em>
+Also you can play with the following parameters in generate method:<br/>-top_k<br/>-top_p<br/><a href="https://huggingface.co/blog/how-to-generate" rel="nofollow"><strong>Meaning of parameters to generate text you can see here</strong></a></li>
+</ol>
+<!-- HTML_TAG_END --></div>

@@ -1,0 +1,103 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-ET0SHL62EiM80MohUfh4j">
+<!-- HTML_TAG_START --><h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#bert-models-fine-tuned-on-algerian-dialect-sentiment-analysis" id="bert-models-fine-tuned-on-algerian-dialect-sentiment-analysis" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		BERT Models Fine-tuned on Algerian Dialect Sentiment Analysis
+	</span>
+</h1>
+<p>These are different BERT models (BERT Arabic models are initialized from <a href="https://huggingface.co/aubmindlab/bert-large-arabertv02" rel="nofollow">AraBERT</a>) fine-tuned on the <a href="https://huggingface.co/datasets/Abdou/dz-sentiment-yt-comments" rel="nofollow">Algerian Dialect Sentiment Analysis</a> dataset. The dataset contains 50,016 comments from YouTube videos in Algerian dialect. The models are evaluated on the testing set:</p>
+<div class="max-w-full overflow-auto">
+<table>
+<thead><tr>
+<th>Model Version</th>
+<th>No. of Parameters</th>
+<th>Training Time</th>
+<th>F1-Score</th>
+<th>Accuracy</th>
+</tr>
+</thead><tbody><tr>
+<td>LSTM</td>
+<td>~4 M</td>
+<td>3 min</td>
+<td>0.7399</td>
+<td>0.7445</td>
+</tr>
+<tr>
+<td>Bi-LSTM</td>
+<td>~4.3 M</td>
+<td>6 min 35 s</td>
+<td>0.7380</td>
+<td>0.7437</td>
+</tr>
+<tr>
+<td><a href="https://huggingface.co/bert-base-uncased" rel="nofollow">BERT Base</a></td>
+<td>~109.5 M</td>
+<td>33 min 20 s</td>
+<td>0.6979</td>
+<td>0.7500</td>
+</tr>
+<tr>
+<td><a href="https://huggingface.co/bert-large-uncased" rel="nofollow">BERT Large</a></td>
+<td>~335.1 M</td>
+<td>1 h 50 min</td>
+<td>0.6976</td>
+<td>0.7484</td>
+</tr>
+<tr>
+<td><a href="https://huggingface.co/Abdou/arabert-mini-algerian" rel="nofollow">BERT Arabic Mini</a></td>
+<td>~11.6 M</td>
+<td>2 min 40 s</td>
+<td>0.7057</td>
+<td>0.7527</td>
+</tr>
+<tr>
+<td><a href="https://huggingface.co/Abdou/arabert-medium-algerian" rel="nofollow">BERT Arabic Medium</a></td>
+<td>~42.1 M</td>
+<td>11 min 25 s</td>
+<td>0.7521</td>
+<td>0.7860</td>
+</tr>
+<tr>
+<td><a href="https://huggingface.co/Abdou/arabert-base-algerian" rel="nofollow">BERT Arabic Base</a></td>
+<td>~110.6 M</td>
+<td>34 min 19 s</td>
+<td>0.7688</td>
+<td>0.8002</td>
+</tr>
+<tr>
+<td><strong><a href="https://huggingface.co/Abdou/arabert-large-algerian" rel="nofollow">BERT Arabic Large</a></strong></td>
+<td><strong>~336.7 M</strong></td>
+<td><strong>1 h 53 min</strong></td>
+<td><strong>0.7838</strong></td>
+<td><strong>0.8174</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#citation" id="citation" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Citation
+	</span>
+</h1>
+<p>If you find our work useful, please cite it as follows:</p>
+<pre><code class="language-bibtex">@article{2023,
+  title={Sentiment Analysis on Algerian Dialect with Transformers},
+  author={Zakaria Benmounah and Abdennour Boulesnane and Abdeladim Fadheli and Mustapha Khial},
+  journal={Applied Sciences},
+  volume={13},
+  number={20},
+  pages={11157},
+  year={2023},
+  month={Oct},
+  publisher={MDPI AG},
+  DOI={10.3390/app132011157},
+  ISSN={2076-3417},
+  url={http://dx.doi.org/10.3390/app132011157}
+}
+</code></pre>
+<!-- HTML_TAG_END --></div>

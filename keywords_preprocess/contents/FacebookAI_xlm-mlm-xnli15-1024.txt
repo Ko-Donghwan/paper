@@ -1,0 +1,339 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-W9oRDjZaVdvZ5e7ok4G5q">
+<!-- HTML_TAG_START --><h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#xlm-mlm-xnli15-1024" id="xlm-mlm-xnli15-1024" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		xlm-mlm-xnli15-1024
+	</span>
+</h1>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#table-of-contents" id="table-of-contents" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Table of Contents
+	</span>
+</h1>
+<ol>
+<li><a href="#model-details" rel="nofollow">Model Details</a></li>
+<li><a href="#uses" rel="nofollow">Uses</a></li>
+<li><a href="#bias-risks-and-limitations" rel="nofollow">Bias, Risks, and Limitations</a></li>
+<li><a href="#training-details" rel="nofollow">Training Details</a></li>
+<li><a href="#evaluation" rel="nofollow">Evaluation</a></li>
+<li><a href="#environmental-impact" rel="nofollow">Environmental Impact</a></li>
+<li><a href="#technical-specifications" rel="nofollow">Technical Specifications</a></li>
+<li><a href="#citation" rel="nofollow">Citation</a></li>
+<li><a href="#model-card-authors" rel="nofollow">Model Card Authors</a></li>
+<li><a href="#how-to-get-started-with-the-model" rel="nofollow">How To Get Started With the Model</a></li>
+</ol>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-details" id="model-details" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model Details
+	</span>
+</h1>
+<p>The XLM model was proposed in <a href="https://arxiv.org/abs/1901.07291" rel="nofollow">Cross-lingual Language Model Pretraining</a> by Guillaume Lample, Alexis Conneau. xlm-mlm-xnli15-1024 is a transformer pretrained using a masked language modeling (MLM) objective fine-tuned on the English NLI dataset. The model developers evaluated the capacity of the model to make correct predictions in all 15 XNLI languages (see the <a href="https://huggingface.co/datasets/xnli" rel="nofollow">XNLI data card</a> for further information on XNLI).</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-description" id="model-description" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model Description
+	</span>
+</h2>
+<ul>
+<li><strong>Developed by:</strong> Guillaume Lample, Alexis Conneau, see <a href="https://arxiv.org/abs/1901.07291" rel="nofollow">associated paper</a></li>
+<li><strong>Model type:</strong> Language model</li>
+<li><strong>Language(s) (NLP):</strong> English; evaluated in 15 languages (see <a href="https://huggingface.co/datasets/xnli" rel="nofollow">XNLI data card</a>)</li>
+<li><strong>License:</strong> CC-BY-NC-4.0</li>
+<li><strong>Related Models:</strong> <a href="https://huggingface.co/models?sort=downloads&amp;search=xlm" rel="nofollow">XLM models</a></li>
+<li><strong>Resources for more information:</strong> <ul>
+<li><a href="https://arxiv.org/abs/1901.07291" rel="nofollow">Associated paper</a></li>
+<li><a href="https://github.com/facebookresearch/XLM" rel="nofollow">GitHub Repo for XLM</a></li>
+<li><a href="https://github.com/facebookresearch/XNLI" rel="nofollow">GitHub Repo for XNLI</a></li>
+<li><a href="https://huggingface.co/datasets/xnli" rel="nofollow">XNLI data card</a></li>
+<li><a href="https://huggingface.co/docs/transformers/v4.20.1/en/multilingual#xlm-with-language-embeddings" rel="nofollow">Hugging Face Multilingual Models for Inference docs</a></li>
+</ul>
+</li>
+</ul>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#uses" id="uses" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Uses
+	</span>
+</h1>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#direct-use" id="direct-use" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Direct Use
+	</span>
+</h2>
+<p>The model is a language model. The model can be used for cross-lingual text classification. Though the model is fine-tuned based on English text data, the model's ability to classify sentences in 14 other languages has been evaluated (see <a href="#evaluation" rel="nofollow">Evaluation</a>).</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#downstream-use" id="downstream-use" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Downstream Use
+	</span>
+</h2>
+<p>This model can be used for downstream tasks related to natural language inference in different languages. For more information, see the <a href="https://arxiv.org/abs/1901.07291" rel="nofollow">associated paper</a>.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#out-of-scope-use" id="out-of-scope-use" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Out-of-Scope Use
+	</span>
+</h2>
+<p>The model should not be used to intentionally create hostile or alienating environments for people. </p>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#bias-risks-and-limitations" id="bias-risks-and-limitations" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Bias, Risks, and Limitations
+	</span>
+</h1>
+<p>Significant research has explored bias and fairness issues with language models (see, e.g., <a href="https://aclanthology.org/2021.acl-long.330.pdf" rel="nofollow">Sheng et al. (2021)</a> and <a href="https://dl.acm.org/doi/pdf/10.1145/3442188.3445922" rel="nofollow">Bender et al. (2021)</a>).</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#recommendations" id="recommendations" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Recommendations
+	</span>
+</h2>
+<p>Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model.</p>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-details" id="training-details" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training Details
+	</span>
+</h1>
+<p>Training details are culled from the <a href="https://arxiv.org/pdf/1901.07291.pdf" rel="nofollow">associated paper</a>. See the paper for links, citations, and further details. Also see the associated <a href="https://github.com/facebookresearch/XLM#ii-cross-lingual-language-model-pretraining-xlm" rel="nofollow">GitHub Repo</a> for further details.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-data" id="training-data" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training Data
+	</span>
+</h2>
+<p>The model developers write: </p>
+<blockquote>
+<p>We use WikiExtractor2 to extract raw sentences from Wikipedia dumps and use them as mono-lingual data for the CLM and MLM objectives. For the TLM objective, we only use parallel data that involves English, similar to Conneau et al. (2018b). </p>
+<ul>
+<li>Precisely, we use MultiUN (Ziemski et al., 2016) for French, Spanish, Russian, Arabic and Chinese, and the IIT Bombay corpus (Anoop et al., 2018) for Hindi. </li>
+<li>We extract the following corpora from the OPUS 3 website Tiedemann (2012): the EUbookshop corpus for German, Greek and Bulgarian, OpenSubtitles 2018 for Turkish, Vietnamese and Thai, Tanzil for both Urdu and Swahili and GlobalVoices for Swahili. </li>
+<li>For Chinese, Japanese and Thai we use the tokenizer of Chang et al. (2008), the Kytea4 tokenizer, and the PyThaiNLP5 tokenizer respectively. </li>
+<li>For all other languages, we use the tokenizer provided by Moses (Koehn et al., 2007), falling back on the default English tokenizer when necessary.</li>
+</ul>
+</blockquote>
+<p>For fine-tuning, the developers used the English NLI dataset (see the <a href="https://huggingface.co/datasets/xnli" rel="nofollow">XNLI data card</a>).</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-procedure" id="training-procedure" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training Procedure
+	</span>
+</h2>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#preprocessing" id="preprocessing" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Preprocessing
+	</span>
+</h3>
+<p>The model developers write:</p>
+<blockquote>
+<p>We use fastBPE to learn BPE codes and split words into subword units. The BPE codes are learned on the concatenation of sentences sampled from all languages, following the method presented in Section 3.1.</p>
+</blockquote>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#speeds-sizes-times" id="speeds-sizes-times" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Speeds, Sizes, Times
+	</span>
+</h3>
+<p>The model developers write: </p>
+<blockquote>
+<p>We use a Transformer architecture with 1024 hidden units, 8 heads, GELU activations (Hendrycks and Gimpel, 2016), a dropout rate of 0.1 and learned positional embeddings. We train our models with the Adam optimizer (Kingma and Ba, 2014), a linear warm-up (Vaswani et al., 2017) and learning rates varying from 10^−4 to 5.10^−4.</p>
+<p>For the CLM and MLM objectives, we use streams of 256 tokens and a mini-batches of size 64. Unlike Devlin et al. (2018), a sequence in a mini-batch can contain more than two consecutive sentences, as explained in Section 3.2. For the TLM objective, we sample mini-batches of 4000 tokens composed of sentences with similar lengths. We use the averaged perplexity over languages as a stopping criterion for training. For machine translation, we only use 6 layers, and we create mini-batches of 2000 tokens.</p>
+<p>When fine-tuning on XNLI, we use mini-batches of size 8 or 16, and we clip the sentence length to 256 words. We use 80k BPE splits and a vocabulary of 95k and train a 12-layer model on the Wikipedias of the XNLI languages. We sample the learning rate of the Adam optimizer with values from 5.10−4 to 2.10−4, and use small evaluation epochs of 20000 random samples. We use the first hidden state of the last layer of the transformer as input to the randomly initialized final linear classifier, and fine-tune all parameters. In our experiments, using either max-pooling or mean-pooling over the last layer did not work bet- ter than using the first hidden state.</p>
+<p>We implement all our models in Py-Torch (Paszke et al., 2017), and train them on 64 Volta GPUs for the language modeling tasks, and 8 GPUs for the MT tasks. We use float16 operations to speed up training and to reduce the memory usage of our models.</p>
+</blockquote>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#evaluation" id="evaluation" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Evaluation
+	</span>
+</h1>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#testing-data-factors--metrics" id="testing-data-factors--metrics" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Testing Data, Factors &amp; Metrics
+	</span>
+</h2>
+<p>After fine-tuning the model on the English NLI dataset, the model developers evaluated the capacity of the model to make correct predictions in the 15 XNLI languages using the XNLI data and the metric of test accuracy.See the <a href="https://arxiv.org/pdf/1901.07291.pdf" rel="nofollow">associated paper</a> for further details.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#results" id="results" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Results
+	</span>
+</h2>
+<div class="max-w-full overflow-auto">
+<table>
+<thead><tr>
+<th align="center">Language</th>
+<th align="center">en</th>
+<th align="center">fr</th>
+<th align="center">es</th>
+<th align="center">de</th>
+<th align="center">el</th>
+<th align="center">bg</th>
+<th align="center">ru</th>
+<th align="center">tr</th>
+<th align="center">ar</th>
+<th align="center">vi</th>
+<th align="center">th</th>
+<th align="center">zh</th>
+<th align="center">hi</th>
+<th align="center">sw</th>
+<th align="center">ur</th>
+</tr>
+</thead><tbody><tr>
+<td align="center">Accuracy</td>
+<td align="center">83.2</td>
+<td align="center">76.5</td>
+<td align="center">76.3</td>
+<td align="center">74.2</td>
+<td align="center">73.1</td>
+<td align="center">74.0</td>
+<td align="center">73.1</td>
+<td align="center">67.8</td>
+<td align="center">68.5</td>
+<td align="center">71.2</td>
+<td align="center">69.2</td>
+<td align="center">71.9</td>
+<td align="center">65.7</td>
+<td align="center">64.6</td>
+<td align="center">63.4</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#environmental-impact" id="environmental-impact" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Environmental Impact
+	</span>
+</h1>
+<p>Carbon emissions can be estimated using the <a href="https://mlco2.github.io/impact#compute" rel="nofollow">Machine Learning Impact calculator</a> presented in <a href="https://arxiv.org/abs/1910.09700" rel="nofollow">Lacoste et al. (2019)</a>.</p>
+<ul>
+<li><strong>Hardware Type:</strong> 64 Volta GPUs</li>
+<li><strong>Hours used:</strong> More information needed</li>
+<li><strong>Cloud Provider:</strong> More information needed</li>
+<li><strong>Compute Region:</strong> More information needed</li>
+<li><strong>Carbon Emitted:</strong> More information needed</li>
+</ul>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#technical-specifications" id="technical-specifications" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Technical Specifications
+	</span>
+</h1>
+<p>Details are culled from the <a href="https://arxiv.org/pdf/1901.07291.pdf" rel="nofollow">associated paper</a>. See the paper for links, citations, and further details. Also see the associated <a href="https://github.com/facebookresearch/XLM#ii-cross-lingual-language-model-pretraining-xlm" rel="nofollow">GitHub Repo</a> for further details.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-architecture-and-objective" id="model-architecture-and-objective" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model Architecture and Objective
+	</span>
+</h2>
+<p>xlm-mlm-xnli15-1024 is a transformer pretrained using a masked language modeling (MLM) objective fine-tuned on the English NLI dataset. About the MLM objective, the developers write: </p>
+<blockquote>
+<p>We also consider the masked language model- ing (MLM) objective of Devlin et al. (2018), also known as the Cloze task (Taylor, 1953). Follow- ing Devlin et al. (2018), we sample randomly 15% of the BPE tokens from the text streams, replace them by a [MASK] token 80% of the time, by a random token 10% of the time, and we keep them unchanged 10% of the time. Differences be- tween our approach and the MLM of Devlin et al. (2018) include the use of text streams of an ar- bitrary number of sentences (truncated at 256 to- kens) instead of pairs of sentences. To counter the imbalance between rare and frequent tokens (e.g. punctuations or stop words), we also subsample the frequent outputs using an approach similar to Mikolov et al. (2013b): tokens in a text stream are sampled according to a multinomial distribution, whose weights are proportional to the square root of their invert frequencies. Our MLM objective is illustrated in Figure 1.</p>
+</blockquote>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#compute-infrastructure" id="compute-infrastructure" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Compute Infrastructure
+	</span>
+</h2>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#hardware-and-software" id="hardware-and-software" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Hardware and Software
+	</span>
+</h3>
+<p>The developers write: </p>
+<blockquote>
+<p>We implement all our models in PyTorch (Paszke et al., 2017), and train them on 64 Volta GPUs for the language modeling tasks, and 8 GPUs for the MT tasks. We use float16 operations to speed up training and to reduce the memory usage of our models.</p>
+</blockquote>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#citation" id="citation" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Citation
+	</span>
+</h1>
+<p><strong>BibTeX:</strong></p>
+<pre><code class="language-bibtex">@article{lample2019cross,
+  title={Cross-lingual language model pretraining},
+  author={Lample, Guillaume and Conneau, Alexis},
+  journal={arXiv preprint arXiv:1901.07291},
+  year={2019}
+}
+</code></pre>
+<p><strong>APA:</strong></p>
+<ul>
+<li>Lample, G., &amp; Conneau, A. (2019). Cross-lingual language model pretraining. arXiv preprint arXiv:1901.07291.</li>
+</ul>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-card-authors" id="model-card-authors" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model Card Authors
+	</span>
+</h1>
+<p>This model card was written by the team at Hugging Face.</p>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#how-to-get-started-with-the-model" id="how-to-get-started-with-the-model" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		How to Get Started with the Model
+	</span>
+</h1>
+<p>This model uses language embeddings to specify the language used at inference. See the <a href="https://huggingface.co/docs/transformers/v4.20.1/en/multilingual#xlm-with-language-embeddings" rel="nofollow">Hugging Face Multilingual Models for Inference docs</a> for further details.</p>
+<!-- HTML_TAG_END --></div>

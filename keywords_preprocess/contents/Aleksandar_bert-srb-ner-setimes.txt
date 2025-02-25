@@ -1,0 +1,309 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-mYrN8m5CvGQuajDVdHvr3">
+<!-- HTML_TAG_START --><h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#bert-srb-ner-setimes" id="bert-srb-ner-setimes" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		bert-srb-ner-setimes
+	</span>
+</h1>
+<p>This model was trained from scratch on the None dataset.
+It achieves the following results on the evaluation set:</p>
+<ul>
+<li>Loss: 0.1955</li>
+<li>Precision: 0.8229</li>
+<li>Recall: 0.8465</li>
+<li>F1: 0.8345</li>
+<li>Accuracy: 0.9645</li>
+</ul>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-description" id="model-description" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model description
+	</span>
+</h2>
+<p>More information needed</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#intended-uses--limitations" id="intended-uses--limitations" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Intended uses &amp; limitations
+	</span>
+</h2>
+<p>More information needed</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-and-evaluation-data" id="training-and-evaluation-data" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training and evaluation data
+	</span>
+</h2>
+<p>More information needed</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-procedure" id="training-procedure" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training procedure
+	</span>
+</h2>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-hyperparameters" id="training-hyperparameters" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training hyperparameters
+	</span>
+</h3>
+<p>The following hyperparameters were used during training:</p>
+<ul>
+<li>learning_rate: 2e-05</li>
+<li>train_batch_size: 32</li>
+<li>eval_batch_size: 8</li>
+<li>seed: 42</li>
+<li>optimizer: Adam with betas=(0.9,0.999) and epsilon=1e-08</li>
+<li>lr_scheduler_type: linear</li>
+<li>num_epochs: 20</li>
+</ul>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-results" id="training-results" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training results
+	</span>
+</h3>
+<div class="max-w-full overflow-auto">
+<table>
+<thead><tr>
+<th align="center">Training Loss</th>
+<th align="center">Epoch</th>
+<th align="center">Step</th>
+<th align="center">Validation Loss</th>
+<th align="center">Precision</th>
+<th align="center">Recall</th>
+<th align="center">F1</th>
+<th align="center">Accuracy</th>
+</tr>
+</thead><tbody><tr>
+<td align="center">No log</td>
+<td align="center">1.0</td>
+<td align="center">104</td>
+<td align="center">0.2281</td>
+<td align="center">0.6589</td>
+<td align="center">0.7001</td>
+<td align="center">0.6789</td>
+<td align="center">0.9350</td>
+</tr>
+<tr>
+<td align="center">No log</td>
+<td align="center">2.0</td>
+<td align="center">208</td>
+<td align="center">0.1833</td>
+<td align="center">0.7105</td>
+<td align="center">0.7694</td>
+<td align="center">0.7388</td>
+<td align="center">0.9470</td>
+</tr>
+<tr>
+<td align="center">No log</td>
+<td align="center">3.0</td>
+<td align="center">312</td>
+<td align="center">0.1573</td>
+<td align="center">0.7461</td>
+<td align="center">0.7778</td>
+<td align="center">0.7616</td>
+<td align="center">0.9525</td>
+</tr>
+<tr>
+<td align="center">No log</td>
+<td align="center">4.0</td>
+<td align="center">416</td>
+<td align="center">0.1489</td>
+<td align="center">0.7665</td>
+<td align="center">0.8091</td>
+<td align="center">0.7872</td>
+<td align="center">0.9557</td>
+</tr>
+<tr>
+<td align="center">0.1898</td>
+<td align="center">5.0</td>
+<td align="center">520</td>
+<td align="center">0.1445</td>
+<td align="center">0.7881</td>
+<td align="center">0.8327</td>
+<td align="center">0.8098</td>
+<td align="center">0.9587</td>
+</tr>
+<tr>
+<td align="center">0.1898</td>
+<td align="center">6.0</td>
+<td align="center">624</td>
+<td align="center">0.1473</td>
+<td align="center">0.7913</td>
+<td align="center">0.8316</td>
+<td align="center">0.8109</td>
+<td align="center">0.9601</td>
+</tr>
+<tr>
+<td align="center">0.1898</td>
+<td align="center">7.0</td>
+<td align="center">728</td>
+<td align="center">0.1558</td>
+<td align="center">0.8101</td>
+<td align="center">0.8347</td>
+<td align="center">0.8222</td>
+<td align="center">0.9620</td>
+</tr>
+<tr>
+<td align="center">0.1898</td>
+<td align="center">8.0</td>
+<td align="center">832</td>
+<td align="center">0.1616</td>
+<td align="center">0.8026</td>
+<td align="center">0.8302</td>
+<td align="center">0.8162</td>
+<td align="center">0.9612</td>
+</tr>
+<tr>
+<td align="center">0.1898</td>
+<td align="center">9.0</td>
+<td align="center">936</td>
+<td align="center">0.1716</td>
+<td align="center">0.8127</td>
+<td align="center">0.8409</td>
+<td align="center">0.8266</td>
+<td align="center">0.9631</td>
+</tr>
+<tr>
+<td align="center">0.0393</td>
+<td align="center">10.0</td>
+<td align="center">1040</td>
+<td align="center">0.1751</td>
+<td align="center">0.8140</td>
+<td align="center">0.8369</td>
+<td align="center">0.8253</td>
+<td align="center">0.9628</td>
+</tr>
+<tr>
+<td align="center">0.0393</td>
+<td align="center">11.0</td>
+<td align="center">1144</td>
+<td align="center">0.1775</td>
+<td align="center">0.8096</td>
+<td align="center">0.8420</td>
+<td align="center">0.8255</td>
+<td align="center">0.9626</td>
+</tr>
+<tr>
+<td align="center">0.0393</td>
+<td align="center">12.0</td>
+<td align="center">1248</td>
+<td align="center">0.1763</td>
+<td align="center">0.8161</td>
+<td align="center">0.8386</td>
+<td align="center">0.8272</td>
+<td align="center">0.9636</td>
+</tr>
+<tr>
+<td align="center">0.0393</td>
+<td align="center">13.0</td>
+<td align="center">1352</td>
+<td align="center">0.1949</td>
+<td align="center">0.8259</td>
+<td align="center">0.8400</td>
+<td align="center">0.8329</td>
+<td align="center">0.9634</td>
+</tr>
+<tr>
+<td align="center">0.0393</td>
+<td align="center">14.0</td>
+<td align="center">1456</td>
+<td align="center">0.1842</td>
+<td align="center">0.8205</td>
+<td align="center">0.8420</td>
+<td align="center">0.8311</td>
+<td align="center">0.9642</td>
+</tr>
+<tr>
+<td align="center">0.0111</td>
+<td align="center">15.0</td>
+<td align="center">1560</td>
+<td align="center">0.1862</td>
+<td align="center">0.8160</td>
+<td align="center">0.8493</td>
+<td align="center">0.8323</td>
+<td align="center">0.9646</td>
+</tr>
+<tr>
+<td align="center">0.0111</td>
+<td align="center">16.0</td>
+<td align="center">1664</td>
+<td align="center">0.1989</td>
+<td align="center">0.8176</td>
+<td align="center">0.8367</td>
+<td align="center">0.8270</td>
+<td align="center">0.9627</td>
+</tr>
+<tr>
+<td align="center">0.0111</td>
+<td align="center">17.0</td>
+<td align="center">1768</td>
+<td align="center">0.1945</td>
+<td align="center">0.8246</td>
+<td align="center">0.8409</td>
+<td align="center">0.8327</td>
+<td align="center">0.9638</td>
+</tr>
+<tr>
+<td align="center">0.0111</td>
+<td align="center">18.0</td>
+<td align="center">1872</td>
+<td align="center">0.1997</td>
+<td align="center">0.8270</td>
+<td align="center">0.8426</td>
+<td align="center">0.8347</td>
+<td align="center">0.9634</td>
+</tr>
+<tr>
+<td align="center">0.0111</td>
+<td align="center">19.0</td>
+<td align="center">1976</td>
+<td align="center">0.1917</td>
+<td align="center">0.8258</td>
+<td align="center">0.8491</td>
+<td align="center">0.8373</td>
+<td align="center">0.9651</td>
+</tr>
+<tr>
+<td align="center">0.0051</td>
+<td align="center">20.0</td>
+<td align="center">2080</td>
+<td align="center">0.1955</td>
+<td align="center">0.8229</td>
+<td align="center">0.8465</td>
+<td align="center">0.8345</td>
+<td align="center">0.9645</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#framework-versions" id="framework-versions" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Framework versions
+	</span>
+</h3>
+<ul>
+<li>Transformers 4.9.2</li>
+<li>Pytorch 1.9.0</li>
+<li>Datasets 1.11.0</li>
+<li>Tokenizers 0.10.1</li>
+</ul>
+<!-- HTML_TAG_END --></div>

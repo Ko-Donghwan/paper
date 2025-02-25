@@ -1,0 +1,22 @@
+{
+    "id": "distilbert/distilbert-base-uncased-distilled-squad",
+    "author": "distilbert",
+    "created_at": "2022-03-02 23:29:04+00:00",
+    "last_modified": "2024-05-06 13:46:39+00:00",
+    "private": false,
+    "gated": "False",
+    "disabled": null,
+    "downloads": 86457,
+    "likes": 86,
+    "library_name": "transformers, pytorch, tf, tflite, safetensors",
+    "tags": [
+        "coreml",
+        "endpoints_compatible"
+    ],
+    "pipeline_tag": "question-answering",
+    "arxiv": "arxiv:1910.09700",
+    "dataset": "dataset:squad",
+    "region": "region:us",
+    "license": "license:apache-2.0",
+    "language": "en"
+}

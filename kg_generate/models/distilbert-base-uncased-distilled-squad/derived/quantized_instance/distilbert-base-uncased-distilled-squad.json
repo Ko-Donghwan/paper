@@ -1,0 +1,5 @@
+{
+    "quantized": [
+        "Xenova/distilbert-base-uncased-distilled-squad"
+    ]
+}

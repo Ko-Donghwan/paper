@@ -1,0 +1,28 @@
+{
+    "id": "HHJingbo/Bo",
+    "author": "HHJingbo",
+    "created_at": "2023-11-03 14:24:39+00:00",
+    "last_modified": "2023-11-03 20:17:13+00:00",
+    "private": false,
+    "gated": "False",
+    "disabled": null,
+    "downloads": 6,
+    "likes": 0,
+    "library_name": "transformers, tf",
+    "tags": [
+        "distilbert",
+        "generated_from_keras_callback",
+        "base_model:distilbert-base-uncased-distilled-squad",
+        "endpoints_compatible"
+    ],
+    "pipeline_tag": "question-answering",
+    "arxiv": null,
+    "dataset": [],
+    "region": "region:us",
+    "license": "license:apache-2.0",
+    "language": "",
+    "finetune": [],
+    "ModelArchitecture": "distilbert-base-uncased-distilled-squad (variant of BERT)",
+    "Purpose": null,
+    "ModelTrainingTime": null
+}

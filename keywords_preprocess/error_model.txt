@@ -1,0 +1,7 @@
+0x7o/keyt5-base
+IssakaAI/wav2vec2-large-xls-r-300m-turkish-colab
+AccurateIsaiah/DialoGPT-small-jefftastic
+AccurateIsaiah/DialoGPT-small-mozark
+AccurateIsaiah/DialoGPT-small-mozarkv2
+AccurateIsaiah/DialoGPT-small-sinclair
+AigizK/wav2vec2-large-xls-r-300m-bashkir-cv7_no_lm

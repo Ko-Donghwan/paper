@@ -1,0 +1,66 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-k0kfOSc0aRMW5hnYVPxcC">
+<!-- HTML_TAG_START --><pre><code>
+</code></pre>
+<p><a href="https://paperswithcode.com/sota/code-generation-on-conala?p=mariancg-a-code-generation-transformer-model" rel="nofollow"><img alt="PWC" src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mariancg-a-code-generation-transformer-model/code-generation-on-conala"/></a></p>
+<pre><code>
+</code></pre>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#mariancg-a-code-generation-transformer-model-inspired-by-machine-translation" id="mariancg-a-code-generation-transformer-model-inspired-by-machine-translation" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		MarianCG: a code generation transformer model inspired by machine translation
+	</span>
+</h1>
+<p>This model is to improve the solving of the code generation problem and implement a transformer model that can work with high accurate results. We implemented MarianCG transformer model which is a code generation model that can be able to generate code from natural language. This work declares the impact of using Marian machine translation model for solving the problem of code generation. In our implementation, we prove that a machine translation model can be operated and working as a code generation model. Finally, we set the new contributors and state-of-the-art on CoNaLa reaching a BLEU score of 30.92 and Exact Match Accuracy of 6.2 in the code generation problem with CoNaLa dataset.</p>
+<p>MarianCG model and its implemetation with the code of training and the generated output is available at this repository:
+<a href="https://github.com/AhmedSSoliman/MarianCG-NL-to-Code" rel="nofollow">https://github.com/AhmedSSoliman/MarianCG-NL-to-Code</a></p>
+<p>CoNaLa Dataset for Code Generation is available at
+<a href="https://huggingface.co/datasets/AhmedSSoliman/CoNaLa" rel="nofollow">https://huggingface.co/datasets/AhmedSSoliman/CoNaLa</a></p>
+<p>This is the model is avialable on the huggingface hub <a href="https://huggingface.co/AhmedSSoliman/MarianCG-CoNaLa" rel="nofollow">https://huggingface.co/AhmedSSoliman/MarianCG-CoNaLa</a></p>
+<pre><code class="language-python"><span class="hljs-comment"># Model and Tokenizer</span>
+<span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> AutoTokenizer, AutoModelForSeq2SeqLM
+<span class="hljs-comment"># model_name = "AhmedSSoliman/MarianCG-NL-to-Code"</span>
+model = AutoModelForSeq2SeqLM.from_pretrained(<span class="hljs-string">"AhmedSSoliman/MarianCG-CoNaLa"</span>)
+tokenizer = AutoTokenizer.from_pretrained(<span class="hljs-string">"AhmedSSoliman/MarianCG-CoNaLa"</span>)
+<span class="hljs-comment"># Input (Natural Language) and Output (Python Code)</span>
+NL_input = <span class="hljs-string">"create array containing the maximum value of respective elements of array `[2, 3, 4]` and array `[1, 5, 2]"</span>
+output = model.generate(**tokenizer(NL_input, padding=<span class="hljs-string">"max_length"</span>, truncation=<span class="hljs-literal">True</span>, max_length=<span class="hljs-number">512</span>, return_tensors=<span class="hljs-string">"pt"</span>))
+output_code = tokenizer.decode(output[<span class="hljs-number">0</span>], skip_special_tokens=<span class="hljs-literal">True</span>)
+</code></pre>
+<p>This model is available in spaces using gradio at: <a href="https://huggingface.co/spaces/AhmedSSoliman/MarianCG-CoNaLa" rel="nofollow">https://huggingface.co/spaces/AhmedSSoliman/MarianCG-CoNaLa</a></p>
+<hr/>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#tasks---translation---code-generation---text2text-generation---text-generation" id="tasks---translation---code-generation---text2text-generation---text-generation" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Tasks:
+- Translation
+- Code Generation
+- Text2Text Generation
+- Text Generation
+	</span>
+</h2>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#citation" id="citation" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Citation
+	</span>
+</h1>
+<p>We now have a <a href="https://doi.org/10.1186/s44147-022-00159-4" rel="nofollow">paper</a> for this work and you can cite:</p>
+<pre><code>@article{soliman2022mariancg,
+  title={MarianCG: a code generation transformer model inspired by machine translation},
+  author={Soliman, Ahmed S and Hadhoud, Mayada M and Shaheen, Samir I},
+  journal={Journal of Engineering and Applied Science},
+  volume={69},
+  number={1},
+  pages={1--23},
+  year={2022},
+  publisher={SpringerOpen}
+  url={https://doi.org/10.1186/s44147-022-00159-4}
+}
+</code></pre>
+<!-- HTML_TAG_END --></div>

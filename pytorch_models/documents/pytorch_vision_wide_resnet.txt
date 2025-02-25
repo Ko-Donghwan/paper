@@ -1,0 +1,890 @@
+<html lang="en"><head>
+  <!-- Google Tag Manager -->
+  <script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-1032976986&amp;l=dataLayer&amp;cx=c&amp;gtm=45He52k0v9120477255za200"></script><script src="https://js.hsadspixel.net/fb.js" type="text/javascript" id="hs-ads-pixel-8112310" data-ads-portal-id="8112310" data-ads-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="8112310" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.usemessages.com/conversations-embed.js" type="text/javascript" id="hubspot-messages-loader" data-loader="hs-scriptloader" data-hsjs-portal="8112310" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hs-analytics.net/analytics/1740107400000/8112310.js" type="text/javascript" id="hs-analytics"></script><script src="https://js.hsleadflows.net/leadflows.js" type="text/javascript" id="LeadFlows-8112310" crossorigin="anonymous" data-leadin-portal-id="8112310" data-leadin-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="8112310" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hscollectedforms.net/collectedforms.js" type="text/javascript" id="CollectedForms-8112310" crossorigin="anonymous" data-leadin-portal-id="8112310" data-leadin-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="8112310" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hubspot.com/web-interactives-embed.js" type="text/javascript" id="hubspot-web-interactives-loader" crossorigin="anonymous" data-loader="hs-scriptloader" data-hsjs-portal="8112310" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hs-banner.com/8112310.js" type="text/javascript" id="cookieBanner-8112310" data-cookieconsent="ignore" data-hs-ignore="true" data-loader="hs-scriptloader" data-hsjs-portal="8112310" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-H7XD4VJ0CX&amp;l=dataLayer&amp;cx=c&amp;gtm=457e52k0za200"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-469Y0W5V62&amp;l=dataLayer&amp;cx=c&amp;gtm=45He52k0v9120477255za200"></script><script src="https://connect.facebook.net/signals/config/232741255631043?v=2.9.184&amp;r=stable&amp;domain=pytorch.org&amp;hme=93c44828b638838a88daf3a14a90ff297f7fc4ade758f21de5500c9f17542765&amp;ex_m=70%2C122%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C173%2C176%2C188%2C184%2C185%2C187%2C29%2C101%2C53%2C77%2C186%2C168%2C171%2C181%2C182%2C189%2C132%2C41%2C194%2C191%2C192%2C34%2C144%2C15%2C50%2C198%2C197%2C134%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C169%2C172%2C141%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113%2C204%2C203%2C205%2C210%2C211%2C212%2C208%2C200%2C133%2C164%2C199%2C201%2C241%2C167%2C123%2C158%2C146%2C152%2C130%2C238%2C117%2C128%2C239%2C166%2C120%2C137%2C124%2C155%2C149%2C196%2C114%2C129" async=""></script><script src="https://connect.facebook.net/signals/config/243028289693773?v=2.9.184&amp;r=stable&amp;domain=pytorch.org&amp;hme=93c44828b638838a88daf3a14a90ff297f7fc4ade758f21de5500c9f17542765&amp;ex_m=70%2C122%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C173%2C176%2C188%2C184%2C185%2C187%2C29%2C101%2C53%2C77%2C186%2C168%2C171%2C181%2C182%2C189%2C132%2C41%2C194%2C191%2C192%2C34%2C144%2C15%2C50%2C198%2C197%2C134%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C169%2C172%2C141%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-T8XT4PS"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T8XT4PS');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+  <title>
+    
+      Wide ResNet | PyTorch
+    
+  </title>
+  <meta name="robots" content="index, follow">
+
+<meta name="description" content="import torch
+# load WRN-50-2:
+model = torch.hub.load('pytorch/vision:v0.10.0', 'wide_resnet50_2', pretrained=True)
+# or WRN-101-2
+model = torch.hub.load('pytorch/vision:v0.10.0', 'wide_resnet101_2', pretrained=True)
+model.eval()
+
+
+">
+
+  <meta property="og:image" content="https://pytorch.org/assets/images/social-share.jpg">
+  <meta name="twitter:image" content="https://pytorch.org/assets/images/social-share.jpg">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wide ResNet">
+<meta property="og:description" content="import torch
+# load WRN-50-2:
+model = torch.hub.load('pytorch/vision:v0.10.0', 'wide_resnet50_2', pretrained=True)
+# or WRN-101-2
+model = torch.hub.load('pytorch/vision:v0.10.0', 'wide_resnet101_2', pretrained=True)
+model.eval()
+
+
+">
+<meta property="og:site_name" content="PyTorch">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wide ResNet">
+<meta name="twitter:description" content="import torch
+# load WRN-50-2:
+model = torch.hub.load('pytorch/vision:v0.10.0', 'wide_resnet50_2', pretrained=True)
+# or WRN-101-2
+model = torch.hub.load('pytorch/vision:v0.10.0', 'wide_resnet101_2', pretrained=True)
+model.eval()
+
+
+">
+
+  <style class="anchorjs"></style><link rel="stylesheet" href="/assets/main.css">
+  <script src="/assets/vendor/jquery.min.js"></script>
+  <script src="/assets/vendor/popper.min.js"></script>
+  <script src="/assets/vendor/bootstrap.min.js"></script>
+  <script src="/assets/vendor/anchor.min.js"></script>
+  <script type="text/x-mathjax-config;executed=true">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" id=""></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+  
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-117752657-2"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "UA-117752657-2");
+</script>
+
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '243028289693773');
+    fbq('track', 'PageView');
+</script>
+
+<noscript>
+  <img height="1" width="1"
+  src="https://www.facebook.com/tr?id=243028289693773&ev=PageView
+  &noscript=1"/>
+</noscript>
+
+    <!-- Twitter universal website tag code -->
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style id="_goober"> .go2933276541{position:fixed;display:block;width:100%;height:0px;margin:0px;padding:0px;overflow:visible;transform-style:preserve-3d;background:transparent;backface-visibility:hidden;pointer-events:none;left:0px;z-index:9998;}.go2369186930{top:0px;z-index:9999;height:100%;width:100%;}.go1348078617{bottom:0px;}.go2417249464{position:fixed;z-index:9989;}.go3921366393{left:0;bottom:0;}.go3967842156{right:0;bottom:0;}.go613305155{left:0;top:0;}.go471583506{right:0;top:0;}.go3670563033{position:relative;overflow:hidden;display:none;}.go1041095097{display:block;}.go1632949049{position:absolute;pointer-events:none;width:101vw;height:101vh;background:rgba(0,0,0,0.7);opacity:0;z-index:-1;}.go2512015367{z-index:99998;opacity:0.8;visibility:visible;pointer-events:all;cursor:pointer;}.go1432718904{overflow:hidden;}.go812842568{display:block !important;position:static !important;box-sizing:border-box !important;background:transparent !important;border:none;min-height:0px !important;max-height:none !important;margin:0px;padding:0px !important;height:100% !important;width:1px !important;max-width:100% !important;min-width:100% !important;}.go4194603687{z-index:99999;visibility:hidden;position:absolute;inset:50vh auto auto 50%;transform:translate(-50%,-50%);left:50%;top:150%;pointer-events:none;max-height:95%;max-width:95%;}.go4258295619{pointer-events:auto !important;visibility:visible;top:50%;transition:top 0.75s linear(0,0.006,0.023 2.2%,0.096 4.8%,0.532 15.4%,0.72 21%,0.793,0.853 26.7%,0.902,0.941,0.968 36.2%,0.987 39.7%,1 43.7%,1.007 48.3%,1.009 55.3%,1.002 78.2%,1 );}.go456419034{transition:opacity 0.3s ease-in;}.go3128134379{pointer-events:auto !important;visibility:visible !important;max-height:95vh !important;transition:max-height 1s ease-in;}.go494047706{z-index:9999;width:100%;max-height:95%;position:fixed;visibility:hidden;}.go2481764524{z-index:9999;width:100%;max-height:95%;position:fixed;visibility:hidden;bottom:0px;}.go2685733372{visibility:hidden;}.go2985984737{visibility:visible !important;}.go3281949485{pointer-events:auto !important;visibility:visible !important;max-height:95vh !important;transform:none !important;}.go3508454897{z-index:9999;width:100%;max-height:95%;position:fixed;visibility:hidden;transition:transform 1s linear(0,0.006,0.022 2.3%,0.091 5.1%,0.18 7.6%,0.508 16.3%,0.607,0.691,0.762,0.822 28.4%,0.872,0.912 35.1%,0.944 38.9%,0.968 43%,0.985 47.6%,0.996 53.1%,1.001 58.4%,1.003 65.1%,1 );}.go988075951{z-index:9999;position:fixed;left:10px;top:10px;max-height:95vh !important;max-width:95%;visibility:hidden;}.go2699082514{z-index:9999;position:fixed;right:10px;top:10px;max-height:95vh !important;max-width:95%;visibility:hidden;}.go1595992025{z-index:9999;position:fixed;left:10px;bottom:10px;max-height:95vh !important;max-width:95%;visibility:hidden;}.go1222083472{z-index:9999;position:fixed;right:10px;bottom:10px;max-height:95vh !important;max-width:95%;visibility:hidden;}.go722322694{transition:none !important;}.go26732895{cursor:pointer;}.go2083580917{display:flex;justify-content:center;align-items:center;}</style><style type="text/css">html.hs-messages-widget-open.hs-messages-mobile,html.hs-messages-widget-open.hs-messages-mobile body{overflow:hidden!important;position:relative!important}html.hs-messages-widget-open.hs-messages-mobile body{height:100%!important;margin:0!important}#hubspot-messages-iframe-container{display:initial!important;z-index:2147483647;position:fixed!important;bottom:0!important}#hubspot-messages-iframe-container.widget-align-left{left:0!important}#hubspot-messages-iframe-container.widget-align-right{right:0!important}#hubspot-messages-iframe-container.internal{z-index:1016}#hubspot-messages-iframe-container.internal iframe{min-width:108px}#hubspot-messages-iframe-container .hs-shadow-container{display:initial!important;z-index:-1;position:absolute;width:0;height:0;bottom:0;content:""}#hubspot-messages-iframe-container .hs-shadow-container.internal{display:none!important}#hubspot-messages-iframe-container .hs-shadow-container.active{width:400px;height:400px}#hubspot-messages-iframe-container iframe{display:initial!important;width:100%!important;height:100%!important;border:none!important;position:absolute!important;bottom:0!important;right:0!important;background:transparent!important}.hs-drag-handle{position:absolute;bottom:16px;cursor:grab;height:60px;display:none;align-items:center}.hs-drag-handle--right{right:76px}.hs-drag-handle--left{left:76px}.hs-drag-overlay{position:absolute;top:0;left:0;right:0;bottom:0;user-select:none;z-index:999;display:none}</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css" id="hs-form-style2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122">.fn-date-picker.pika-single{z-index:9999;display:block;position:relative;color:#333;background:#fff;border:1px solid #ccc;border-bottom-color:#bbb;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;*zoom:1}.fn-date-picker.pika-single.is-hidden{display:none}.fn-date-picker.pika-single.is-bound{position:absolute;box-shadow:0 5px 15px -5px rgba(0,0,0,.5)}.fn-date-picker.pika-single:after,.fn-date-picker.pika-single:before{content:" ";display:table}.fn-date-picker.pika-single:after{clear:both}.fn-date-picker .pika-lendar{float:left;width:240px;margin:8px}.fn-date-picker .pika-title{position:relative;text-align:center}.fn-date-picker .pika-title select{cursor:pointer;position:absolute;z-index:9998;margin:0;left:0;top:5px;filter:alpha(opacity=0);opacity:0}.fn-date-picker .pika-label{display:inline-block;*display:inline;position:relative;z-index:9999;overflow:hidden;margin:0;padding:5px 3px;font-size:14px;line-height:20px;font-weight:700;background-color:#fff}.fn-date-picker .pika-next,.fn-date-picker .pika-prev{display:block;cursor:pointer;position:relative;outline:none;border:0;padding:0;width:20px;height:30px;text-indent:20px;white-space:nowrap;overflow:hidden;background-color:transparent;background-position:50%;background-repeat:no-repeat;background-size:75% 75%;opacity:.5;*position:absolute;*top:0}.fn-date-picker .pika-next:hover,.fn-date-picker .pika-prev:hover{opacity:1}.fn-date-picker .pika-next.is-disabled,.fn-date-picker .pika-prev.is-disabled{cursor:default;opacity:.2}.fn-date-picker .is-rtl .pika-next,.fn-date-picker .pika-prev{float:left;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAUklEQVR42u3VMQoAIBADQf8Pgj+OD9hG2CtONJB2ymQkKe0HbwAP0xucDiQWARITIDEBEnMgMQ8S8+AqBIl6kKgHiXqQqAeJepBo/z38J/U0uAHlaBkBl9I4GwAAAABJRU5ErkJggg==");*left:0}.fn-date-picker .is-rtl .pika-prev,.fn-date-picker .pika-next{float:right;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAU0lEQVR42u3VOwoAMAgE0dwfAnNjU26bYkBCFGwfiL9VVWoO+BJ4Gf3gtsEKKoFBNTCoCAYVwaAiGNQGMUHMkjGbgjk2mIONuXo0nC8XnCf1JXgArVIZAQh5TKYAAAAASUVORK5CYII=");*right:0}.fn-date-picker .pika-select{display:inline-block;*display:inline}.fn-date-picker .pika-table{width:100%;border-collapse:collapse;border-spacing:0;border:0}.fn-date-picker .pika-table td,.fn-date-picker .pika-table th{width:14.2857142857%;padding:0}.fn-date-picker .pika-table th{color:#999;font-size:12px;line-height:25px;font-weight:700;text-align:center}.fn-date-picker .pika-table abbr{border-bottom:none;cursor:help}.fn-date-picker .pika-button{cursor:pointer;display:block;-moz-box-sizing:border-box;box-sizing:border-box;outline:none;border:0;margin:0;width:100%;padding:5px;color:#666;font-size:12px;line-height:15px;text-align:right;background:#f5f5f5}.fn-date-picker .pika-button:hover{color:#fff!important;background:#ff8000!important;box-shadow:none!important;border-radius:3px!important}.fn-date-picker .is-today .pika-button{color:#3af;font-weight:700}.fn-date-picker .is-selected .pika-button{color:#fff;font-weight:700;background:#3af;box-shadow:inset 0 1px 3px #178fe5;border-radius:3px}.fn-date-picker .is-disabled .pika-button{pointer-events:none;cursor:default;color:#999;opacity:.3}.fn-date-picker .pika-week{font-size:11px;color:#999} .hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 .inputs-list.inline-list li{vertical-align:top;display:inline-block;word-wrap:break-word;padding-right:16px}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 .inputs-list.inline-list li:after{clear:both}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 .inputs-list.inline-list li input{float:left}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 .inputs-list.inline-list.inline-list-2 li{width:50%}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 .inputs-list.inline-list.inline-list-2 li:nth-child(2n){padding-right:0}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 .inputs-list.inline-list.inline-list-3 li{width:33%}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 .inputs-list.inline-list.inline-list-3 li:nth-child(3n){width:34%;padding-right:0}.hs-fieldtype-intl-phone.hs-input{padding:0;background:none;border:none;height:auto}.hs-fieldtype-intl-phone.hs-input:after{clear:both;content:" ";display:table}.hs-fieldtype-intl-phone.hs-input .hs-input{margin-bottom:0}.hs-fieldtype-intl-phone.hs-input input{width:68%!important;float:right}.hs-fieldtype-intl-phone.hs-input select{float:left;width:30%!important}@media (max-device-width:480px) and (min-device-width:320px),(max-width:400px){.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122>.hs-phone>.input>.hs-fieldtype-intl-phone.hs-input>input.hs-input{width:68%!important}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122>.hs-phone>.input>.hs-fieldtype-intl-phone.hs-input>select.hs-input{width:30%!important}}.hs-fieldtype-textarea.hs-input{resize:vertical}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 .hs-button{white-space:pre-wrap}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 .hs-richtext{word-break:break-word}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 fieldset{border:0;padding:0;margin:0;max-width:500px}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 fieldset.form-columns-1 .hs-input{width:95%}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 fieldset.form-columns-1 .input{margin-right:8px}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 fieldset.form-columns-1 input[type=checkbox],.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 fieldset.form-columns-1 input[type=radio]{width:auto}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 fieldset.form-columns-2 .hs-form-field{width:50%;float:left}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 fieldset.form-columns-2 .input{margin-right:8px}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 fieldset.form-columns-3 .hs-form-field{width:32.7%;float:left}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 fieldset.form-columns-3 .input{margin-right:8px}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 label.hs-hidden{visibility:hidden}.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 .hs-field-desc{width:100%}.hs-custom-style .hs-input,.hs-custom-style fieldset{max-width:100%}.hs-custom-style>div.form-columns-3 .hs-form-field,.hs-custom-style fieldset.form-columns-3 .hs-form-field{width:33.3%}.hs-custom-style>div>div:last-of-type .hs-input:not([type=checkbox]):not([type=radio]),.hs-custom-style fieldset>div:last-of-type .hs-input:not([type=checkbox]):not([type=radio]){width:100%;max-width:100%}.hs-custom-style>div input:not([type=image]):not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):not([type=file]),.hs-custom-style fieldset input:not([type=image]):not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):not([type=file]){box-sizing:border-box;padding:0 15px;min-height:27px}.hs-custom-style>div textarea,.hs-custom-style fieldset textarea{padding:10px 15px}.hs-custom-style .hs-dependent-field>div .hs-input:not([type=checkbox]):not([type=radio]){width:100%}@media (max-width:400px),(min-device-width:320px) and (max-device-width:480px){.hs-custom-style .hs-input:not([type=checkbox]):not([type=radio]),.hs-custom-style fieldset{margin-right:0!important;width:100%!important}form.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122:not(.hs-video-form) .form-columns-2 .hs-form-field,form.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122:not(.hs-video-form) .form-columns-3 .hs-form-field{float:none;width:100%}form.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122:not(.hs-video-form) .form-columns-2 .hs-form-field .hs-input,form.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122:not(.hs-video-form) .form-columns-3 .hs-form-field .hs-input{width:95%}form.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122:not(.hs-video-form) .form-columns-2 .hs-form-field input[type=checkbox],form.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122:not(.hs-video-form) .form-columns-2 .hs-form-field input[type=radio],form.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122:not(.hs-video-form) .form-columns-3 .hs-form-field input[type=checkbox],form.hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122:not(.hs-video-form) .form-columns-3 .hs-form-field input[type=radio]{width:auto}}.legal-consent-container .field.hs-form-field{margin-bottom:8px}.legal-consent-container .hs-field-desc.checkbox-desc{margin:-12px 0 0 21px}.legal-consent-container .hs-form-booleancheckbox-display input{float:left}.legal-consent-container .hs-form-booleancheckbox-display>span{display:block;margin-left:20px}.legal-consent-container .hs-form-booleancheckbox-display p{margin:0;display:inline}.legal-consent-container .hs-error-msgs label{color:#f2545b}.legal-consent-container~.hs_recaptcha{margin-top:18px}.cookie-reset-container{font-size:14px;margin-bottom:10px;text-align:right}#hs-outer-captcha-target,#hs-outer-captcha-target *{display:none;height:0;width:0}.hubspot-link__container{font-size:14px;padding-bottom:40px;position:relative;color:#9fa0a2;font-family:Helvetica Neue,Helvetica,Arial,sans-serif}.hubspot-link-text{color:#00a4bd;font-weight:400}.hubspot-link__container.sproket{color:#9fa0a2}.hubspot-link{color:#9fa0a2}.hubspot-link,.hubspot-link:hover{text-decoration:none}.hubspot-link:hover .hubspot-link-text{text-decoration:underline}.hubspot-link__icon{margin-bottom:-1px;margin-right:5px}.hubspot-link__container.sproket .hubspot-link__icon{width:30px;margin-right:0;float:left;margin-top:-9px;margin-left:-5px}</style><script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-1032976986"></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1032976986/?random=1740107493103&amp;cv=11&amp;fst=1740107493103&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be52k0v889269445za200zb9120477255&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101732282~101732284~102015665~102067808~102482433~102539968~102558064~102587591~102605417~102640600~102658453&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Fpytorch.org%2Fhub%2Fpytorch_vision_wide_resnet%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Wide%20ResNet%20%7C%20PyTorch&amp;did=dZTQ1Zm&amp;gdid=dZTQ1Zm&amp;npa=0&amp;pscdl=noapi&amp;auid=1428129838.1740107123&amp;uaa=x86&amp;uab=64&amp;uafvl=Not(A%253ABrand%3B99.0.0.0%7CGoogle%2520Chrome%3B133.0.6943.127%7CChromium%3B133.0.6943.127&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4"></script></head><body class="hub hub-detail"><div id="MathJax_Message" style="display: none;"></div><div id="hs-web-interactives-top-push-anchor" class="go3670563033"></div><img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?p_id=Twitter&amp;p_user_id=0&amp;txn_id=o2gi1&amp;events=%5B%5B%22pageview%22%2Cnull%5D%5D&amp;tw_sale_amount=0&amp;tw_order_quantity=0 (https://urldefense.proofpoint.com/v2/url?u=https-3A__analytics.twitter.com_i_adsct-3Fp-5Fid-3DTwitter-26p-5Fuser-5Fid-3D0-26txn-5Fid-3Do2gi1-26events-3D-255B-255B-2522pageview-2522-252Cnull-255D-255D-26tw-5Fsale-5Famount-3D0-26tw-5Forder-5Fquantity-3D0&amp;d=DwMGaQ&amp;c=5VD0RTtNlTh3ycd41b3MUw&amp;r=GMr8XYCDyeQQZuD3noL91A&amp;m=dAJyokk16UvYy-vMrGn_JwYiGfp_eEgo25B9iGDCG-A&amp;s=o6i4D0V0088WH2RnzIoqiF-vj45PL-2sTrsxQ0SNO3A&amp;e=)">
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?p_id=Twitter&amp;p_user_id=0&amp;txn_id=o2gi1&amp;events=%5B%5B%22pageview%22%2Cnull%5D%5D&amp;tw_sale_amount=0&amp;tw_order_quantity=0 (https://urldefense.proofpoint.com/v2/url?u=https-3A__linkprotect.cudasvc.com_url-3Fa-3Dhttp-253a-252f-252ft.co-252fi-252fadsct-253fp-5Fid-253dTwitter-2526p-5Fuser-5Fid-253d0-2526txn-5Fid-253do2gi1-2526events-253d-25255B-25255B-252522pageview-252522-25252Cnull-25255D-25255D-2526tw-5Fsale-5Famount-253d0-2526tw-5Forder-5Fquantity-253d0-26c-3DE-2C1-2CC33dLwIhtuEcl5FhdztSnUwsioeej5k-2DWy0RYREBAq51kGji32A2Cw94YU9vQBpY5tPN3AukEw3C-5F-2DlbtndnLoR7-5FA-5FLoH0Rr7zLtP1ykptN-26typo-3D1&amp;d=DwMGaQ&amp;c=5VD0RTtNlTh3ycd41b3MUw&amp;r=GMr8XYCDyeQQZuD3noL91A&amp;m=dAJyokk16UvYy-vMrGn_JwYiGfp_eEgo25B9iGDCG-A&amp;s=Abgc3XBkhESv8XBYtLchdDZyISGsK6v_BB6cLMJGyCw&amp;e=)">
+<!-- End Twitter universal website tag code -->
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Pythorch Blog Posts">
+
+
+  
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8XT4PS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div class="hello-bar">
+  <div class="container">
+    Join us in Silicon Valley September 18-19 at the 2024 PyTorch Conference. <a target="_blank" href="https://events.linuxfoundation.org/pytorch-conference/?utm_source=www&amp;utm_medium=homepage&amp;utm_campaign=Pytorch-Conference-2024&amp;utm_content=hello&amp;__hstc=132719121.95bb47ab6839fbad547d13455e36b1fd.1740107126055.1740107126055.1740107126055.1&amp;__hssc=132719121.39.1740107126055&amp;__hsfp=2424947185">Learn more</a>.
+  </div>
+</div>
+<div class="container-fluid header-holder hub-header">
+  <div class="container">
+    
+
+<div class="header-container">
+  <a class="header-logo" href="https://pytorch.org" aria-label="PyTorch"></a>
+
+  <div class="main-menu">
+  <ul>
+    <li class="main-menu-item">
+      <div id="dropdownMenuButton" data-toggle="resources-dropdown" class="resources-dropdown">
+        <a class="with-down-arrow">
+          Learn
+        </a>
+        <div class="resources-dropdown-menu">
+          <a class="nav-dropdown-item" href="/get-started">
+            <span class="dropdown-title">Get Started</span>
+            <p>Run PyTorch locally or get started quickly with one of the supported cloud platforms</p>
+          </a>
+          <a class="nav-dropdown-item" href="https://pytorch.org/tutorials/">
+            <span class="dropdown-title">Tutorials</span>
+            <p>Whats new in PyTorch tutorials</p>
+          </a>
+          <a class="nav-dropdown-item" href="https://pytorch.org/tutorials/beginner/basics/intro.html">
+            <span class="dropdown-title">Learn the Basics</span>
+            <p>Familiarize yourself with PyTorch concepts and modules</p>
+          </a>
+          <a class="nav-dropdown-item" href="https://pytorch.org/tutorials/recipes/recipes_index.html">
+            <span class="dropdown-title">PyTorch Recipes</span>
+            <p>Bite-size, ready-to-deploy PyTorch code examples</p>
+          </a>
+          <a class="nav-dropdown-item" href="https://pytorch.org/tutorials/beginner/introyt.html">
+            <span class="dropdown-title">Intro to PyTorch - YouTube Series</span>
+            <p>Master PyTorch basics with our engaging YouTube tutorial series</p>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="main-menu-item">
+      <div id="dropdownMenuButton" data-toggle="resources-dropdown" class="resources-dropdown">
+        <a class="with-down-arrow">
+          Ecosystem 
+        </a>
+        <div class="resources-dropdown-menu">
+          <a class="nav-dropdown-item" href="/ecosystem">
+            <span class="dropdown-title">Tools</span>
+            <p>Learn about the tools and frameworks in the PyTorch Ecosystem</p>
+          </a>
+          <a class="nav-dropdown-item" href="/#community-module">
+            <span class="dropdown-title">Community</span>
+            <p>Join the PyTorch developer community to contribute, learn, and get your questions answered.</p>
+          </a>
+          <a class="nav-dropdown-item" href="https://discuss.pytorch.org" target="_blank">
+            <span class="dropdown-title">Forums</span>
+            <p>A place to discuss PyTorch code, issues, install, research</p>
+          </a>
+          <a class="nav-dropdown-item" href="/resources">
+            <span class="dropdown-title">Developer Resources</span>
+            <p>Find resources and get questions answered</p>
+          </a>
+          <a class="nav-dropdown-item" href="/ecosystem/contributor-awards-2024">
+            <span class="dropdown-title">Contributor Awards - 2024</span>
+            <p>Award winners announced at this year's PyTorch Conference</p>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="main-menu-item">
+      <div id="dropdownMenuButton" data-toggle="resources-dropdown" class="resources-dropdown">
+        <a class="with-down-arrow">
+          Edge 
+        </a>
+        <div class="resources-dropdown-menu">
+          <a class="nav-dropdown-item" href="/edge">
+            <span class="dropdown-title">About PyTorch Edge</span>
+            <p>Build innovative and privacy-aware AI experiences for edge devices</p>
+          </a>
+          <a class="nav-dropdown-item" href="/executorch-overview">
+            <span class="dropdown-title">ExecuTorch</span>
+            <p>End-to-end solution for enabling on-device inference capabilities across mobile and edge devices</p>
+          </a>
+          <a class="nav-dropdown-item" target="_blank" href="https://pytorch.org/executorch/stable/index.html">
+            <span class="dropdown-title">ExecuTorch Documentation</span>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="main-menu-item">
+      <div id="docsDropdownButton" data-toggle="resources-dropdown" class="resources-dropdown">
+        <a class="with-down-arrow">
+          Docs
+        </a>
+        <div class="resources-dropdown-menu">
+          <a class="nav-dropdown-item" href="https://pytorch.org/docs">
+            <span class="dropdown-title">PyTorch</span>
+            <p>Explore the documentation for comprehensive guidance on how to use PyTorch.</p>
+          </a>
+          <a class="nav-dropdown-item" href="/pytorch-domains">
+            <span class="dropdown-title">PyTorch Domains</span>
+            <p> Read the PyTorch Domains documentation to learn more about domain-specific libraries.</p>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="main-menu-item">
+      <div id="dropdownMenuButton" data-toggle="resources-dropdown" class="resources-dropdown">
+        <a class="with-down-arrow">
+          Blog &amp; News
+        </a>
+        <div class="resources-dropdown-menu">
+          <a class="nav-dropdown-item" href="/blog">
+            <span class="dropdown-title">PyTorch Blog</span>
+            <p>Catch up on the latest technical news and happenings</p>
+          </a>
+          <a class="nav-dropdown-item" href="/community-blog">
+            <span class="dropdown-title">Community Blog</span>
+            <p>Stories from the PyTorch ecosystem</p>
+          </a>
+          <a class="nav-dropdown-item" href="/videos">
+            <span class="dropdown-title">Videos</span>
+            <p>Learn about the latest PyTorch tutorials, new, and more </p>
+          </a>
+          <a class="nav-dropdown-item" href="/community-stories">
+            <span class="dropdown-title">Community Stories</span>
+            <p>Learn how our community solves real, everyday machine learning problems with PyTorch</p>
+          </a>
+          <a class="nav-dropdown-item" href="/events">
+            <span class="dropdown-title">Events</span>
+            <p>Find events, webinars, and podcasts</p>
+          </a>
+          <a class="nav-dropdown-item" href="/newsletter">
+            <span class="dropdown-title">Newsletter</span>
+            <p>Stay up-to-date with the latest updates</p>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="main-menu-item">
+      <div id="resourcesDropdownButton" data-toggle="resources-dropdown" class="resources-dropdown">
+        <a class="with-down-arrow">
+          About
+        </a>
+        <div class="resources-dropdown-menu">
+          <a class="nav-dropdown-item" href="/foundation">
+            <span class="dropdown-title">PyTorch Foundation</span>
+            <p>Learn more about the PyTorch Foundation.</p>
+          </a>
+          <a class="nav-dropdown-item" href="/governing-board">
+            <span class="dropdown-title">Governing Board</span>
+          </a>
+          <a class="nav-dropdown-item" href="/credits">
+            <span class="dropdown-title">Cloud Credit Program</span>
+          </a>
+          <a class="nav-dropdown-item" href="/tac">
+            <span class="dropdown-title">Technical Advisory Council</span>
+          </a>
+          <a class="nav-dropdown-item" href="/staff">
+            <span class="dropdown-title">Staff</span>
+          </a>
+          <a class="nav-dropdown-item" href="/contact-us">
+            <span class="dropdown-title">Contact Us</span>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li class="main-menu-item">
+      <a href="/join" data-cta="join">
+        Become a Member
+      </a>
+    </li>
+
+    <li class="main-menu-item" id="github-main-menu-link">
+      <a href="https://github.com/pytorch/pytorch" title="Go to PyTorch GitHub" target="_blank">
+        <div id="topnav-gh-icon"></div>
+      </a>
+    </li>
+
+    <li class="navSearchWrapper reactNavSearchWrapper" key="search">
+      <div class="search-border">
+        <div id="search-icon"></div>
+        <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input id="search-input" type="text" title="Search" class="ds-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-label="search input" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: FreightSans, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 300; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="ds-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;"><div class="ds-dataset-1"></div></span></span>
+        <div id="close-search">X</div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<script src="/assets/main-menu-dropdown.js"></script>
+
+
+  <a class="main-menu-open-button" href="#" data-behavior="open-mobile-menu"></a>
+</div>
+
+  </div>
+</div>
+
+
+    <div class="main-background hub-background hub-detail-background"></div>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <span class="detail-arrow">
+          
+            <a href="/hub/research-models">&lt;</a>
+          
+        </span>
+        <h1>
+          Wide ResNet
+        </h1>
+
+        <div class="row">
+          <div class="col-md-4">
+            <p class="detail-lead">By Sergey Zagoruyko </p>
+          </div>
+
+          <div class="col-md-8">
+            <p class="detail-lead lead-summary">Wide Residual Networks</p>
+            <div class="detail-button-container">
+              <a href="https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py" target="_blank"><button class="btn btn-lg with-right-white-arrow detail-github-link">View on Github</button></a>
+              <a href="https://colab.research.google.com/github/pytorch/pytorch.github.io/blob/master/assets/hub/pytorch_vision_wide_resnet.ipynb" target="_blank"><button class="btn btn-lg with-right-white-arrow detail-colab-link">Open on Google Colab</button></a>
+              
+                
+                  <a href="https://huggingface.co/spaces/pytorch/Wide_Resnet" target="_blank"><button class="btn btn-lg with-right-white-arrow detail-web-demo-link">Open Model Demo</button></a>
+                
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content-wrapper">
+      <div class="main-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="/assets/images/wide_resnet.png" data-image-name="wide_resnet.png" class="featured-image img-fluid">
+              <img src="/assets/images/no-image" data-image-name="no-image" class="featured-image img-fluid" style="display: none;">
+            </div>
+            <div class="col-md-8">
+              <article class="pytorch-article">
+                <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">torch</span>
+<span class="c1"># load WRN-50-2:
+</span><span class="n">model</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">hub</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="s">'pytorch/vision:v0.10.0'</span><span class="p">,</span> <span class="s">'wide_resnet50_2'</span><span class="p">,</span> <span class="n">pretrained</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="c1"># or WRN-101-2
+</span><span class="n">model</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">hub</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="s">'pytorch/vision:v0.10.0'</span><span class="p">,</span> <span class="s">'wide_resnet101_2'</span><span class="p">,</span> <span class="n">pretrained</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">model</span><span class="p">.</span><span class="nb">eval</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>All pre-trained models expect input images normalized in the same way,
+i.e. mini-batches of 3-channel RGB images of shape <code class="language-plaintext highlighter-rouge">(3 x H x W)</code>, where <code class="language-plaintext highlighter-rouge">H</code> and <code class="language-plaintext highlighter-rouge">W</code> are expected to be at least <code class="language-plaintext highlighter-rouge">224</code>.
+The images have to be loaded in to a range of <code class="language-plaintext highlighter-rouge">[0, 1]</code> and then normalized using <code class="language-plaintext highlighter-rouge">mean = [0.485, 0.456, 0.406]</code>
+and <code class="language-plaintext highlighter-rouge">std = [0.229, 0.224, 0.225]</code>.</p>
+
+<p>Here’s a sample execution.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Download an example image from the pytorch website
+</span><span class="kn">import</span> <span class="nn">urllib</span>
+<span class="n">url</span><span class="p">,</span> <span class="n">filename</span> <span class="o">=</span> <span class="p">(</span><span class="s">"https://github.com/pytorch/hub/raw/master/images/dog.jpg"</span><span class="p">,</span> <span class="s">"dog.jpg"</span><span class="p">)</span>
+<span class="k">try</span><span class="p">:</span> <span class="n">urllib</span><span class="p">.</span><span class="n">URLopener</span><span class="p">().</span><span class="n">retrieve</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
+<span class="k">except</span><span class="p">:</span> <span class="n">urllib</span><span class="p">.</span><span class="n">request</span><span class="p">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># sample execution (requires torchvision)
+</span><span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">from</span> <span class="nn">torchvision</span> <span class="kn">import</span> <span class="n">transforms</span>
+<span class="n">input_image</span> <span class="o">=</span> <span class="n">Image</span><span class="p">.</span><span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+<span class="n">preprocess</span> <span class="o">=</span> <span class="n">transforms</span><span class="p">.</span><span class="n">Compose</span><span class="p">([</span>
+    <span class="n">transforms</span><span class="p">.</span><span class="n">Resize</span><span class="p">(</span><span class="mi">256</span><span class="p">),</span>
+    <span class="n">transforms</span><span class="p">.</span><span class="n">CenterCrop</span><span class="p">(</span><span class="mi">224</span><span class="p">),</span>
+    <span class="n">transforms</span><span class="p">.</span><span class="n">ToTensor</span><span class="p">(),</span>
+    <span class="n">transforms</span><span class="p">.</span><span class="n">Normalize</span><span class="p">(</span><span class="n">mean</span><span class="o">=</span><span class="p">[</span><span class="mf">0.485</span><span class="p">,</span> <span class="mf">0.456</span><span class="p">,</span> <span class="mf">0.406</span><span class="p">],</span> <span class="n">std</span><span class="o">=</span><span class="p">[</span><span class="mf">0.229</span><span class="p">,</span> <span class="mf">0.224</span><span class="p">,</span> <span class="mf">0.225</span><span class="p">]),</span>
+<span class="p">])</span>
+<span class="n">input_tensor</span> <span class="o">=</span> <span class="n">preprocess</span><span class="p">(</span><span class="n">input_image</span><span class="p">)</span>
+<span class="n">input_batch</span> <span class="o">=</span> <span class="n">input_tensor</span><span class="p">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="c1"># create a mini-batch as expected by the model
+</span>
+<span class="c1"># move the input and model to GPU for speed if available
+</span><span class="k">if</span> <span class="n">torch</span><span class="p">.</span><span class="n">cuda</span><span class="p">.</span><span class="n">is_available</span><span class="p">():</span>
+    <span class="n">input_batch</span> <span class="o">=</span> <span class="n">input_batch</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="s">'cuda'</span><span class="p">)</span>
+    <span class="n">model</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="s">'cuda'</span><span class="p">)</span>
+
+<span class="k">with</span> <span class="n">torch</span><span class="p">.</span><span class="n">no_grad</span><span class="p">():</span>
+    <span class="n">output</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">input_batch</span><span class="p">)</span>
+<span class="c1"># Tensor of shape 1000, with confidence scores over ImageNet's 1000 classes
+</span><span class="k">print</span><span class="p">(</span><span class="n">output</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="c1"># The output has unnormalized scores. To get probabilities, you can run a softmax on it.
+</span><span class="n">probabilities</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">functional</span><span class="p">.</span><span class="n">softmax</span><span class="p">(</span><span class="n">output</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">dim</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">probabilities</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Download ImageNet labels
+!wget https://raw.githubusercontent.com/pytorch/hub/master/imagenet_classes.txt
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Read the categories
+with open("imagenet_classes.txt", "r") as f:
+    categories = [s.strip() for s in f.readlines()]
+# Show top categories per image
+top5_prob, top5_catid = torch.topk(probabilities, 5)
+for i in range(top5_prob.size(0)):
+    print(categories[top5_catid[i]], top5_prob[i].item())
+</code></pre></div></div>
+
+<h3 id="model-description">Model Description<a class="anchorjs-link " href="#model-description" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<p>Wide Residual networks simply have increased number of channels compared to ResNet.
+Otherwise the architecture is the same. Deeper ImageNet models with bottleneck
+block have increased number of channels in the inner 3x3 convolution.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">wide_resnet50_2</code> and <code class="language-plaintext highlighter-rouge">wide_resnet101_2</code> models were trained in FP16 with
+mixed precision training using SGD with warm restarts. Checkpoints have weights in
+half precision (except batch norm) for smaller size, and can be used in FP32 models too.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model structure</th>
+      <th style="text-align: center">Top-1 error</th>
+      <th style="text-align: center">Top-5 error</th>
+      <th style="text-align: center"># parameters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>wide_resnet50_2</td>
+      <td style="text-align: center">21.49</td>
+      <td style="text-align: center">5.91</td>
+      <td style="text-align: center">68.9M</td>
+    </tr>
+    <tr>
+      <td>wide_resnet101_2</td>
+      <td style="text-align: center">21.16</td>
+      <td style="text-align: center">5.72</td>
+      <td style="text-align: center">126.9M</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="references">References<a class="anchorjs-link " href="#references" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/1605.07146" target="_blank">Wide Residual Networks</a></li>
+  <li><a href="https://arxiv.org/abs/1512.03385" target="_blank">Deep Residual Learning for Image Recognition</a></li>
+  <li><a href="https://arxiv.org/abs/1710.03740" target="_blank">Mixed Precision Training</a></li>
+  <li><a href="https://arxiv.org/abs/1608.03983" target="_blank">SGDR: Stochastic Gradient Descent with Warm Restarts</a></li>
+</ul>
+
+                <a href="https://github.com/pytorch/hub/issues" target="_blank"><button class="btn btn-lg hub-feedback-button hub-flag">Not Working?</button></a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid docs-tutorials-resources">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <h2>Docs</h2>
+        <p>Access comprehensive developer documentation for PyTorch</p>
+        <a class="with-right-arrow" href="/docs">View Docs</a>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <h2>Tutorials</h2>
+        <p>Get in-depth tutorials for beginners and advanced developers</p>
+        <a class="with-right-arrow" href="https://pytorch.org/tutorials">View Tutorials</a>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <h2>Resources</h2>
+        <p>Find development resources and get your questions answered</p>
+        <a class="with-right-arrow" href="/resources">View Resources</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-container">
+
+    <div class="newsletter" id="newsletter">
+
+      <p class="newsletter__title is-style-max-width-800"><strong>Stay in touch</strong> for updates, event info, and the latest news</p>
+    
+    
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+        <script data-hubspot-rendered="true">
+          hbspt.forms.create({
+            region: "na1",
+            portalId: "8112310",
+            formId: "2fb2231c-000b-4ec5-88a0-1ab242549c9e"
+          });
+        </script><div id="hbspt-form-57ac852c-0e14-4749-ae59-fd75eb5da122" class="hbspt-form" data-hs-forms-root="true"><form id="hsForm_2fb2231c-000b-4ec5-88a0-1ab242549c9e" method="POST" accept-charset="UTF-8" enctype="multipart/form-data" novalidate="" action="https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/8112310/2fb2231c-000b-4ec5-88a0-1ab242549c9e" class="hs-form-private hsForm_2fb2231c-000b-4ec5-88a0-1ab242549c9e hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e hs-form-2fb2231c-000b-4ec5-88a0-1ab242549c9e_57ac852c-0e14-4749-ae59-fd75eb5da122 hs-form stacked" target="target_iframe_2fb2231c-000b-4ec5-88a0-1ab242549c9e" data-instance-id="57ac852c-0e14-4749-ae59-fd75eb5da122" data-form-id="2fb2231c-000b-4ec5-88a0-1ab242549c9e" data-portal-id="8112310" data-test-id="hsForm_2fb2231c-000b-4ec5-88a0-1ab242549c9e" data-hs-cf-bound="true"><div class="hs_firstname hs-firstname hs-fieldtype-text field hs-form-field"><label id="label-firstname-2fb2231c-000b-4ec5-88a0-1ab242549c9e" class="" placeholder="Enter your " for="firstname-2fb2231c-000b-4ec5-88a0-1ab242549c9e"><span></span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><input id="firstname-2fb2231c-000b-4ec5-88a0-1ab242549c9e" name="firstname" required="" placeholder="First Name*" type="text" class="hs-input" inputmode="text" autocomplete="given-name" value=""></div></div><div class="hs_lastname hs-lastname hs-fieldtype-text field hs-form-field"><label id="label-lastname-2fb2231c-000b-4ec5-88a0-1ab242549c9e" class="" placeholder="Enter your " for="lastname-2fb2231c-000b-4ec5-88a0-1ab242549c9e"><span></span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><input id="lastname-2fb2231c-000b-4ec5-88a0-1ab242549c9e" name="lastname" required="" placeholder="Last Name*" type="text" class="hs-input" inputmode="text" autocomplete="family-name" value=""></div></div><div class="hs_email hs-email hs-fieldtype-text field hs-form-field"><label id="label-email-2fb2231c-000b-4ec5-88a0-1ab242549c9e" class="" placeholder="Enter your " for="email-2fb2231c-000b-4ec5-88a0-1ab242549c9e"><span></span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><input id="email-2fb2231c-000b-4ec5-88a0-1ab242549c9e" name="email" required="" placeholder="Email*" type="email" class="hs-input" inputmode="email" autocomplete="email" value=""></div></div><div class="hs_form_country hs-form_country hs-fieldtype-select field hs-form-field"><label id="label-form_country-2fb2231c-000b-4ec5-88a0-1ab242549c9e" class="" placeholder="Enter your " for="form_country-2fb2231c-000b-4ec5-88a0-1ab242549c9e"><span></span></label><legend class="hs-field-desc" style="display: none;"></legend><div class="input"><select id="form_country-2fb2231c-000b-4ec5-88a0-1ab242549c9e" required="" class="hs-input is-placeholder" name="form_country"><option disabled="" value="">Select Country*</option><option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antigua &amp; Barbuda">Antigua &amp; Barbuda</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Bahamas">Bahamas</option><option value="Bahrain">Bahrain</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Belgium">Belgium</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bermuda">Bermuda</option><option value="Bhutan">Bhutan</option><option value="Bolivia">Bolivia</option><option value="Bosnia &amp; Herzegovina">Bosnia &amp; Herzegovina</option><option value="Botswana">Botswana</option><option value="Brazil">Brazil</option><option value="Brunei Darussalam">Brunei Darussalam</option><option value="Bulgaria">Bulgaria</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Cambodia">Cambodia</option><option value="Cameroon">Cameroon</option><option value="Canada">Canada</option><option value="Cape Verde">Cape Verde</option><option value="Cayman Islands">Cayman Islands</option><option value="Central African Republic">Central African Republic</option><option value="Chad">Chad</option><option value="Chile">Chile</option><option value="China">China</option><option value="China - Hong Kong / Macau">China - Hong Kong / Macau</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Congo">Congo</option><option value="Congo, Democratic Republic of (DRC)">Congo, Democratic Republic of (DRC)</option><option value="Costa Rica">Costa Rica</option><option value="Croatia">Croatia</option><option value="Cuba">Cuba</option><option value="Cyprus">Cyprus</option><option value="Czech Republic">Czech Republic</option><option value="Denmark">Denmark</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Dominican Republic">Dominican Republic</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Eritrea">Eritrea</option><option value="Estonia">Estonia</option><option value="Eswatini">Eswatini</option><option value="Ethiopia">Ethiopia</option><option value="Fiji">Fiji</option><option value="Finland">Finland</option><option value="France">France</option><option value="French Guiana">French Guiana</option><option value="Gabon">Gabon</option><option value="Gambia, Republic of The">Gambia, Republic of The</option><option value="Georgia">Georgia</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Great Britain">Great Britain</option><option value="Greece">Greece</option><option value="Grenada">Grenada</option><option value="Guadeloupe">Guadeloupe</option><option value="Guatemala">Guatemala</option><option value="Guinea">Guinea</option><option value="Guinea-Bissau">Guinea-Bissau</option><option value="Guyana">Guyana</option><option value="Haiti">Haiti</option><option value="Honduras">Honduras</option><option value="Hungary">Hungary</option><option value="Iceland">Iceland</option><option value="India">India</option><option value="Indonesia">Indonesia</option><option value="Iran">Iran</option><option value="Iraq">Iraq</option><option value="Ireland, Republic of">Ireland, Republic of</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Ivory Coast (Cote d'Ivoire)">Ivory Coast (Cote d'Ivoire)</option><option value="Jamaica">Jamaica</option><option value="Japan">Japan</option><option value="Jordan">Jordan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Korea, Democratic Republic of (North Korea)">Korea, Democratic Republic of (North Korea)</option><option value="Korea, Republic of (South Korea)">Korea, Republic of (South Korea)</option><option value="Kosovo">Kosovo</option><option value="Kuwait">Kuwait</option><option value="Kyrgyz Republic (Kyrgyzstan)">Kyrgyz Republic (Kyrgyzstan)</option><option value="Laos">Laos</option><option value="Latvia">Latvia</option><option value="Lebanon">Lebanon</option><option value="Lesotho">Lesotho</option><option value="Liberia">Liberia</option><option value="Libya">Libya</option><option value="Liechtenstein">Liechtenstein</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Madagascar">Madagascar</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Martinique">Martinique</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Mayotte">Mayotte</option><option value="Mexico">Mexico</option><option value="Moldova, Republic of">Moldova, Republic of</option><option value="Monaco">Monaco</option><option value="Mongolia">Mongolia</option><option value="Montenegro">Montenegro</option><option value="Montserrat">Montserrat</option><option value="Morocco">Morocco</option><option value="Mozambique">Mozambique</option><option value="Myanmar/Burma">Myanmar/Burma</option><option value="Namibia">Namibia</option><option value="Nepal">Nepal</option><option value="Netherlands">Netherlands</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="North Macedonia, Republic of">North Macedonia, Republic of</option><option value="Norway">Norway</option><option value="Oman">Oman</option><option value="Pacific Islands">Pacific Islands</option><option value="Pakistan">Pakistan</option><option value="Panama">Panama</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Puerto Rico">Puerto Rico</option><option value="Qatar">Qatar</option><option value="Reunion">Reunion</option><option value="Romania">Romania</option><option value="Russian Federation">Russian Federation</option><option value="Rwanda">Rwanda</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Saint Lucia">Saint Lucia</option><option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option><option value="Samoa">Samoa</option><option value="Sao Tome and Principe">Sao Tome and Principe</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Senegal">Senegal</option><option value="Serbia">Serbia</option><option value="Seychelles">Seychelles</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapore">Singapore</option><option value="Slovak Republic (Slovakia)">Slovak Republic (Slovakia)</option><option value="Slovenia">Slovenia</option><option value="Solomon Islands">Solomon Islands</option><option value="Somalia">Somalia</option><option value="South Africa">South Africa</option><option value="South Sudan">South Sudan</option><option value="Spain">Spain</option><option value="Sri Lanka">Sri Lanka</option><option value="Sudan">Sudan</option><option value="Suriname">Suriname</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Syria">Syria</option><option value="Taiwan">Taiwan</option><option value="Tajikistan">Tajikistan</option><option value="Tanzania">Tanzania</option><option value="Thailand">Thailand</option><option value="Timor Leste">Timor Leste</option><option value="Togo">Togo</option><option value="Trinidad &amp; Tobago">Trinidad &amp; Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Turkmenistan">Turkmenistan</option><option value="Turks &amp; Caicos Islands">Turks &amp; Caicos Islands</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="United Arab Emirates">United Arab Emirates</option><option value="United States of America">United States of America</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistan</option><option value="Venezuela">Venezuela</option><option value="Vietnam">Vietnam</option><option value="Virgin Islands (UK)">Virgin Islands (UK)</option><option value="Virgin Islands (US)">Virgin Islands (US)</option><option value="Yemen">Yemen</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option></select></div></div><div class="legal-consent-container"><div class="hs-richtext"><p>By submitting this form, I consent to receive marketing emails from the LF and its projects regarding their events, training, research, developments, and related announcements. I understand that I can unsubscribe at any time using the links in the footers of the emails I receive. <a href="https://www.linuxfoundation.org/legal/privacy-policy?__hstc=132719121.95bb47ab6839fbad547d13455e36b1fd.1740107126055.1740107126055.1740107126055.1&amp;__hssc=132719121.39.1740107126055&amp;__hsfp=2424947185" target="_blank" rel="nofollow noopener noreferrer">Privacy Policy</a></p></div></div><div class="hs_submit hs-submit"><div class="hs-field-desc" style="display: none;"></div><div class="actions"><input type="submit" class="hs-button primary large" value="SUBMIT"></div></div><input name="hs_context" type="hidden" value="{&quot;embedAtTimestamp&quot;:&quot;1740107492824&quot;,&quot;formDefinitionUpdatedAt&quot;:&quot;1738857157160&quot;,&quot;lang&quot;:&quot;en&quot;,&quot;legalConsentOptions&quot;:&quot;{\&quot;legitimateInterestSubscriptionTypes\&quot;:[55895438],\&quot;communicationConsentCheckboxes\&quot;:[{\&quot;communicationTypeId\&quot;:55895438,\&quot;label\&quot;:\&quot;I agree to receive other communications from The Linux Foundation.\&quot;,\&quot;required\&quot;:false}],\&quot;legitimateInterestLegalBasis\&quot;:\&quot;LEGITIMATE_INTEREST_PQL\&quot;,\&quot;communicationConsentText\&quot;:\&quot;<p> In addition, I would like to receive marketing emails about news, events and training from The Linux Foundation and its Projects. I understand that I can unsubscribe at any time.</p>\&quot;,\&quot;processingConsentType\&quot;:\&quot;IMPLICIT\&quot;,\&quot;processingConsentText\&quot;:\&quot;In order to provide you the content requested, we need to store and process your personal data. If you consent to us storing your personal data for this purpose, please tick the checkbox below.\&quot;,\&quot;processingConsentCheckboxLabel\&quot;:\&quot;I agree to allow The Linux Foundation to store and process my personal data.\&quot;,\&quot;privacyPolicyText\&quot;:\&quot;<p>By submitting this form, I consent to receive marketing emails from the LF and its projects regarding their events, training, research, developments, and related announcements. I understand that I can unsubscribe at any time using the links in the footers of the emails I receive. <a href=\\\&quot;https://www.linuxfoundation.org/legal/privacy-policy\\\&quot; target=\\\&quot;_blank\\\&quot; rel=\\\&quot;nofollow noopener noreferrer\\\&quot;>Privacy Policy</a></p>\&quot;,\&quot;isLegitimateInterest\&quot;:true}&quot;,&quot;embedType&quot;:&quot;REGULAR&quot;,&quot;clonedFromForm&quot;:&quot;f294601b-db76-447a-9af5-f4c884e2ff46&quot;,&quot;renderRawHtml&quot;:&quot;true&quot;,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36&quot;,&quot;pageTitle&quot;:&quot;Wide ResNet | PyTorch&quot;,&quot;pageUrl&quot;:&quot;https://pytorch.org/hub/pytorch_vision_wide_resnet/&quot;,&quot;isHubSpotCmsGeneratedPage&quot;:false,&quot;hutk&quot;:&quot;95bb47ab6839fbad547d13455e36b1fd&quot;,&quot;__hsfp&quot;:2424947185,&quot;__hssc&quot;:&quot;132719121.39.1740107126055&quot;,&quot;__hstc&quot;:&quot;132719121.95bb47ab6839fbad547d13455e36b1fd.1740107126055.1740107126055.1740107126055.1&quot;,&quot;formTarget&quot;:&quot;#hbspt-form-57ac852c-0e14-4749-ae59-fd75eb5da122&quot;,&quot;rumScriptExecuteTime&quot;:423.5,&quot;rumTotalRequestTime&quot;:687.8999999761581,&quot;rumTotalRenderTime&quot;:723.7999999523163,&quot;rumServiceResponseTime&quot;:264.39999997615814,&quot;rumFormRenderTime&quot;:36,&quot;connectionType&quot;:&quot;4g&quot;,&quot;firstContentfulPaint&quot;:0,&quot;largestContentfulPaint&quot;:0,&quot;locale&quot;:&quot;en&quot;,&quot;timestamp&quot;:1740107493762,&quot;originalEmbedContext&quot;:{&quot;portalId&quot;:&quot;8112310&quot;,&quot;formId&quot;:&quot;2fb2231c-000b-4ec5-88a0-1ab242549c9e&quot;,&quot;region&quot;:&quot;na1&quot;,&quot;target&quot;:&quot;#hbspt-form-57ac852c-0e14-4749-ae59-fd75eb5da122&quot;,&quot;isBuilder&quot;:false,&quot;isTestPage&quot;:false,&quot;isPreview&quot;:false,&quot;isMobileResponsive&quot;:true},&quot;correlationId&quot;:&quot;57ac852c-0e14-4749-ae59-fd75eb5da122&quot;,&quot;renderedFieldsIds&quot;:[&quot;firstname&quot;,&quot;lastname&quot;,&quot;email&quot;,&quot;form_country&quot;],&quot;captchaStatus&quot;:&quot;NOT_APPLICABLE&quot;,&quot;emailResubscribeStatus&quot;:&quot;NOT_APPLICABLE&quot;,&quot;isInsideCrossOriginFrame&quot;:false,&quot;source&quot;:&quot;forms-embed-1.7731&quot;,&quot;sourceName&quot;:&quot;forms-embed&quot;,&quot;sourceVersion&quot;:&quot;1.7731&quot;,&quot;sourceVersionMajor&quot;:&quot;1&quot;,&quot;sourceVersionMinor&quot;:&quot;7731&quot;,&quot;allPageIds&quot;:{},&quot;_debug_embedLogLines&quot;:[{&quot;clientTimestamp&quot;:1740107492961,&quot;level&quot;:&quot;INFO&quot;,&quot;message&quot;:&quot;Retrieved pageContext values which may be overriden by the embed context: {\&quot;pageTitle\&quot;:\&quot;Wide ResNet | PyTorch\&quot;,\&quot;pageUrl\&quot;:\&quot;https://pytorch.org/hub/pytorch_vision_wide_resnet/\&quot;,\&quot;userAgent\&quot;:\&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\&quot;,\&quot;isHubSpotCmsGeneratedPage\&quot;:false}&quot;},{&quot;clientTimestamp&quot;:1740107492962,&quot;level&quot;:&quot;INFO&quot;,&quot;message&quot;:&quot;Retrieved countryCode property from normalized embed definition response: \&quot;KR\&quot;&quot;},{&quot;clientTimestamp&quot;:1740107493756,&quot;level&quot;:&quot;INFO&quot;,&quot;message&quot;:&quot;Retrieved analytics values from API response which may be overriden by the embed context: {\&quot;hutk\&quot;:\&quot;95bb47ab6839fbad547d13455e36b1fd\&quot;}&quot;}]}"><iframe name="target_iframe_2fb2231c-000b-4ec5-88a0-1ab242549c9e" style="display: none;"></iframe></form></div>
+        
+    
+      <p class="newsletter__privacy">By submitting this form, I consent to receive marketing emails from the LF and its projects regarding their events, training, research, developments, and related announcements. I understand that I can unsubscribe at any time using the links in the footers of the emails I receive. <a href="https://www.linuxfoundation.org/privacy/?__hstc=132719121.95bb47ab6839fbad547d13455e36b1fd.1740107126055.1740107126055.1740107126055.1&amp;__hssc=132719121.39.1740107126055&amp;__hsfp=2424947185" target="_blank">Privacy Policy</a>.</p>
+        
+    </div>
+    
+
+
+    <div class="lf-grid">
+      <div class="footer-logo-wrapper">
+        <a href="https://pytorch.org" class="footer-logo">
+          <img src="/assets/images/logo-icon.svg" alt="PyTorch logo" width="40">
+        </a>
+      </div>
+
+      <ul class="social-links">
+        <li><a href="https://www.facebook.com/pytorch" target="_blank" title="PyTorch on Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.51 -0.26 26.45 26.45" aria-label="Facebook"><path fill="currentColor" d="M25.497 13.075c0-2.45-.698-4.848-2.011-6.911a12.765 12.765 0 0 0-5.398-4.73A12.671 12.671 0 0 0 11.008.38a12.705 12.705 0 0 0-6.529 2.95A12.827 12.827 0 0 0 .563 9.358a12.896 12.896 0 0 0-.07 7.201 12.831 12.831 0 0 0 3.801 6.103 12.709 12.709 0 0 0 6.471 3.078v-8.957H7.53v-3.708h3.235v-2.824c0-3.213 1.903-4.988 4.813-4.988.956.014 1.909.097 2.852.25V8.67h-1.607a1.83 1.83 0 0 0-1.518.497 1.854 1.854 0 0 0-.561 1.505v2.404h3.535l-.563 3.708h-2.97v8.957a12.725 12.725 0 0 0 7.697-4.337 12.87 12.87 0 0 0 3.054-8.328z"></path></svg>	
+        </a></li>
+        <li><a href="https://twitter.com/pytorch" target="_blank" title="PyTorch on X">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" aria-label="X"><path fill="currentColor" d="M178.57 127.15 290.27 0h-26.46l-97.03 110.38L89.34 0H0l117.13 166.93L0 300.25h26.46l102.4-116.59 81.8 116.59h89.34M36.01 19.54H76.66l187.13 262.13h-40.66"></path></svg>
+        </a></li>
+        <li><a href="https://www.youtube.com/pytorch" target="_blank" title="PyTorch on YouTube">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.21 0.27 34.45 25.07" aria-label="YouTube"><path fill="currentColor" d="M33.729 6.084s-.327-2.33-1.317-3.356a4.691 4.691 0 0 0-3.32-1.432c-4.634-.34-11.589-.34-11.589-.34h-.014s-6.954 0-11.59.342a4.692 4.692 0 0 0-3.32 1.432c-.993 1.025-1.315 3.354-1.315 3.354a52.189 52.189 0 0 0-.331 5.473v2.566c.014 1.829.125 3.656.331 5.472 0 0 .322 2.33 1.316 3.36 1.26 1.345 2.916 1.3 3.653 1.445 2.65.26 11.263.34 11.263.34s6.96-.01 11.597-.353a4.691 4.691 0 0 0 3.32-1.432c.993-1.026 1.316-3.356 1.316-3.356.206-1.817.316-3.644.33-5.473v-2.57a52.26 52.26 0 0 0-.33-5.472zM14.076 17.232V7.729l8.951 4.768-8.95 4.735z"></path></svg>	
+        </a></li>
+        <li><a href="https://www.linkedin.com/company/pytorch" target="_blank" title="PyTorch on LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10.23 -10.23 531.96 531.96" aria-label="LinkedIn"><rect width="512" height="512" rx="0" fill="currentColor"></rect><circle fill="#000" cx="142" cy="138" r="37"></circle><path stroke="#000" stroke-width="66" d="M244 194v198M142 194v198"></path><path fill="#000" d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"></path></svg>
+        </a></li>
+        <li><a href="https://join.slack.com/t/pytorch/shared_invite/zt-2j2la612p-miUinTTaxXczKOJw48poHA" target="_blank" title="PyTorch Slack">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.16 -0.03 21.19 21.19" aria-label="Slack"><path fill="currentColor" d="M4.896 13.27a2.147 2.147 0 0 1-2.141 2.142A2.147 2.147 0 0 1 .613 13.27c0-1.178.963-2.141 2.142-2.141h2.141v2.141zm1.08 0c0-1.178.962-2.141 2.141-2.141s2.142.963 2.142 2.141v5.363a2.147 2.147 0 0 1-2.142 2.141 2.147 2.147 0 0 1-2.141-2.142V13.27zm2.141-8.6a2.147 2.147 0 0 1-2.141-2.14c0-1.18.962-2.142 2.141-2.142s2.142.963 2.142 2.141v2.142H8.117zm0 1.08c1.179 0 2.141.962 2.141 2.141a2.147 2.147 0 0 1-2.141 2.142H2.755A2.147 2.147 0 0 1 .613 7.89c0-1.179.963-2.141 2.142-2.141h5.362zm8.599 2.141c0-1.179.963-2.141 2.141-2.141 1.179 0 2.143.962 2.143 2.14a2.147 2.147 0 0 1-2.142 2.142h-2.141V7.89zm-1.08 0a2.147 2.147 0 0 1-2.141 2.142 2.147 2.147 0 0 1-2.141-2.142V2.53c0-1.178.962-2.141 2.141-2.141s2.142.963 2.142 2.141v5.362zm-2.141 8.6c1.179 0 2.142.962 2.142 2.14a2.147 2.147 0 0 1-2.142 2.142 2.147 2.147 0 0 1-2.141-2.141V16.49h2.141zm0-1.08a2.147 2.147 0 0 1-2.141-2.141c0-1.179.962-2.142 2.141-2.142h5.362c1.179 0 2.142.963 2.142 2.142a2.147 2.147 0 0 1-2.142 2.142h-5.362z"></path></svg>
+        </a></li>
+        <li><a href="/wechat" title="PyTorch on WeChat">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.14 -0.17 38.02 33.02" aria-label="WeChat"><path fill="currentColor" d="M26.289 10.976a12.972 12.972 0 0 0-8.742 3.53 10.386 10.386 0 0 0-3.224 8.795c-1.326-.164-2.535-.345-3.75-.448a2.332 2.332 0 0 0-1.273.216c-1.18.666-2.311 1.418-3.652 2.255.246-1.112.405-2.087.687-3.024a1.15 1.15 0 0 0-.523-1.52C1.737 17.902.02 13.601 1.307 9.165c1.189-4.1 4.11-6.587 8.077-7.884A13.54 13.54 0 0 1 24.18 5.617a10.135 10.135 0 0 1 2.109 5.359zM10.668 9.594a1.564 1.564 0 0 0-2.095-1.472 1.52 1.52 0 0 0-.895 1.964 1.502 1.502 0 0 0 1.391.966 1.545 1.545 0 0 0 1.598-1.46v.002zm8.15-1.566a1.567 1.567 0 0 0-1.528 1.543 1.528 1.528 0 0 0 1.571 1.492 1.52 1.52 0 0 0 1.375-2.117 1.518 1.518 0 0 0-1.415-.919l-.003.001z"></path><path fill="currentColor" d="M33.914 32.137c-1.075-.478-2.062-1.196-3.11-1.306-1.049-.11-2.145.494-3.24.605a10.821 10.821 0 0 1-8.781-2.864c-4.682-4.33-4.013-10.97 1.403-14.518 4.811-3.154 11.874-2.102 15.268 2.273a8.671 8.671 0 0 1-1.002 12.095c-1.046.929-1.422 1.693-.751 2.917.102.257.174.525.213.798zM21.68 20.292a1.264 1.264 0 1 0 .01-2.528 1.264 1.264 0 0 0-.01 2.528zm7.887-2.526a1.266 1.266 0 0 0-1.256 1.21 1.247 1.247 0 1 0 1.256-1.21z"></path></svg>
+        </a></li>
+      </ul>
+    </div>
+
+    <div class="privacy-policy">
+      <div class="copyright">
+        <p>© Copyright The Linux Foundation. The PyTorch Foundation is a project of The Linux Foundation. 
+          For web site terms of use, trademark policy and other policies applicable to The PyTorch Foundation please see 
+          <a href="https://www.linuxfoundation.org/legal/policies/?__hstc=132719121.95bb47ab6839fbad547d13455e36b1fd.1740107126055.1740107126055.1740107126055.1&amp;__hssc=132719121.39.1740107126055&amp;__hsfp=2424947185" target="_blank">Linux Foundation Policies</a>. The PyTorch Foundation supports the PyTorch open source 
+          project, which has been established as PyTorch Project a Series of LF Projects, LLC. For policies applicable to the PyTorch Project a Series of LF Projects, LLC, 
+          please see <a href="https://www.lfprojects.org/policies/" target="_blank">LF Projects, LLC Policies</a>. <a href="https://www.linuxfoundation.org/privacy?__hstc=132719121.95bb47ab6839fbad547d13455e36b1fd.1740107126055.1740107126055.1740107126055.1&amp;__hssc=132719121.39.1740107126055&amp;__hsfp=2424947185" target="_blank">Privacy Policy</a> and <a href="https://www.linuxfoundation.org/terms?__hstc=132719121.95bb47ab6839fbad547d13455e36b1fd.1740107126055.1740107126055.1740107126055.1&amp;__hssc=132719121.39.1740107126055&amp;__hsfp=2424947185" target="_blank">Terms of Use</a>.</p>
+      </div>
+    </div>
+  </div>
+  <img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/795629140/?label=txkmCPmdtosBENSssfsC&amp;guid=ON&amp;script=0">
+
+</footer>
+
+<div class="mobile-main-menu">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="mobile-main-menu-header-container">
+        <a class="header-logo" href="https://pytorch.org" aria-label="PyTorch"></a>
+        <a class="main-menu-close-button" href="#" data-behavior="close-mobile-menu"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-main-menu-links-container">
+
+    <div class="main-menu">
+      <ul>
+        <li class="navSearchWrapper reactNavSearchWrapper tabletSearchWrapper" key="search">
+          <div class="mobile-search-border">
+            <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input id="mobile-search-input" type="text" title="Search" class="ds-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-label="search input" aria-owns="algolia-autocomplete-listbox-2" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: FreightSans, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="ds-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-2" style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;"><div class="ds-dataset-3"></div></span></span>
+            <div id="mobile-search-icon"></div>
+          </div>
+        </li>
+
+        <li class="resources-mobile-menu-title">
+          <a>Learn</a>
+        </li>
+        <ul class="resources-mobile-menu-items">
+          <li>
+            <a href="/get-started">Get Started</a> 
+          </li>
+          <li>
+            <a href="https://pytorch.org/tutorials">Tutorials</a>
+          </li>
+          <li>
+            <a href="https://pytorch.org/tutorials/beginner/basics/intro.html">Learn the Basics</a>
+          </li>
+          <li>
+            <a href="https://pytorch.org/tutorials/recipes/recipes_index.html">PyTorch Recipes</a>
+          </li>
+          <li>
+            <a href="https://pytorch.org/tutorials/beginner/introyt.html">Introduction to PyTorch - YouTube Series</a>
+          </li>
+        </ul>
+        <li class="resources-mobile-menu-title">
+          <a>Ecosystem</a>
+        </li>
+        <ul class="resources-mobile-menu-items">
+          <li>
+            <a href="/ecosystem">Tools</a>
+          </li>
+          <li>
+            <a href="/#community-module">Community</a>
+          </li>
+          <li>
+            <a href="https://discuss.pytorch.org" target="_blank">Forums</a>
+          </li>
+          <li>
+            <a href="/resources">Developer Resources</a>
+          </li>
+          <li>
+            <a href="/ecosystem/contributor-awards-2024">Contributor Awards - 2024</a>
+          </li>
+        </ul>
+        <li class="resources-mobile-menu-title">
+          <a>Edge</a>
+        </li>
+        <ul class="resources-mobile-menu-items">
+          <li>
+            <a href="/edge">About PyTorch Edge</a>
+          </li>
+          <li>
+            <a href="/executorch-overview">ExecuTorch</a>
+          </li>
+          <li>
+            <a href="https://pytorch.org/executorch/stable/index.html">ExecuTorch Documentation</a>
+          </li>
+        </ul>
+        <li class="resources-mobile-menu-title">
+          <a>Docs</a>
+        </li>
+        <ul class="resources-mobile-menu-items">
+          <li>
+            <a href="https://pytorch.org/docs">PyTorch</a>
+          </li>
+          <li>
+            <a href="/pytorch-domains">PyTorch Domains</a>
+          </li>
+        </ul>
+
+        <li class="resources-mobile-menu-title">
+          <a>Blog &amp; News</a>
+        </li>
+        <ul class="resources-mobile-menu-items">
+          <li>
+            <a href="/blog">PyTorch Blog</a>
+          </li>
+          <li>
+            <a href="/community-blog">Community Blog</a>
+          </li>
+          <li>
+            <a href="/videos">Videos</a>
+          </li>
+          <li>
+            <a href="/community-stories">Community Stories</a>
+          </li>
+          <li>
+            <a href="/events">Events</a>
+          </li>
+          <li>
+            <a href="/newsletter">Newsletter</a>
+          </li>
+        </ul>
+        <li class="resources-mobile-menu-title">
+          <a>About</a>
+        </li>
+        <ul class="resources-mobile-menu-items">
+          <li>
+            <a href="/foundation">PyTorch Foundation</a>
+          </li>
+          <li>
+            <a href="/governing-board">Governing Board</a>
+          </li>
+          <li>
+            <a href="/credits">Cloud Credit Program</a>
+          </li>
+          <li>          
+            <a href="/tac">Technical Advisory Council</a>
+          </li>
+          <li>
+            <a href="/staff">Staff</a>
+          </li>
+          <li>
+            <a href="/contact-us">Contact Us</a>
+          </li>
+        </ul>
+        <li class="resources-mobile-menu-title">
+          <a href="/join">Become a Member</a>
+        </li>
+        <li class="resources-mobile-menu-title">
+          <a href="https://github.com/pytorch/pytorch" title="Go to PyTorch GitHub" target="_blank"><div id="topnav-gh-icon"></div></a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<script src="/assets/mobile-menu.js"></script>
+<script src="/assets/scroll-to-anchor.js"></script>
+<script src="/assets/external-links-new-tab.js"></script>
+
+  <script src="/assets/search-bar.js"></script>
+
+
+<script id="hs-script-loader" text="" charset="" type="text/javascript" src="//js.hs-scripts.com/8112310.js"></script><script type="text/javascript" id="" charset="">window[function(d,e){for(var b="",c=0;c<d.length;c++){a!=c;var a=d[c].charCodeAt();a-=e;a+=61;a%=94;e>7;b==b;a+=33;b+=String.fromCharCode(a)}return b}(atob("K3ghQ0A7NjRFejZK"),47)]="80bc2cc34a1680792386";var zi=document.createElement("script");zi.type="text/javascript";zi.async=!0;zi.src=function(d,e){for(var b="",c=0;c<d.length;c++){b==b;a!=c;var a=d[c].charCodeAt();e>6;a-=e;a+=61;a%=94;a+=33;b+=String.fromCharCode(a)}return b}(atob("fiwsKCtQRUUiK0QyIUMreSohKCwrRHknJUUyIUMsd31EIis\x3d"),22);
+document.readyState==="complete"?document.body.appendChild(zi):window.addEventListener("load",function(){document.body.appendChild(zi)});</script><script src="/assets/cookie-banner.js"></script>
+
+<script type="text/javascript">
+  mobileMenu.bind();
+  anchors.add('.pytorch-article h2, .pytorch-article h3, .pytorch-article h4, .pytorch-article h5');
+
+  // Add class to links that have code blocks, since we cannot create links in code blocks
+  $("a code.highlighter-rouge").each(function(e) {
+    $(this).closest("a").addClass("has-code");
+  });
+
+  scrollToAnchor.bind();
+
+  var hasStaticHeader = $(".blog-header, .blog-detail-header, .resources-header, .get-started-header, .features-header, .ecosystem-header, .hub-header, .mobile-header, .announcement-header, .comm-stories-header").length > 0;
+
+  if (!hasStaticHeader) {
+    $(window).on("scroll", function() {
+      var top = $(this).scrollTop();
+      var fullPosition = $(".main-background").height() - $(".header-holder").height();
+
+      if (top <= 40) {
+        $(".header-holder").css({"backgroundColor": "rgba(0, 0, 0, 0.165)"});
+      } else if (top >= fullPosition) {
+        $(".header-holder").css({"backgroundColor": "#000000"});
+      } else {
+        var bgColor = "rgba(0, 0, 0, " + top / fullPosition + ")";
+        $(".header-holder").css({"backgroundColor": bgColor});
+      }
+    });
+  }
+</script>
+
+
+  <script src="/assets/track-events.js"></script>
+  <script>trackEvents.bind();</script>
+
+
+
+<div class="cookie-banner-wrapper">
+  <div class="container">
+    <p class="gdpr-notice">To analyze traffic and optimize your experience, we serve cookies on this site. By clicking or navigating, you agree to allow our usage of cookies. As the current maintainers of this site, Facebook’s Cookies Policy applies. Learn more, including about available controls: <a href="https://www.facebook.com/policies/cookies/">Cookies Policy</a>.</p>
+    <img class="close-button" src="/assets/images/pytorch-x.svg">
+  </div>
+</div>
+
+
+  
+
+
+<script src="/assets/hub-detail.js"></script>
+
+
+<div class="go2933276541 go2369186930" id="hs-web-interactives-top-anchor"><div id="hs-interactives-modal-overlay" class="go1632949049"></div></div>
+<div class="go2933276541 go1348078617" id="hs-web-interactives-bottom-anchor"></div>
+<div id="hs-web-interactives-floating-container">
+  <div id="hs-web-interactives-floating-top-left-anchor" class="go2417249464 go613305155">
+  </div>
+  <div id="hs-web-interactives-floating-top-right-anchor" class="go2417249464 go471583506">
+  </div>
+  <div id="hs-web-interactives-floating-bottom-left-anchor" class="go2417249464 go3921366393">
+  </div>
+  <div id="hs-web-interactives-floating-bottom-right-anchor" class="go2417249464 go3967842156">
+  </div>
+</div>
+<iframe allow="join-ad-interest-group" data-tagging-id="AW-1032976986" data-load-time="1740107493113" height="0" width="0" src="https://td.doubleclick.net/td/rul/1032976986?random=1740107493103&amp;cv=11&amp;fst=1740107493103&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be52k0v889269445za200zb9120477255&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101732282~101732284~102015665~102067808~102482433~102539968~102558064~102587591~102605417~102640600~102658453&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Fpytorch.org%2Fhub%2Fpytorch_vision_wide_resnet%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Wide%20ResNet%20%7C%20PyTorch&amp;did=dZTQ1Zm&amp;gdid=dZTQ1Zm&amp;npa=0&amp;pscdl=noapi&amp;auid=1428129838.1740107123&amp;uaa=x86&amp;uab=64&amp;uafvl=Not(A%253ABrand%3B99.0.0.0%7CGoogle%2520Chrome%3B133.0.6943.127%7CChromium%3B133.0.6943.127&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config" style="display: none; visibility: hidden;"></iframe><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe><iframe owner="archetype" title="archetype" style="display: none; visibility: hidden;"></iframe><script type="text/javascript" async="" src="https://js.zi-scripts.com/zi-tag.js"></script><script type="text/javascript" charset="utf-8" async="" src="blob:https://pytorch.org/25873682-97ee-4843-a4d1-fc27bcc9c2b4"></script></body></html>

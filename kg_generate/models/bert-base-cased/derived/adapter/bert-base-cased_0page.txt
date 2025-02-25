@@ -1,0 +1,451 @@
+<section class="pt-8 border-gray-100 col-span-full lg:col-span-6 xl:col-span-7 pb-12"><div class="mb-4 items-center space-y-3 md:flex md:space-y-0 lg:mb-6"><div class="flex items-center text-lg"><h1>Models</h1>
+<div class="ml-3 w-16 font-normal text-gray-400">38</div></div>
+<div class="flex-1 md:mx-4"><div class="relative w-full md:max-w-xs"><svg aria-hidden="true" class="absolute left-2 top-1.5 text-gray-300 w-4" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path class="uim-quaternary" d="M20.23 7.24L12 12L3.77 7.24a1.98 1.98 0 0 1 .7-.71L11 2.76c.62-.35 1.38-.35 2 0l6.53 3.77c.29.173.531.418.7.71z" fill="currentColor" opacity=".25"></path><path class="uim-tertiary" d="M12 12v9.5a2.09 2.09 0 0 1-.91-.21L4.5 17.48a2.003 2.003 0 0 1-1-1.73v-7.5a2.06 2.06 0 0 1 .27-1.01L12 12z" fill="currentColor" opacity=".5"></path><path class="uim-primary" d="M20.5 8.25v7.5a2.003 2.003 0 0 1-1 1.73l-6.62 3.82c-.275.13-.576.198-.88.2V12l8.23-4.76c.175.308.268.656.27 1.01z" fill="currentColor"></path></svg>
+<input class="w-full rounded-full border border-gray-200 text-sm placeholder-gray-400 shadow-inner outline-none focus:shadow-xl focus:ring-1 focus:ring-inset dark:bg-gray-950 h-7 pl-7" placeholder="Filter by name" type="search" value=""/></div></div>
+<a class="btn mr-2 rounded-full text-sm opacity-80 hover:opacity-100" href="/search/full-text?type=model">Full-text search
+			</a>
+<div><button class="btn mr-2 inline-flex text-sm lg:hidden text-blue-800" type="button"><svg aria-hidden="true" class="mr-1.5 text-blue-700" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M18 28H14C13.4696 28 12.9609 27.7893 12.5858 27.4142C12.2107 27.0391 12 26.5304 12 26V18.41L4.59 11C4.21441 10.6266 4.00223 10.1196 4 9.59V6C4 5.46957 4.21071 4.96086 4.58579 4.58579C4.96086 4.21071 5.46957 4 6 4H26C26.5304 4 27.0391 4.21071 27.4142 4.58579C27.7893 4.96086 28 5.46957 28 6V9.59C27.9978 10.1196 27.7856 10.6266 27.41 11L20 18.41V26C20 26.5304 19.7893 27.0391 19.4142 27.4142C19.0391 27.7893 18.5304 28 18 28Z"></path></svg>
+					Edit filters
+				</button>
+<div class="relative inline-block">
+<button class="btn w-full cursor-pointer text-sm" type="button">
+<svg aria-hidden="true" class="mr-1" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M27.6 20.6L24 24.2V4h-2v20.2l-3.6-3.6L17 22l6 6l6-6z" fill="currentColor"></path><path d="M9 4l-6 6l1.4 1.4L8 7.8V28h2V7.8l3.6 3.6L15 10z" fill="currentColor"></path></svg>
+		Sort: 
+		Trending
+	
+		</button>
+</div></div></div>
+<div class="-mx-4 mb-4 flex !rounded-l-none !rounded-r-none border-y bg-blue-500/10 px-4 py-2 dark:border-gray-800 sm:!rounded-l-md sm:!rounded-r-md lg:hidden"><div class="mr-3 flex-1 text-blue-600 dark:text-blue-500"><strong>Active filters: </strong>
+					google-bert/bert-base-cased</div>
+<button class="text-sm underline" type="button">Clear all </button></div>
+<div class="relative"><div class="grid grid-cols-1 gap-5 2xl:grid-cols-2"><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/identrics/wasper_propaganda_detection_en"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="identrics/wasper_propaganda_detection_en"><img alt="" class="w-3.5 h-3.5 rounded mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/zUXqYI4aGjOfYUCSbCowf.png"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">identrics/wasper_propaganda_detection_en</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-12-03T17:32:13" title="Tue, 03 Dec 2024 17:32:13 GMT">Dec 3, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-1" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M22.45,6a5.47,5.47,0,0,1,3.91,1.64,5.7,5.7,0,0,1,0,8L16,26.13,5.64,15.64a5.7,5.7,0,0,1,0-8,5.48,5.48,0,0,1,7.82,0L16,10.24l2.53-2.58A5.44,5.44,0,0,1,22.45,6m0-2a7.47,7.47,0,0,0-5.34,2.24L16,7.36,14.89,6.24a7.49,7.49,0,0,0-10.68,0,7.72,7.72,0,0,0,0,10.82L16,29,27.79,17.06a7.72,7.72,0,0,0,0-10.82A7.49,7.49,0,0,0,22.45,4Z"></path></svg>
+					4
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/tomhodemon/query_encoder_lora_v1"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="tomhodemon/query_encoder_lora_v1"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/a4268d3ff1ee5e4a46eaac559c2b7cf1.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">tomhodemon/query_encoder_lora_v1</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2023-11-30T07:24:09" title="Thu, 30 Nov 2023 07:24:09 GMT">Nov 30, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					2
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/tomhodemon/passage_encoder_lora_v1"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="tomhodemon/passage_encoder_lora_v1"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/a4268d3ff1ee5e4a46eaac559c2b7cf1.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">tomhodemon/passage_encoder_lora_v1</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2023-11-30T07:24:13" title="Thu, 30 Nov 2023 07:24:13 GMT">Nov 30, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					3
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/tomhodemon/fever-query_encoder-lora-bsz16-77588-gradacc1"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="tomhodemon/fever-query_encoder-lora-bsz16-77588-gradacc1"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/a4268d3ff1ee5e4a46eaac559c2b7cf1.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">tomhodemon/fever-query_encoder-lora-bsz16-77588-gradacc1</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2023-12-03T03:33:25" title="Sun, 03 Dec 2023 03:33:25 GMT">Dec 3, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					3
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/tomhodemon/fever_passage_encoder-lora-bsz16-77588-gradacc1"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="tomhodemon/fever_passage_encoder-lora-bsz16-77588-gradacc1"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/a4268d3ff1ee5e4a46eaac559c2b7cf1.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">tomhodemon/fever_passage_encoder-lora-bsz16-77588-gradacc1</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2023-12-03T03:33:27" title="Sun, 03 Dec 2023 03:33:27 GMT">Dec 3, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					3
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/MaximTitarenkoUIT/reward_test_on_filtered_data_lora"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="MaximTitarenkoUIT/reward_test_on_filtered_data_lora"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/7cf410405c34c78d5ddb07899dd88008.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">MaximTitarenkoUIT/reward_test_on_filtered_data_lora</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2023-12-12T02:44:35" title="Tue, 12 Dec 2023 02:44:35 GMT">Dec 12, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					3
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/MonkeyDdonut/aiVshuman_bert_2epochs"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="MonkeyDdonut/aiVshuman_bert_2epochs"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/b4c2796f73d193c63e117ffdb77b85e4.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">MonkeyDdonut/aiVshuman_bert_2epochs</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2023-12-31T11:17:16" title="Sun, 31 Dec 2023 11:17:16 GMT">Dec 31, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					1
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/sumittyagi25/test_trainer"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="sumittyagi25/test_trainer"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/96721f848388fdf2e15afdfb15f9d63b.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">sumittyagi25/test_trainer</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-01-05T00:36:01" title="Fri, 05 Jan 2024 00:36:01 GMT">Jan 5, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					42
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Rastael/bert-base-cased-sequence-classification"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Rastael/bert-base-cased-sequence-classification"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/6d4c25088748499622c437eaf5488da3.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Rastael/bert-base-cased-sequence-classification</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-01-11T13:33:45" title="Thu, 11 Jan 2024 13:33:45 GMT">Jan 11, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					2
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/stanpony/ml_medical_diagnosis"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="stanpony/ml_medical_diagnosis"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/b9343917dc5be99689b385a02fd6b2af.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">stanpony/ml_medical_diagnosis</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-01-16T15:35:38" title="Tue, 16 Jan 2024 15:35:38 GMT">Jan 16, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					2
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/EliasKD/LoRA-imdb-seq-cls"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="EliasKD/LoRA-imdb-seq-cls"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/592ac84c3c1d1652a5586b8f8d616014.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">EliasKD/LoRA-imdb-seq-cls</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-01-29T13:16:46" title="Mon, 29 Jan 2024 13:16:46 GMT">Jan 29, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					7
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/EliasKD/LoRA-my-dataset-seq-cls"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="EliasKD/LoRA-my-dataset-seq-cls"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/592ac84c3c1d1652a5586b8f8d616014.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">EliasKD/LoRA-my-dataset-seq-cls</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-01-29T15:29:21" title="Mon, 29 Jan 2024 15:29:21 GMT">Jan 29, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					7
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/MaggieZhang/test_trainer"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="MaggieZhang/test_trainer"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/8d53fc0efded985acca11d9ca831d020.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">MaggieZhang/test_trainer</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-02-14T18:15:05" title="Wed, 14 Feb 2024 18:15:05 GMT">Feb 14, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					4
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/TransferGraph/bert-base-cased-finetuned-lora-tweet_eval_irony"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="TransferGraph/bert-base-cased-finetuned-lora-tweet_eval_irony"><img alt="" class="w-3.5 h-3.5 rounded mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/65797c5158d7a2cc897739bf/FScCt_4vr_fTdZFFByZ6x.png"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">TransferGraph/bert-base-cased-finetuned-lora-tweet_eval_irony</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-02-29T13:34:37" title="Thu, 29 Feb 2024 13:34:37 GMT">Feb 29, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					2
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/TransferGraph/bert-base-cased-finetuned-lora-tweet_eval_emotion"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="TransferGraph/bert-base-cased-finetuned-lora-tweet_eval_emotion"><img alt="" class="w-3.5 h-3.5 rounded mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/65797c5158d7a2cc897739bf/FScCt_4vr_fTdZFFByZ6x.png"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">TransferGraph/bert-base-cased-finetuned-lora-tweet_eval_emotion</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-02-29T12:50:54" title="Thu, 29 Feb 2024 12:50:54 GMT">Feb 29, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					3
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/TransferGraph/bert-base-cased-finetuned-lora-tweet_eval_hate"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="TransferGraph/bert-base-cased-finetuned-lora-tweet_eval_hate"><img alt="" class="w-3.5 h-3.5 rounded mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/65797c5158d7a2cc897739bf/FScCt_4vr_fTdZFFByZ6x.png"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">TransferGraph/bert-base-cased-finetuned-lora-tweet_eval_hate</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-02-29T13:47:00" title="Thu, 29 Feb 2024 13:47:00 GMT">Feb 29, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					2
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/rajevan123/STS-Lora-Fine-Tuning-Capstone-bert-testing-70-with-lower-r-mid"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="rajevan123/STS-Lora-Fine-Tuning-Capstone-bert-testing-70-with-lower-r-mid"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/8ed431ce2c7e89b51c12d0af8e49b0bd.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">rajevan123/STS-Lora-Fine-Tuning-Capstone-bert-testing-70-with-lower-r-mid</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-03-27T06:28:41" title="Wed, 27 Mar 2024 06:28:41 GMT">Mar 27, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					9
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Jahanzeb1/BERT-TextClassification"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Jahanzeb1/BERT-TextClassification"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/f6353193741f1c290dad83c8fcc1bd2e.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Jahanzeb1/BERT-TextClassification</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-04-14T08:43:39" title="Sun, 14 Apr 2024 08:43:39 GMT">Apr 14, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					25
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/dfoc99/bert-base-cased-finetuned-Astronomy_Thesaurus"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="dfoc99/bert-base-cased-finetuned-Astronomy_Thesaurus"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/0e438aed75fd63ff962885e0890c18cb.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">dfoc99/bert-base-cased-finetuned-Astronomy_Thesaurus</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-05-22T17:17:18" title="Wed, 22 May 2024 17:17:18 GMT">May 22, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					7
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/stonedsmv/BERT-peft_LoRA"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="stonedsmv/BERT-peft_LoRA"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/a505e7dbc4c42267f318ce039c6f11f4.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">stonedsmv/BERT-peft_LoRA</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-08-21T10:02:11" title="Wed, 21 Aug 2024 10:02:11 GMT">Aug 21, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					35
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/abhishekkumaribt/bert-lora"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="abhishekkumaribt/bert-lora"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/9df1d34cbe24059a92c74d0677b90ae6.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">abhishekkumaribt/bert-lora</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-10-06T15:59:21" title="Sun, 06 Oct 2024 15:59:21 GMT">Oct 6, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					57
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ElMad/luxuriant-squid-867"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ElMad/luxuriant-squid-867"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ea2f3b0f99a5be7fcb7ce22df0e7ae39.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ElMad/luxuriant-squid-867</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-11-19T16:27:41" title="Tue, 19 Nov 2024 16:27:41 GMT">Nov 19, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					4
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ElMad/capable-doe-250"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ElMad/capable-doe-250"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ea2f3b0f99a5be7fcb7ce22df0e7ae39.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ElMad/capable-doe-250</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-11-19T16:50:04" title="Tue, 19 Nov 2024 16:50:04 GMT">Nov 19, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					2
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ElMad/persistent-dog-343"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ElMad/persistent-dog-343"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ea2f3b0f99a5be7fcb7ce22df0e7ae39.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ElMad/persistent-dog-343</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-11-19T16:56:40" title="Tue, 19 Nov 2024 16:56:40 GMT">Nov 19, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					3
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ElMad/unequaled-ape-267"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ElMad/unequaled-ape-267"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ea2f3b0f99a5be7fcb7ce22df0e7ae39.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ElMad/unequaled-ape-267</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-11-19T17:05:56" title="Tue, 19 Nov 2024 17:05:56 GMT">Nov 19, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					5
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ElMad/bouncy-colt-342"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ElMad/bouncy-colt-342"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ea2f3b0f99a5be7fcb7ce22df0e7ae39.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ElMad/bouncy-colt-342</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-11-25T16:38:48" title="Mon, 25 Nov 2024 16:38:48 GMT">Nov 25, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					4
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Prasanna05/ner_lora_output"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Prasanna05/ner_lora_output"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/b683aa4534eb62af992e9fe1f48ac3a0.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Prasanna05/ner_lora_output</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-12-18T06:24:30" title="Wed, 18 Dec 2024 06:24:30 GMT">Dec 18, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					10
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ElMad/grandiose-horse-172"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ElMad/grandiose-horse-172"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ea2f3b0f99a5be7fcb7ce22df0e7ae39.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ElMad/grandiose-horse-172</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-12-09T11:43:18" title="Mon, 09 Dec 2024 11:43:18 GMT">Dec 9, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					7
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ElMad/beautiful-worm-91"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ElMad/beautiful-worm-91"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ea2f3b0f99a5be7fcb7ce22df0e7ae39.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ElMad/beautiful-worm-91</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-12-09T13:33:18" title="Mon, 09 Dec 2024 13:33:18 GMT">Dec 9, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					5
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ElMad/marvelous-pug-454"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ElMad/marvelous-pug-454"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ea2f3b0f99a5be7fcb7ce22df0e7ae39.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ElMad/marvelous-pug-454</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-12-09T13:50:17" title="Mon, 09 Dec 2024 13:50:17 GMT">Dec 9, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					4
+				
+	
+				
+
+				</div></div>
+</a></article></div></div>
+<nav><ul class="flex select-none items-center justify-between space-x-2 text-gray-700 sm:justify-center mt-10 mx-auto"><li><a class="flex items-center rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800 pointer-events-none cursor-default text-gray-400 hover:text-gray-700" href=""><svg aria-hidden="true" class="mr-1.5" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M10 16L20 6l1.4 1.4l-8.6 8.6l8.6 8.6L20 26z" fill="currentColor"></path></svg>
+		Previous</a></li>
+<li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 bg-gray-50 font-semibold ring-1 ring-inset ring-gray-200 dark:bg-gray-900 dark:text-yellow-500 dark:ring-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:adapter:google-bert%2Fbert-base-cased&amp;p=0&amp;sort=trending">1</a>
+</li><li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:adapter:google-bert%2Fbert-base-cased&amp;p=1&amp;sort=trending">2</a>
+</li>
+<li><a class="flex items-center rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:adapter:google-bert%2Fbert-base-cased&amp;p=1&amp;sort=trending">Next
+		<svg aria-hidden="true" class="ml-1.5 transform rotate-180" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M10 16L20 6l1.4 1.4l-8.6 8.6l8.6 8.6L20 26z" fill="currentColor"></path></svg></a></li></ul></nav></section>

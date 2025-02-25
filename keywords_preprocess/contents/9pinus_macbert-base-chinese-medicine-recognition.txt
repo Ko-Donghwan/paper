@@ -1,0 +1,71 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-W1OMK2VQZ5vA-gMHpqMuN">
+<!-- HTML_TAG_START --><h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-description" id="model-description" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model description
+	</span>
+</h2>
+<p>This model is a fine-tuned version of bert-base-chinese for the purpose of medicine name recognition. We fine-tuned bert-base-chinese on a 500M dataset including 100K+ authorized medical articles on which we labeled all the medicine names. The model achieves 92% accuracy on our test dataset.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#intended-use" id="intended-use" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Intended use
+	</span>
+</h2>
+<pre><code class="language-python"><span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> (AutoModelForTokenClassification, AutoTokenizer)
+<span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> pipeline
+
+<span class="hljs-meta">&gt;&gt;&gt; </span>hub_model_id = <span class="hljs-string">"9pinus/macbert-base-chinese-medicine-recognition"</span>
+
+<span class="hljs-meta">&gt;&gt;&gt; </span>model = AutoModelForTokenClassification.from_pretrained(hub_model_id)
+<span class="hljs-meta">&gt;&gt;&gt; </span>tokenizer = AutoTokenizer.from_pretrained(hub_model_id)
+<span class="hljs-meta">&gt;&gt;&gt; </span>classifier = pipeline(<span class="hljs-string">'ner'</span>, model=model, tokenizer=tokenizer)
+<span class="hljs-meta">&gt;&gt;&gt; </span>result = classifier(<span class="hljs-string">"如果病情较重，可适当口服甲硝唑片、环酯红霉素片、吲哚美辛片等药物进行抗感染镇痛。"</span>)
+
+<span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> result:
+<span class="hljs-meta">&gt;&gt;&gt; </span>    <span class="hljs-keyword">if</span> item[<span class="hljs-string">'entity'</span>] == <span class="hljs-number">1</span> <span class="hljs-keyword">or</span> item[<span class="hljs-string">'entity'</span>] == <span class="hljs-number">2</span>:
+<span class="hljs-meta">&gt;&gt;&gt; </span>        <span class="hljs-built_in">print</span>(item)
+
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">1</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.99999595</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">13</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'甲'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">12</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">13</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.9999957</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">14</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'硝'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">13</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">14</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.99999166</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">15</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'唑'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">14</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">15</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.99898833</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">16</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'片'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">15</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">16</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">1</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.9999864</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">18</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'环'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">17</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">18</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.99999404</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">19</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'酯'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">18</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">19</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.99999475</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">20</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'红'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">19</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">20</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.9999964</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">21</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'霉'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">20</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">21</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.9999951</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">22</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'素'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">21</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">22</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.9990088</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">23</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'片'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">22</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">23</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">1</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.9999975</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">25</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'吲'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">24</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">25</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.9999957</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">26</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'哚'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">25</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">26</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.9999945</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">27</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'美'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">26</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">27</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.9999933</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">28</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'辛'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">27</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">28</span>}
+{<span class="hljs-string">'entity'</span>: <span class="hljs-number">2</span>, <span class="hljs-string">'score'</span>: <span class="hljs-number">0.99949837</span>, <span class="hljs-string">'index'</span>: <span class="hljs-number">29</span>, <span class="hljs-string">'word'</span>: <span class="hljs-string">'片'</span>, <span class="hljs-string">'start'</span>: <span class="hljs-number">28</span>, <span class="hljs-string">'end'</span>: <span class="hljs-number">29</span>}
+</code></pre>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-and-evaluation-data" id="training-and-evaluation-data" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training and evaluation data
+	</span>
+</h2>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#framework-versions" id="framework-versions" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Framework versions
+	</span>
+</h3>
+<ul>
+<li>Transformers 4.15.0</li>
+<li>Pytorch 1.10.1+cu113</li>
+<li>Datasets 1.17.0</li>
+<li>Tokenizers 0.10.3</li>
+</ul>
+<!-- HTML_TAG_END --></div>

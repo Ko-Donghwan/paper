@@ -1,0 +1,9 @@
+{
+    "finetune": [
+        "pnr-svc/bert-finetuned-ner",
+        "spyobird/cs4248_albert_bilstm_qa",
+        "TunahanGokcimen/Question-Answering-Albert-base",
+        "minhleduc/toxigen-albert-binary-clsf",
+        "zxdexpo/classification_model_albert"
+    ]
+}

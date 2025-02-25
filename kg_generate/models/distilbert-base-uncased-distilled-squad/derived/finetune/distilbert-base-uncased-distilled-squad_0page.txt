@@ -1,0 +1,487 @@
+<section class="pt-8 border-gray-100 col-span-full lg:col-span-6 xl:col-span-7 pb-12"><div class="mb-4 items-center space-y-3 md:flex md:space-y-0 lg:mb-6"><div class="flex items-center text-lg"><h1>Models</h1>
+<div class="ml-3 w-16 font-normal text-gray-400">34</div></div>
+<div class="flex-1 md:mx-4"><div class="relative w-full md:max-w-xs"><svg aria-hidden="true" class="absolute left-2 top-1.5 text-gray-300 w-4" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path class="uim-quaternary" d="M20.23 7.24L12 12L3.77 7.24a1.98 1.98 0 0 1 .7-.71L11 2.76c.62-.35 1.38-.35 2 0l6.53 3.77c.29.173.531.418.7.71z" fill="currentColor" opacity=".25"></path><path class="uim-tertiary" d="M12 12v9.5a2.09 2.09 0 0 1-.91-.21L4.5 17.48a2.003 2.003 0 0 1-1-1.73v-7.5a2.06 2.06 0 0 1 .27-1.01L12 12z" fill="currentColor" opacity=".5"></path><path class="uim-primary" d="M20.5 8.25v7.5a2.003 2.003 0 0 1-1 1.73l-6.62 3.82c-.275.13-.576.198-.88.2V12l8.23-4.76c.175.308.268.656.27 1.01z" fill="currentColor"></path></svg>
+<input class="w-full rounded-full border border-gray-200 text-sm placeholder-gray-400 shadow-inner outline-none focus:shadow-xl focus:ring-1 focus:ring-inset dark:bg-gray-950 h-7 pl-7" placeholder="Filter by name" type="search" value=""/></div></div>
+<a class="btn mr-2 rounded-full text-sm opacity-80 hover:opacity-100" href="/search/full-text?type=model">Full-text search
+			</a>
+<div><button class="btn mr-2 inline-flex text-sm lg:hidden text-blue-800" type="button"><svg aria-hidden="true" class="mr-1.5 text-blue-700" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M18 28H14C13.4696 28 12.9609 27.7893 12.5858 27.4142C12.2107 27.0391 12 26.5304 12 26V18.41L4.59 11C4.21441 10.6266 4.00223 10.1196 4 9.59V6C4 5.46957 4.21071 4.96086 4.58579 4.58579C4.96086 4.21071 5.46957 4 6 4H26C26.5304 4 27.0391 4.21071 27.4142 4.58579C27.7893 4.96086 28 5.46957 28 6V9.59C27.9978 10.1196 27.7856 10.6266 27.41 11L20 18.41V26C20 26.5304 19.7893 27.0391 19.4142 27.4142C19.0391 27.7893 18.5304 28 18 28Z"></path></svg>
+					Edit filters
+				</button>
+<div class="relative inline-block">
+<button class="btn w-full cursor-pointer text-sm" type="button">
+<svg aria-hidden="true" class="mr-1" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M27.6 20.6L24 24.2V4h-2v20.2l-3.6-3.6L17 22l6 6l6-6z" fill="currentColor"></path><path d="M9 4l-6 6l1.4 1.4L8 7.8V28h2V7.8l3.6 3.6L15 10z" fill="currentColor"></path></svg>
+		Sort: 
+		Trending
+	
+		</button>
+</div></div></div>
+<div class="-mx-4 mb-4 flex !rounded-l-none !rounded-r-none border-y bg-blue-500/10 px-4 py-2 dark:border-gray-800 sm:!rounded-l-md sm:!rounded-r-md lg:hidden"><div class="mr-3 flex-1 text-blue-600 dark:text-blue-500"><strong>Active filters: </strong>
+					distilbert/distilbert-base-uncased-distilled-squad</div>
+<button class="text-sm underline" type="button">Clear all </button></div>
+<div class="relative"><div class="grid grid-cols-1 gap-5 2xl:grid-cols-2"><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/laurafcamargos/distilbert-qasports"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="laurafcamargos/distilbert-qasports"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/658aedc14bb41498f7ed0d4c/aEC1tbJeTHo0qjMyaC6kN.jpeg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">laurafcamargos/distilbert-qasports</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2025-02-08T20:13:05" title="Sat, 08 Feb 2025 20:13:05 GMT">13 days ago</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					37
+				
+	
+				<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-1" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M22.45,6a5.47,5.47,0,0,1,3.91,1.64,5.7,5.7,0,0,1,0,8L16,26.13,5.64,15.64a5.7,5.7,0,0,1,0-8,5.48,5.48,0,0,1,7.82,0L16,10.24l2.53-2.58A5.44,5.44,0,0,1,22.45,6m0-2a7.47,7.47,0,0,0-5.34,2.24L16,7.36,14.89,6.24a7.49,7.49,0,0,0-10.68,0,7.72,7.72,0,0,0,0,10.82L16,29,27.79,17.06a7.72,7.72,0,0,0,0-10.82A7.49,7.49,0,0,0,22.45,4Z"></path></svg>
+					1
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/samaksh-khatri-crest-data/gmra_model_distilbert-base-uncased-distilled-squad_17082023T150913"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="samaksh-khatri-crest-data/gmra_model_distilbert-base-uncased-distilled-squad_17082023T150913"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/63dad442e32d9a125e78418fa9b7c4f3.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">samaksh-khatri-crest-data/gmra_model_distilbert-base-uncased-distilled-squad_17082023T150913</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2023-08-17T09:45:40" title="Thu, 17 Aug 2023 09:45:40 GMT">Aug 17, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					124
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Souvik123/results"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Souvik123/results"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/b1e374411df837d78e02bfa04fa43f5b.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Souvik123/results</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2023-09-15T07:48:15" title="Fri, 15 Sep 2023 07:48:15 GMT">Sep 15, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					7
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Souvik123/bankstatementmodelver2"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Souvik123/bankstatementmodelver2"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/b1e374411df837d78e02bfa04fa43f5b.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Souvik123/bankstatementmodelver2</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2023-09-15T12:10:28" title="Fri, 15 Sep 2023 12:10:28 GMT">Sep 15, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					9
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/badokorach/distilbert-base-uncased-distilled-squad-17"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="badokorach/distilbert-base-uncased-distilled-squad-17"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/60bb03b679ce064c633d171ce3325710.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">badokorach/distilbert-base-uncased-distilled-squad-17</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2023-09-17T20:45:07" title="Sun, 17 Sep 2023 20:45:07 GMT">Sep 17, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					4
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/patnelt60/distilbert-base-uncased-distilled-squad-finetuned-clinc"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="patnelt60/distilbert-base-uncased-distilled-squad-finetuned-clinc"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/6a94164a97ad04abe638ee92dd065035.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">patnelt60/distilbert-base-uncased-distilled-squad-finetuned-clinc</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2023-10-28T15:05:28" title="Sat, 28 Oct 2023 15:05:28 GMT">Oct 28, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					205
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/hankokk/my_awesome_qa_model"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="hankokk/my_awesome_qa_model"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/141f42650b1abc401443af1ae546c05d.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">hankokk/my_awesome_qa_model</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2023-11-03T05:03:21" title="Fri, 03 Nov 2023 05:03:21 GMT">Nov 3, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					48
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/HHJingbo/Bo"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="HHJingbo/Bo"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ab5a1d72eaaf1d43c9694092cd740010.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">HHJingbo/Bo</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2023-11-03T20:17:13" title="Fri, 03 Nov 2023 20:17:13 GMT">Nov 3, 2023</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					46
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/allistair99/distilbert-base-uncased-distilled-squad-finetuned-SRH-v1"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="allistair99/distilbert-base-uncased-distilled-squad-finetuned-SRH-v1"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/2f4d8a1be32920a11d6e56a3cd931dd6.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">allistair99/distilbert-base-uncased-distilled-squad-finetuned-SRH-v1</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-03-18T00:22:44" title="Mon, 18 Mar 2024 00:22:44 GMT">Mar 18, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					107
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Alexxu0520/my_awesome_qa_model"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Alexxu0520/my_awesome_qa_model"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/8b9dc93a14ce3b1155ebf3f681587d84.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Alexxu0520/my_awesome_qa_model</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-05-16T22:50:06" title="Thu, 16 May 2024 22:50:06 GMT">May 16, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					19
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/truongquangchu/my_awesome_qa_model"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="truongquangchu/my_awesome_qa_model"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/6099522de554ea2d057e1740817fc419.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">truongquangchu/my_awesome_qa_model</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-05-11T05:41:59" title="Sat, 11 May 2024 05:41:59 GMT">May 11, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					109
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newhyperparamater"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newhyperparamater"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/2f4d8a1be32920a11d6e56a3cd931dd6.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newhyperparamater</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-05-13T02:06:23" title="Mon, 13 May 2024 02:06:23 GMT">May 13, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					5
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Jose-Ribeir/stt_Huggin_face_tech"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Jose-Ribeir/stt_Huggin_face_tech"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ec6949d3b0252d81f1d1b9eebc8a829d.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Jose-Ribeir/stt_Huggin_face_tech</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-05-16T11:18:57" title="Thu, 16 May 2024 11:18:57 GMT">May 16, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					16
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Jose-Ribeir/stt_Huggin_face_tech_new_data"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Jose-Ribeir/stt_Huggin_face_tech_new_data"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ec6949d3b0252d81f1d1b9eebc8a829d.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Jose-Ribeir/stt_Huggin_face_tech_new_data</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-05-17T18:13:22" title="Fri, 17 May 2024 18:13:22 GMT">May 17, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					194
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Shadowmachete/nlp_training"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Shadowmachete/nlp_training"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/c3968f762f32a3b8c4e9f7a191ff76a1.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Shadowmachete/nlp_training</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-05-29T02:55:28" title="Wed, 29 May 2024 02:55:28 GMT">May 29, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					109
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-pure"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-pure"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/2f4d8a1be32920a11d6e56a3cd931dd6.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-pure</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-06-06T02:05:03" title="Thu, 06 Jun 2024 02:05:03 GMT">Jun 6, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					5
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/kranasian/distilbert-base-uncased-distilled-squad-finetuned-squad"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="kranasian/distilbert-base-uncased-distilled-squad-finetuned-squad"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/09b83fb24103b9a3fc799f45742c848b.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">kranasian/distilbert-base-uncased-distilled-squad-finetuned-squad</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-06-10T00:26:47" title="Mon, 10 Jun 2024 00:26:47 GMT">Jun 10, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					6
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-pure2"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-pure2"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/2f4d8a1be32920a11d6e56a3cd931dd6.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-pure2</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-06-10T08:05:06" title="Mon, 10 Jun 2024 08:05:06 GMT">Jun 10, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					7
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/teju-1210/transformers-qa"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="teju-1210/transformers-qa"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/bc2e979d258f9564f4005d318f089d69.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">teju-1210/transformers-qa</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-06-20T16:01:43" title="Thu, 20 Jun 2024 16:01:43 GMT">Jun 20, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					64
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-optiparam"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-optiparam"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/2f4d8a1be32920a11d6e56a3cd931dd6.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-optiparam</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-06-21T02:54:05" title="Fri, 21 Jun 2024 02:54:05 GMT">Jun 21, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					34
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/allistair99/distilbert-base-uncased-distilled-squad-BiggerBiLSTM-finetuned-squad"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="allistair99/distilbert-base-uncased-distilled-squad-BiggerBiLSTM-finetuned-squad"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/2f4d8a1be32920a11d6e56a3cd931dd6.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">allistair99/distilbert-base-uncased-distilled-squad-BiggerBiLSTM-finetuned-squad</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-06-26T03:09:37" title="Wed, 26 Jun 2024 03:09:37 GMT">Jun 26, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					35
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/echarlaix/distilbert-base-uncased-distilled-squad-openvino"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="echarlaix/distilbert-base-uncased-distilled-squad-openvino"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/1615915889033-6050eb5aeb94f56898c08e57.jpeg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">echarlaix/distilbert-base-uncased-distilled-squad-openvino</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-19T14:55:14" title="Fri, 19 Jul 2024 14:55:14 GMT">Jul 19, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					14
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/chuuhtetnaing/category-1-delivery-cancellation-distilbert-base-uncased-distilled-squad-v1"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="chuuhtetnaing/category-1-delivery-cancellation-distilbert-base-uncased-distilled-squad-v1"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/903653d8c5229f8b1672e9374c894ae2.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">chuuhtetnaing/category-1-delivery-cancellation-distilbert-base-uncased-distilled-squad-v1</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-25T14:02:40" title="Thu, 25 Jul 2024 14:02:40 GMT">Jul 25, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					106
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newbilstm"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newbilstm"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/2f4d8a1be32920a11d6e56a3cd931dd6.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newbilstm</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-08-26T03:47:12" title="Mon, 26 Aug 2024 03:47:12 GMT">Aug 26, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					2
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newbilstm-fc2"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newbilstm-fc2"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/2f4d8a1be32920a11d6e56a3cd931dd6.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newbilstm-fc2</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-08-27T02:37:55" title="Tue, 27 Aug 2024 02:37:55 GMT">Aug 27, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					5
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newbilstm-fc1-v2"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newbilstm-fc1-v2"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/2f4d8a1be32920a11d6e56a3cd931dd6.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">allistair99/distilbert-base-uncased-distilled-squad-BiLSTM-finetuned-squad-newbilstm-fc1-v2</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-08-28T03:28:08" title="Wed, 28 Aug 2024 03:28:08 GMT">Aug 28, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					6
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/chicks002/distilbert-base-uncased-distilled-squad-finetuned"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="chicks002/distilbert-base-uncased-distilled-squad-finetuned"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/5f2d52f41ebc8c6ede2f0e80/O4GQWABncRUSiBu4T866D.jpeg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">chicks002/distilbert-base-uncased-distilled-squad-finetuned</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-10-03T08:47:33" title="Thu, 03 Oct 2024 08:47:33 GMT">Oct 3, 2024</time></span>
+</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/allistair99/Distilbert-finetuned-SRHV2"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="allistair99/Distilbert-finetuned-SRHV2"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/2f4d8a1be32920a11d6e56a3cd931dd6.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">allistair99/Distilbert-finetuned-SRHV2</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400">
+<span class="truncate">Updated
+					<time datetime="2024-10-08T02:12:05" title="Tue, 08 Oct 2024 02:12:05 GMT">Oct 8, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					6
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/vasumathin298/model"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="vasumathin298/model"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/890811e5270cec370901c462075efd0c.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">vasumathin298/model</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-10-20T23:22:41" title="Sun, 20 Oct 2024 23:22:41 GMT">Oct 20, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					25
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/khilan-crest/gmra_model_distilbert-base-uncased-distilled-squad_07112024T110436"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="khilan-crest/gmra_model_distilbert-base-uncased-distilled-squad_07112024T110436"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/c06b1700f4128624bfb927c512325c06.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">khilan-crest/gmra_model_distilbert-base-uncased-distilled-squad_07112024T110436</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-11-07T05:41:05" title="Thu, 07 Nov 2024 05:41:05 GMT">Nov 7, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					117
+				
+	
+				
+
+				</div></div>
+</a></article></div></div>
+<nav><ul class="flex select-none items-center justify-between space-x-2 text-gray-700 sm:justify-center mt-10 mx-auto"><li><a class="flex items-center rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800 pointer-events-none cursor-default text-gray-400 hover:text-gray-700" href=""><svg aria-hidden="true" class="mr-1.5" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M10 16L20 6l1.4 1.4l-8.6 8.6l8.6 8.6L20 26z" fill="currentColor"></path></svg>
+		Previous</a></li>
+<li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 bg-gray-50 font-semibold ring-1 ring-inset ring-gray-200 dark:bg-gray-900 dark:text-yellow-500 dark:ring-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:distilbert%2Fdistilbert-base-uncased-distilled-squad&amp;p=0&amp;sort=trending">1</a>
+</li><li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:distilbert%2Fdistilbert-base-uncased-distilled-squad&amp;p=1&amp;sort=trending">2</a>
+</li>
+<li><a class="flex items-center rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:distilbert%2Fdistilbert-base-uncased-distilled-squad&amp;p=1&amp;sort=trending">Next
+		<svg aria-hidden="true" class="ml-1.5 transform rotate-180" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M10 16L20 6l1.4 1.4l-8.6 8.6l8.6 8.6L20 26z" fill="currentColor"></path></svg></a></li></ul></nav></section>

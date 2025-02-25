@@ -1,0 +1,515 @@
+<section class="pt-8 border-gray-100 col-span-full lg:col-span-6 xl:col-span-7 pb-12"><div class="mb-4 items-center space-y-3 md:flex md:space-y-0 lg:mb-6"><div class="flex items-center text-lg"><h1>Models</h1>
+<div class="ml-3 w-16 font-normal text-gray-400">2,143</div></div>
+<div class="flex-1 md:mx-4"><div class="relative w-full md:max-w-xs"><svg aria-hidden="true" class="absolute left-2 top-1.5 text-gray-300 w-4" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="" viewbox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path class="uim-quaternary" d="M20.23 7.24L12 12L3.77 7.24a1.98 1.98 0 0 1 .7-.71L11 2.76c.62-.35 1.38-.35 2 0l6.53 3.77c.29.173.531.418.7.71z" fill="currentColor" opacity=".25"></path><path class="uim-tertiary" d="M12 12v9.5a2.09 2.09 0 0 1-.91-.21L4.5 17.48a2.003 2.003 0 0 1-1-1.73v-7.5a2.06 2.06 0 0 1 .27-1.01L12 12z" fill="currentColor" opacity=".5"></path><path class="uim-primary" d="M20.5 8.25v7.5a2.003 2.003 0 0 1-1 1.73l-6.62 3.82c-.275.13-.576.198-.88.2V12l8.23-4.76c.175.308.268.656.27 1.01z" fill="currentColor"></path></svg>
+<input class="w-full rounded-full border border-gray-200 text-sm placeholder-gray-400 shadow-inner outline-none focus:shadow-xl focus:ring-1 focus:ring-inset dark:bg-gray-950 h-7 pl-7" placeholder="Filter by name" type="search" value=""/></div></div>
+<a class="btn mr-2 rounded-full text-sm opacity-80 hover:opacity-100" href="/search/full-text?type=model">Full-text search
+			</a>
+<div><button class="btn mr-2 inline-flex text-sm lg:hidden text-blue-800" type="button"><svg aria-hidden="true" class="mr-1.5 text-blue-700" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M18 28H14C13.4696 28 12.9609 27.7893 12.5858 27.4142C12.2107 27.0391 12 26.5304 12 26V18.41L4.59 11C4.21441 10.6266 4.00223 10.1196 4 9.59V6C4 5.46957 4.21071 4.96086 4.58579 4.58579C4.96086 4.21071 5.46957 4 6 4H26C26.5304 4 27.0391 4.21071 27.4142 4.58579C27.7893 4.96086 28 5.46957 28 6V9.59C27.9978 10.1196 27.7856 10.6266 27.41 11L20 18.41V26C20 26.5304 19.7893 27.0391 19.4142 27.4142C19.0391 27.7893 18.5304 28 18 28Z"></path></svg>
+					Edit filters
+				</button>
+<div class="relative inline-block">
+<button class="btn w-full cursor-pointer text-sm" type="button">
+<svg aria-hidden="true" class="mr-1" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M27.6 20.6L24 24.2V4h-2v20.2l-3.6-3.6L17 22l6 6l6-6z" fill="currentColor"></path><path d="M9 4l-6 6l1.4 1.4L8 7.8V28h2V7.8l3.6 3.6L15 10z" fill="currentColor"></path></svg>
+		Sort: 
+		Trending
+	
+		</button>
+</div></div></div>
+<div class="-mx-4 mb-4 flex !rounded-l-none !rounded-r-none border-y bg-blue-500/10 px-4 py-2 dark:border-gray-800 sm:!rounded-l-md sm:!rounded-r-md lg:hidden"><div class="mr-3 flex-1 text-blue-600 dark:text-blue-500"><strong>Active filters: </strong>
+					google-bert/bert-base-cased</div>
+<button class="text-sm underline" type="button">Clear all </button></div>
+<div class="relative"><div class="grid grid-cols-1 gap-5 2xl:grid-cols-2"><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Carlos6050/reconocedor_de_emociones"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Carlos6050/reconocedor_de_emociones"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/0c1f0e4d35676110bf2f778af0a3c742.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Carlos6050/reconocedor_de_emociones</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-18T15:39:50" title="Thu, 18 Jul 2024 15:39:50 GMT">Jul 18, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					105
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/rogelio-cm/mi-super-modelo"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="rogelio-cm/mi-super-modelo"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/e0352b8408d74a6d5bf5dfd02e1b24ac.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">rogelio-cm/mi-super-modelo</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-18T18:56:32" title="Thu, 18 Jul 2024 18:56:32 GMT">Jul 18, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					105
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/sauc-abadal-lloret/bert-base-cased-sft-glue-mrpc"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="sauc-abadal-lloret/bert-base-cased-sft-glue-mrpc"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/64f357c66b9c51393664c919/SB1KUyqFKuDrqTjVizUms.png"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">sauc-abadal-lloret/bert-base-cased-sft-glue-mrpc</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-19T10:38:23" title="Fri, 19 Jul 2024 10:38:23 GMT">Jul 19, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					103
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/sauc-abadal-lloret/bert-base-cased-sft-glue-cola"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="sauc-abadal-lloret/bert-base-cased-sft-glue-cola"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/64f357c66b9c51393664c919/SB1KUyqFKuDrqTjVizUms.png"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">sauc-abadal-lloret/bert-base-cased-sft-glue-cola</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-19T10:48:28" title="Fri, 19 Jul 2024 10:48:28 GMT">Jul 19, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					104
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/sauc-abadal-lloret/bert-base-cased-sft-glue-rte"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="sauc-abadal-lloret/bert-base-cased-sft-glue-rte"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/64f357c66b9c51393664c919/SB1KUyqFKuDrqTjVizUms.png"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">sauc-abadal-lloret/bert-base-cased-sft-glue-rte</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-19T11:06:07" title="Fri, 19 Jul 2024 11:06:07 GMT">Jul 19, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					103
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/sauc-abadal-lloret/bert-base-cased-sft-glue-wnli"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="sauc-abadal-lloret/bert-base-cased-sft-glue-wnli"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/64f357c66b9c51393664c919/SB1KUyqFKuDrqTjVizUms.png"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">sauc-abadal-lloret/bert-base-cased-sft-glue-wnli</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-19T11:12:20" title="Fri, 19 Jul 2024 11:12:20 GMT">Jul 19, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					103
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/chrischang80/bert_finetuned_ner"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="chrischang80/bert_finetuned_ner"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/8890faf2f8ac18b15e0f96a098c5a152.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">chrischang80/bert_finetuned_ner</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 18 18" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.075 10.1875H12.1625V11.275H11.075V10.1875Z"></path><path d="M15.425 9.10004H16.5125V10.1875H15.425V9.10004Z"></path><path d="M7.8125 3.66254H8.9V4.75004H7.8125V3.66254Z"></path><path d="M8.90001 12.3625H6.72501V9.09998C6.72472 8.81165 6.61005 8.5352 6.40617 8.33132C6.20228 8.12744 5.92584 8.01277 5.63751 8.01248H2.37501C2.08667 8.01277 1.81023 8.12744 1.60635 8.33132C1.40246 8.5352 1.28779 8.81165 1.28751 9.09998V12.3625C1.28779 12.6508 1.40246 12.9273 1.60635 13.1311C1.81023 13.335 2.08667 13.4497 2.37501 13.45H5.63751V15.625C5.63779 15.9133 5.75246 16.1898 5.95635 16.3936C6.16023 16.5975 6.43667 16.7122 6.72501 16.7125H8.90001C9.18834 16.7122 9.46478 16.5975 9.66867 16.3936C9.87255 16.1898 9.98722 15.9133 9.98751 15.625V13.45C9.98722 13.1616 9.87255 12.8852 9.66867 12.6813C9.46478 12.4774 9.18834 12.3628 8.90001 12.3625V12.3625ZM2.37501 12.3625V9.09998H5.63751V12.3625H2.37501ZM6.72501 15.625V13.45H8.90001V15.625H6.72501Z"></path><path d="M15.425 16.7125H13.25C12.9617 16.7122 12.6852 16.5976 12.4813 16.3937C12.2775 16.1898 12.1628 15.9134 12.1625 15.625V13.45C12.1628 13.1617 12.2775 12.8852 12.4813 12.6814C12.6852 12.4775 12.9617 12.3628 13.25 12.3625H15.425C15.7133 12.3628 15.9898 12.4775 16.1937 12.6814C16.3976 12.8852 16.5122 13.1617 16.5125 13.45V15.625C16.5122 15.9134 16.3976 16.1898 16.1937 16.3937C15.9898 16.5976 15.7133 16.7122 15.425 16.7125ZM13.25 13.45V15.625H15.425V13.45H13.25Z"></path><path d="M15.425 1.48752H12.1625C11.8742 1.48781 11.5977 1.60247 11.3938 1.80636C11.19 2.01024 11.0753 2.28668 11.075 2.57502V5.83752H9.98751C9.69917 5.83781 9.42273 5.95247 9.21885 6.15636C9.01496 6.36024 8.9003 6.63668 8.90001 6.92502V8.01252C8.9003 8.30085 9.01496 8.5773 9.21885 8.78118C9.42273 8.98506 9.69917 9.09973 9.98751 9.10002H11.075C11.3633 9.09973 11.6398 8.98506 11.8437 8.78118C12.0476 8.5773 12.1622 8.30085 12.1625 8.01252V6.92502H15.425C15.7133 6.92473 15.9898 6.81006 16.1937 6.60618C16.3976 6.4023 16.5122 6.12585 16.5125 5.83752V2.57502C16.5122 2.28668 16.3976 2.01024 16.1937 1.80636C15.9898 1.60247 15.7133 1.48781 15.425 1.48752ZM9.98751 8.01252V6.92502H11.075V8.01252H9.98751ZM12.1625 5.83752V2.57502H15.425V5.83752H12.1625Z"></path><path d="M4.55001 5.83752H2.37501C2.08667 5.83723 1.81023 5.72256 1.60635 5.51868C1.40246 5.3148 1.28779 5.03835 1.28751 4.75002V2.57502C1.28779 2.28668 1.40246 2.01024 1.60635 1.80636C1.81023 1.60247 2.08667 1.48781 2.37501 1.48752H4.55001C4.83834 1.48781 5.11478 1.60247 5.31867 1.80636C5.52255 2.01024 5.63722 2.28668 5.63751 2.57502V4.75002C5.63722 5.03835 5.52255 5.3148 5.31867 5.51868C5.11478 5.72256 4.83834 5.83723 4.55001 5.83752V5.83752ZM2.37501 2.57502V4.75002H4.55001V2.57502H2.37501Z"></path></svg>
+			Token Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-20T09:12:46" title="Sat, 20 Jul 2024 09:12:46 GMT">Jul 20, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					111
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/gayatripadmani/bert-finetuned-ner"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="gayatripadmani/bert-finetuned-ner"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/dbc50ac14b8dc3b9c18e4425dea37e78.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">gayatripadmani/bert-finetuned-ner</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 18 18" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.075 10.1875H12.1625V11.275H11.075V10.1875Z"></path><path d="M15.425 9.10004H16.5125V10.1875H15.425V9.10004Z"></path><path d="M7.8125 3.66254H8.9V4.75004H7.8125V3.66254Z"></path><path d="M8.90001 12.3625H6.72501V9.09998C6.72472 8.81165 6.61005 8.5352 6.40617 8.33132C6.20228 8.12744 5.92584 8.01277 5.63751 8.01248H2.37501C2.08667 8.01277 1.81023 8.12744 1.60635 8.33132C1.40246 8.5352 1.28779 8.81165 1.28751 9.09998V12.3625C1.28779 12.6508 1.40246 12.9273 1.60635 13.1311C1.81023 13.335 2.08667 13.4497 2.37501 13.45H5.63751V15.625C5.63779 15.9133 5.75246 16.1898 5.95635 16.3936C6.16023 16.5975 6.43667 16.7122 6.72501 16.7125H8.90001C9.18834 16.7122 9.46478 16.5975 9.66867 16.3936C9.87255 16.1898 9.98722 15.9133 9.98751 15.625V13.45C9.98722 13.1616 9.87255 12.8852 9.66867 12.6813C9.46478 12.4774 9.18834 12.3628 8.90001 12.3625V12.3625ZM2.37501 12.3625V9.09998H5.63751V12.3625H2.37501ZM6.72501 15.625V13.45H8.90001V15.625H6.72501Z"></path><path d="M15.425 16.7125H13.25C12.9617 16.7122 12.6852 16.5976 12.4813 16.3937C12.2775 16.1898 12.1628 15.9134 12.1625 15.625V13.45C12.1628 13.1617 12.2775 12.8852 12.4813 12.6814C12.6852 12.4775 12.9617 12.3628 13.25 12.3625H15.425C15.7133 12.3628 15.9898 12.4775 16.1937 12.6814C16.3976 12.8852 16.5122 13.1617 16.5125 13.45V15.625C16.5122 15.9134 16.3976 16.1898 16.1937 16.3937C15.9898 16.5976 15.7133 16.7122 15.425 16.7125ZM13.25 13.45V15.625H15.425V13.45H13.25Z"></path><path d="M15.425 1.48752H12.1625C11.8742 1.48781 11.5977 1.60247 11.3938 1.80636C11.19 2.01024 11.0753 2.28668 11.075 2.57502V5.83752H9.98751C9.69917 5.83781 9.42273 5.95247 9.21885 6.15636C9.01496 6.36024 8.9003 6.63668 8.90001 6.92502V8.01252C8.9003 8.30085 9.01496 8.5773 9.21885 8.78118C9.42273 8.98506 9.69917 9.09973 9.98751 9.10002H11.075C11.3633 9.09973 11.6398 8.98506 11.8437 8.78118C12.0476 8.5773 12.1622 8.30085 12.1625 8.01252V6.92502H15.425C15.7133 6.92473 15.9898 6.81006 16.1937 6.60618C16.3976 6.4023 16.5122 6.12585 16.5125 5.83752V2.57502C16.5122 2.28668 16.3976 2.01024 16.1937 1.80636C15.9898 1.60247 15.7133 1.48781 15.425 1.48752ZM9.98751 8.01252V6.92502H11.075V8.01252H9.98751ZM12.1625 5.83752V2.57502H15.425V5.83752H12.1625Z"></path><path d="M4.55001 5.83752H2.37501C2.08667 5.83723 1.81023 5.72256 1.60635 5.51868C1.40246 5.3148 1.28779 5.03835 1.28751 4.75002V2.57502C1.28779 2.28668 1.40246 2.01024 1.60635 1.80636C1.81023 1.60247 2.08667 1.48781 2.37501 1.48752H4.55001C4.83834 1.48781 5.11478 1.60247 5.31867 1.80636C5.52255 2.01024 5.63722 2.28668 5.63751 2.57502V4.75002C5.63722 5.03835 5.52255 5.3148 5.31867 5.51868C5.11478 5.72256 4.83834 5.83723 4.55001 5.83752V5.83752ZM2.37501 2.57502V4.75002H4.55001V2.57502H2.37501Z"></path></svg>
+			Token Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-21T17:27:51" title="Sun, 21 Jul 2024 17:27:51 GMT">Jul 21, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					106
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/LudivinaFacundo/bert-finetuned-squad"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="LudivinaFacundo/bert-finetuned-squad"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ab80ec88e828709daffd208c824c89a5.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">LudivinaFacundo/bert-finetuned-squad</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-24T17:05:36" title="Wed, 24 Jul 2024 17:05:36 GMT">Jul 24, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					117
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/RachelLe/question_answer_callback"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="RachelLe/question_answer_callback"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/6d062e40392451fc4bd68a66582a3827.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">RachelLe/question_answer_callback</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-23T00:28:36" title="Tue, 23 Jul 2024 00:28:36 GMT">Jul 23, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					62
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/SarthakKumar571999/bert-finetuned-ner"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="SarthakKumar571999/bert-finetuned-ner"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/ceBtgukks5A6w7T6HnrGE.png"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">SarthakKumar571999/bert-finetuned-ner</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 18 18" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.075 10.1875H12.1625V11.275H11.075V10.1875Z"></path><path d="M15.425 9.10004H16.5125V10.1875H15.425V9.10004Z"></path><path d="M7.8125 3.66254H8.9V4.75004H7.8125V3.66254Z"></path><path d="M8.90001 12.3625H6.72501V9.09998C6.72472 8.81165 6.61005 8.5352 6.40617 8.33132C6.20228 8.12744 5.92584 8.01277 5.63751 8.01248H2.37501C2.08667 8.01277 1.81023 8.12744 1.60635 8.33132C1.40246 8.5352 1.28779 8.81165 1.28751 9.09998V12.3625C1.28779 12.6508 1.40246 12.9273 1.60635 13.1311C1.81023 13.335 2.08667 13.4497 2.37501 13.45H5.63751V15.625C5.63779 15.9133 5.75246 16.1898 5.95635 16.3936C6.16023 16.5975 6.43667 16.7122 6.72501 16.7125H8.90001C9.18834 16.7122 9.46478 16.5975 9.66867 16.3936C9.87255 16.1898 9.98722 15.9133 9.98751 15.625V13.45C9.98722 13.1616 9.87255 12.8852 9.66867 12.6813C9.46478 12.4774 9.18834 12.3628 8.90001 12.3625V12.3625ZM2.37501 12.3625V9.09998H5.63751V12.3625H2.37501ZM6.72501 15.625V13.45H8.90001V15.625H6.72501Z"></path><path d="M15.425 16.7125H13.25C12.9617 16.7122 12.6852 16.5976 12.4813 16.3937C12.2775 16.1898 12.1628 15.9134 12.1625 15.625V13.45C12.1628 13.1617 12.2775 12.8852 12.4813 12.6814C12.6852 12.4775 12.9617 12.3628 13.25 12.3625H15.425C15.7133 12.3628 15.9898 12.4775 16.1937 12.6814C16.3976 12.8852 16.5122 13.1617 16.5125 13.45V15.625C16.5122 15.9134 16.3976 16.1898 16.1937 16.3937C15.9898 16.5976 15.7133 16.7122 15.425 16.7125ZM13.25 13.45V15.625H15.425V13.45H13.25Z"></path><path d="M15.425 1.48752H12.1625C11.8742 1.48781 11.5977 1.60247 11.3938 1.80636C11.19 2.01024 11.0753 2.28668 11.075 2.57502V5.83752H9.98751C9.69917 5.83781 9.42273 5.95247 9.21885 6.15636C9.01496 6.36024 8.9003 6.63668 8.90001 6.92502V8.01252C8.9003 8.30085 9.01496 8.5773 9.21885 8.78118C9.42273 8.98506 9.69917 9.09973 9.98751 9.10002H11.075C11.3633 9.09973 11.6398 8.98506 11.8437 8.78118C12.0476 8.5773 12.1622 8.30085 12.1625 8.01252V6.92502H15.425C15.7133 6.92473 15.9898 6.81006 16.1937 6.60618C16.3976 6.4023 16.5122 6.12585 16.5125 5.83752V2.57502C16.5122 2.28668 16.3976 2.01024 16.1937 1.80636C15.9898 1.60247 15.7133 1.48781 15.425 1.48752ZM9.98751 8.01252V6.92502H11.075V8.01252H9.98751ZM12.1625 5.83752V2.57502H15.425V5.83752H12.1625Z"></path><path d="M4.55001 5.83752H2.37501C2.08667 5.83723 1.81023 5.72256 1.60635 5.51868C1.40246 5.3148 1.28779 5.03835 1.28751 4.75002V2.57502C1.28779 2.28668 1.40246 2.01024 1.60635 1.80636C1.81023 1.60247 2.08667 1.48781 2.37501 1.48752H4.55001C4.83834 1.48781 5.11478 1.60247 5.31867 1.80636C5.52255 2.01024 5.63722 2.28668 5.63751 2.57502V4.75002C5.63722 5.03835 5.52255 5.3148 5.31867 5.51868C5.11478 5.72256 4.83834 5.83723 4.55001 5.83752V5.83752ZM2.37501 2.57502V4.75002H4.55001V2.57502H2.37501Z"></path></svg>
+			Token Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-22T06:07:13" title="Mon, 22 Jul 2024 06:07:13 GMT">Jul 22, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					106
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/min-seong/bert-finetuned-squad"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="min-seong/bert-finetuned-squad"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/ff0e76adab798342fcbbbba48ba22ae4.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">min-seong/bert-finetuned-squad</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-08-22T06:29:11" title="Thu, 22 Aug 2024 06:29:11 GMT">Aug 22, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					107
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/kubabp9/bert-finetuned-squad"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="kubabp9/bert-finetuned-squad"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/57b0b684c645aeb8cf60d084d8ab468c.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">kubabp9/bert-finetuned-squad</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-29T21:40:50" title="Mon, 29 Jul 2024 21:40:50 GMT">Jul 29, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					122
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/MrRobson9/bert-base-cased-finetuned-conll2003-english-ner"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="MrRobson9/bert-base-cased-finetuned-conll2003-english-ner"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/347e996dcc587f025250cc82b776e677.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">MrRobson9/bert-base-cased-finetuned-conll2003-english-ner</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 18 18" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.075 10.1875H12.1625V11.275H11.075V10.1875Z"></path><path d="M15.425 9.10004H16.5125V10.1875H15.425V9.10004Z"></path><path d="M7.8125 3.66254H8.9V4.75004H7.8125V3.66254Z"></path><path d="M8.90001 12.3625H6.72501V9.09998C6.72472 8.81165 6.61005 8.5352 6.40617 8.33132C6.20228 8.12744 5.92584 8.01277 5.63751 8.01248H2.37501C2.08667 8.01277 1.81023 8.12744 1.60635 8.33132C1.40246 8.5352 1.28779 8.81165 1.28751 9.09998V12.3625C1.28779 12.6508 1.40246 12.9273 1.60635 13.1311C1.81023 13.335 2.08667 13.4497 2.37501 13.45H5.63751V15.625C5.63779 15.9133 5.75246 16.1898 5.95635 16.3936C6.16023 16.5975 6.43667 16.7122 6.72501 16.7125H8.90001C9.18834 16.7122 9.46478 16.5975 9.66867 16.3936C9.87255 16.1898 9.98722 15.9133 9.98751 15.625V13.45C9.98722 13.1616 9.87255 12.8852 9.66867 12.6813C9.46478 12.4774 9.18834 12.3628 8.90001 12.3625V12.3625ZM2.37501 12.3625V9.09998H5.63751V12.3625H2.37501ZM6.72501 15.625V13.45H8.90001V15.625H6.72501Z"></path><path d="M15.425 16.7125H13.25C12.9617 16.7122 12.6852 16.5976 12.4813 16.3937C12.2775 16.1898 12.1628 15.9134 12.1625 15.625V13.45C12.1628 13.1617 12.2775 12.8852 12.4813 12.6814C12.6852 12.4775 12.9617 12.3628 13.25 12.3625H15.425C15.7133 12.3628 15.9898 12.4775 16.1937 12.6814C16.3976 12.8852 16.5122 13.1617 16.5125 13.45V15.625C16.5122 15.9134 16.3976 16.1898 16.1937 16.3937C15.9898 16.5976 15.7133 16.7122 15.425 16.7125ZM13.25 13.45V15.625H15.425V13.45H13.25Z"></path><path d="M15.425 1.48752H12.1625C11.8742 1.48781 11.5977 1.60247 11.3938 1.80636C11.19 2.01024 11.0753 2.28668 11.075 2.57502V5.83752H9.98751C9.69917 5.83781 9.42273 5.95247 9.21885 6.15636C9.01496 6.36024 8.9003 6.63668 8.90001 6.92502V8.01252C8.9003 8.30085 9.01496 8.5773 9.21885 8.78118C9.42273 8.98506 9.69917 9.09973 9.98751 9.10002H11.075C11.3633 9.09973 11.6398 8.98506 11.8437 8.78118C12.0476 8.5773 12.1622 8.30085 12.1625 8.01252V6.92502H15.425C15.7133 6.92473 15.9898 6.81006 16.1937 6.60618C16.3976 6.4023 16.5122 6.12585 16.5125 5.83752V2.57502C16.5122 2.28668 16.3976 2.01024 16.1937 1.80636C15.9898 1.60247 15.7133 1.48781 15.425 1.48752ZM9.98751 8.01252V6.92502H11.075V8.01252H9.98751ZM12.1625 5.83752V2.57502H15.425V5.83752H12.1625Z"></path><path d="M4.55001 5.83752H2.37501C2.08667 5.83723 1.81023 5.72256 1.60635 5.51868C1.40246 5.3148 1.28779 5.03835 1.28751 4.75002V2.57502C1.28779 2.28668 1.40246 2.01024 1.60635 1.80636C1.81023 1.60247 2.08667 1.48781 2.37501 1.48752H4.55001C4.83834 1.48781 5.11478 1.60247 5.31867 1.80636C5.52255 2.01024 5.63722 2.28668 5.63751 2.57502V4.75002C5.63722 5.03835 5.52255 5.3148 5.31867 5.51868C5.11478 5.72256 4.83834 5.83723 4.55001 5.83752V5.83752ZM2.37501 2.57502V4.75002H4.55001V2.57502H2.37501Z"></path></svg>
+			Token Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-10-07T17:02:04" title="Mon, 07 Oct 2024 17:02:04 GMT">Oct 7, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					109
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ctutiven/mi-super-modelo_prueba"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ctutiven/mi-super-modelo_prueba"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/1daf209a36cf864ed1c5786d2792e125.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ctutiven/mi-super-modelo_prueba</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-23T22:01:19" title="Tue, 23 Jul 2024 22:01:19 GMT">Jul 23, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					187
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ctutiven/mi-clase-hoy23"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ctutiven/mi-clase-hoy23"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/1daf209a36cf864ed1c5786d2792e125.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ctutiven/mi-clase-hoy23</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-23T22:14:31" title="Tue, 23 Jul 2024 22:14:31 GMT">Jul 23, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					165
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ctutiven/mi-clase-antes-clase"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ctutiven/mi-clase-antes-clase"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/1daf209a36cf864ed1c5786d2792e125.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ctutiven/mi-clase-antes-clase</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-24T02:13:41" title="Wed, 24 Jul 2024 02:13:41 GMT">Jul 24, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					115
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/ashishkr360/bert-finetuned-squad"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="ashishkr360/bert-finetuned-squad"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/a4e97cc2d0b8006e5dd21b0ccc59f79e.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">ashishkr360/bert-finetuned-squad</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-24T05:13:05" title="Wed, 24 Jul 2024 05:13:05 GMT">Jul 24, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					117
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/satendrakumar/bert-finetuned-squad"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="satendrakumar/bert-finetuned-squad"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/1f19fe803c87d2b92b883a3c48987d9c.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">satendrakumar/bert-finetuned-squad</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-24T09:08:18" title="Wed, 24 Jul 2024 09:08:18 GMT">Jul 24, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					128
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/7skln/bert-finetuned-ner"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="7skln/bert-finetuned-ner"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/bcd24c17c219e100a8235e8107165e0e.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">7skln/bert-finetuned-ner</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 18 18" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.075 10.1875H12.1625V11.275H11.075V10.1875Z"></path><path d="M15.425 9.10004H16.5125V10.1875H15.425V9.10004Z"></path><path d="M7.8125 3.66254H8.9V4.75004H7.8125V3.66254Z"></path><path d="M8.90001 12.3625H6.72501V9.09998C6.72472 8.81165 6.61005 8.5352 6.40617 8.33132C6.20228 8.12744 5.92584 8.01277 5.63751 8.01248H2.37501C2.08667 8.01277 1.81023 8.12744 1.60635 8.33132C1.40246 8.5352 1.28779 8.81165 1.28751 9.09998V12.3625C1.28779 12.6508 1.40246 12.9273 1.60635 13.1311C1.81023 13.335 2.08667 13.4497 2.37501 13.45H5.63751V15.625C5.63779 15.9133 5.75246 16.1898 5.95635 16.3936C6.16023 16.5975 6.43667 16.7122 6.72501 16.7125H8.90001C9.18834 16.7122 9.46478 16.5975 9.66867 16.3936C9.87255 16.1898 9.98722 15.9133 9.98751 15.625V13.45C9.98722 13.1616 9.87255 12.8852 9.66867 12.6813C9.46478 12.4774 9.18834 12.3628 8.90001 12.3625V12.3625ZM2.37501 12.3625V9.09998H5.63751V12.3625H2.37501ZM6.72501 15.625V13.45H8.90001V15.625H6.72501Z"></path><path d="M15.425 16.7125H13.25C12.9617 16.7122 12.6852 16.5976 12.4813 16.3937C12.2775 16.1898 12.1628 15.9134 12.1625 15.625V13.45C12.1628 13.1617 12.2775 12.8852 12.4813 12.6814C12.6852 12.4775 12.9617 12.3628 13.25 12.3625H15.425C15.7133 12.3628 15.9898 12.4775 16.1937 12.6814C16.3976 12.8852 16.5122 13.1617 16.5125 13.45V15.625C16.5122 15.9134 16.3976 16.1898 16.1937 16.3937C15.9898 16.5976 15.7133 16.7122 15.425 16.7125ZM13.25 13.45V15.625H15.425V13.45H13.25Z"></path><path d="M15.425 1.48752H12.1625C11.8742 1.48781 11.5977 1.60247 11.3938 1.80636C11.19 2.01024 11.0753 2.28668 11.075 2.57502V5.83752H9.98751C9.69917 5.83781 9.42273 5.95247 9.21885 6.15636C9.01496 6.36024 8.9003 6.63668 8.90001 6.92502V8.01252C8.9003 8.30085 9.01496 8.5773 9.21885 8.78118C9.42273 8.98506 9.69917 9.09973 9.98751 9.10002H11.075C11.3633 9.09973 11.6398 8.98506 11.8437 8.78118C12.0476 8.5773 12.1622 8.30085 12.1625 8.01252V6.92502H15.425C15.7133 6.92473 15.9898 6.81006 16.1937 6.60618C16.3976 6.4023 16.5122 6.12585 16.5125 5.83752V2.57502C16.5122 2.28668 16.3976 2.01024 16.1937 1.80636C15.9898 1.60247 15.7133 1.48781 15.425 1.48752ZM9.98751 8.01252V6.92502H11.075V8.01252H9.98751ZM12.1625 5.83752V2.57502H15.425V5.83752H12.1625Z"></path><path d="M4.55001 5.83752H2.37501C2.08667 5.83723 1.81023 5.72256 1.60635 5.51868C1.40246 5.3148 1.28779 5.03835 1.28751 4.75002V2.57502C1.28779 2.28668 1.40246 2.01024 1.60635 1.80636C1.81023 1.60247 2.08667 1.48781 2.37501 1.48752H4.55001C4.83834 1.48781 5.11478 1.60247 5.31867 1.80636C5.52255 2.01024 5.63722 2.28668 5.63751 2.57502V4.75002C5.63722 5.03835 5.52255 5.3148 5.31867 5.51868C5.11478 5.72256 4.83834 5.83723 4.55001 5.83752V5.83752ZM2.37501 2.57502V4.75002H4.55001V2.57502H2.37501Z"></path></svg>
+			Token Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-24T08:34:08" title="Wed, 24 Jul 2024 08:34:08 GMT">Jul 24, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					108
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/satendrakumar/t5-small-finetuned-squad"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="satendrakumar/t5-small-finetuned-squad"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/1f19fe803c87d2b92b883a3c48987d9c.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">satendrakumar/t5-small-finetuned-squad</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-24T12:58:19" title="Wed, 24 Jul 2024 12:58:19 GMT">Jul 24, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					124
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Nathali99/tmp_trainer"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Nathali99/tmp_trainer"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/a27a066d5f2858e0caf3be9e0fffcb7b.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Nathali99/tmp_trainer</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 18 18" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.075 10.1875H12.1625V11.275H11.075V10.1875Z"></path><path d="M15.425 9.10004H16.5125V10.1875H15.425V9.10004Z"></path><path d="M7.8125 3.66254H8.9V4.75004H7.8125V3.66254Z"></path><path d="M8.90001 12.3625H6.72501V9.09998C6.72472 8.81165 6.61005 8.5352 6.40617 8.33132C6.20228 8.12744 5.92584 8.01277 5.63751 8.01248H2.37501C2.08667 8.01277 1.81023 8.12744 1.60635 8.33132C1.40246 8.5352 1.28779 8.81165 1.28751 9.09998V12.3625C1.28779 12.6508 1.40246 12.9273 1.60635 13.1311C1.81023 13.335 2.08667 13.4497 2.37501 13.45H5.63751V15.625C5.63779 15.9133 5.75246 16.1898 5.95635 16.3936C6.16023 16.5975 6.43667 16.7122 6.72501 16.7125H8.90001C9.18834 16.7122 9.46478 16.5975 9.66867 16.3936C9.87255 16.1898 9.98722 15.9133 9.98751 15.625V13.45C9.98722 13.1616 9.87255 12.8852 9.66867 12.6813C9.46478 12.4774 9.18834 12.3628 8.90001 12.3625V12.3625ZM2.37501 12.3625V9.09998H5.63751V12.3625H2.37501ZM6.72501 15.625V13.45H8.90001V15.625H6.72501Z"></path><path d="M15.425 16.7125H13.25C12.9617 16.7122 12.6852 16.5976 12.4813 16.3937C12.2775 16.1898 12.1628 15.9134 12.1625 15.625V13.45C12.1628 13.1617 12.2775 12.8852 12.4813 12.6814C12.6852 12.4775 12.9617 12.3628 13.25 12.3625H15.425C15.7133 12.3628 15.9898 12.4775 16.1937 12.6814C16.3976 12.8852 16.5122 13.1617 16.5125 13.45V15.625C16.5122 15.9134 16.3976 16.1898 16.1937 16.3937C15.9898 16.5976 15.7133 16.7122 15.425 16.7125ZM13.25 13.45V15.625H15.425V13.45H13.25Z"></path><path d="M15.425 1.48752H12.1625C11.8742 1.48781 11.5977 1.60247 11.3938 1.80636C11.19 2.01024 11.0753 2.28668 11.075 2.57502V5.83752H9.98751C9.69917 5.83781 9.42273 5.95247 9.21885 6.15636C9.01496 6.36024 8.9003 6.63668 8.90001 6.92502V8.01252C8.9003 8.30085 9.01496 8.5773 9.21885 8.78118C9.42273 8.98506 9.69917 9.09973 9.98751 9.10002H11.075C11.3633 9.09973 11.6398 8.98506 11.8437 8.78118C12.0476 8.5773 12.1622 8.30085 12.1625 8.01252V6.92502H15.425C15.7133 6.92473 15.9898 6.81006 16.1937 6.60618C16.3976 6.4023 16.5122 6.12585 16.5125 5.83752V2.57502C16.5122 2.28668 16.3976 2.01024 16.1937 1.80636C15.9898 1.60247 15.7133 1.48781 15.425 1.48752ZM9.98751 8.01252V6.92502H11.075V8.01252H9.98751ZM12.1625 5.83752V2.57502H15.425V5.83752H12.1625Z"></path><path d="M4.55001 5.83752H2.37501C2.08667 5.83723 1.81023 5.72256 1.60635 5.51868C1.40246 5.3148 1.28779 5.03835 1.28751 4.75002V2.57502C1.28779 2.28668 1.40246 2.01024 1.60635 1.80636C1.81023 1.60247 2.08667 1.48781 2.37501 1.48752H4.55001C4.83834 1.48781 5.11478 1.60247 5.31867 1.80636C5.52255 2.01024 5.63722 2.28668 5.63751 2.57502V4.75002C5.63722 5.03835 5.52255 5.3148 5.31867 5.51868C5.11478 5.72256 4.83834 5.83723 4.55001 5.83752V5.83752ZM2.37501 2.57502V4.75002H4.55001V2.57502H2.37501Z"></path></svg>
+			Token Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-24T16:00:57" title="Wed, 24 Jul 2024 16:00:57 GMT">Jul 24, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					180
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/jawad24/bert-finetuned-ner"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="jawad24/bert-finetuned-ner"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/42328739a2bc298eea0c4649ea7e9bd4.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">jawad24/bert-finetuned-ner</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 18 18" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.075 10.1875H12.1625V11.275H11.075V10.1875Z"></path><path d="M15.425 9.10004H16.5125V10.1875H15.425V9.10004Z"></path><path d="M7.8125 3.66254H8.9V4.75004H7.8125V3.66254Z"></path><path d="M8.90001 12.3625H6.72501V9.09998C6.72472 8.81165 6.61005 8.5352 6.40617 8.33132C6.20228 8.12744 5.92584 8.01277 5.63751 8.01248H2.37501C2.08667 8.01277 1.81023 8.12744 1.60635 8.33132C1.40246 8.5352 1.28779 8.81165 1.28751 9.09998V12.3625C1.28779 12.6508 1.40246 12.9273 1.60635 13.1311C1.81023 13.335 2.08667 13.4497 2.37501 13.45H5.63751V15.625C5.63779 15.9133 5.75246 16.1898 5.95635 16.3936C6.16023 16.5975 6.43667 16.7122 6.72501 16.7125H8.90001C9.18834 16.7122 9.46478 16.5975 9.66867 16.3936C9.87255 16.1898 9.98722 15.9133 9.98751 15.625V13.45C9.98722 13.1616 9.87255 12.8852 9.66867 12.6813C9.46478 12.4774 9.18834 12.3628 8.90001 12.3625V12.3625ZM2.37501 12.3625V9.09998H5.63751V12.3625H2.37501ZM6.72501 15.625V13.45H8.90001V15.625H6.72501Z"></path><path d="M15.425 16.7125H13.25C12.9617 16.7122 12.6852 16.5976 12.4813 16.3937C12.2775 16.1898 12.1628 15.9134 12.1625 15.625V13.45C12.1628 13.1617 12.2775 12.8852 12.4813 12.6814C12.6852 12.4775 12.9617 12.3628 13.25 12.3625H15.425C15.7133 12.3628 15.9898 12.4775 16.1937 12.6814C16.3976 12.8852 16.5122 13.1617 16.5125 13.45V15.625C16.5122 15.9134 16.3976 16.1898 16.1937 16.3937C15.9898 16.5976 15.7133 16.7122 15.425 16.7125ZM13.25 13.45V15.625H15.425V13.45H13.25Z"></path><path d="M15.425 1.48752H12.1625C11.8742 1.48781 11.5977 1.60247 11.3938 1.80636C11.19 2.01024 11.0753 2.28668 11.075 2.57502V5.83752H9.98751C9.69917 5.83781 9.42273 5.95247 9.21885 6.15636C9.01496 6.36024 8.9003 6.63668 8.90001 6.92502V8.01252C8.9003 8.30085 9.01496 8.5773 9.21885 8.78118C9.42273 8.98506 9.69917 9.09973 9.98751 9.10002H11.075C11.3633 9.09973 11.6398 8.98506 11.8437 8.78118C12.0476 8.5773 12.1622 8.30085 12.1625 8.01252V6.92502H15.425C15.7133 6.92473 15.9898 6.81006 16.1937 6.60618C16.3976 6.4023 16.5122 6.12585 16.5125 5.83752V2.57502C16.5122 2.28668 16.3976 2.01024 16.1937 1.80636C15.9898 1.60247 15.7133 1.48781 15.425 1.48752ZM9.98751 8.01252V6.92502H11.075V8.01252H9.98751ZM12.1625 5.83752V2.57502H15.425V5.83752H12.1625Z"></path><path d="M4.55001 5.83752H2.37501C2.08667 5.83723 1.81023 5.72256 1.60635 5.51868C1.40246 5.3148 1.28779 5.03835 1.28751 4.75002V2.57502C1.28779 2.28668 1.40246 2.01024 1.60635 1.80636C1.81023 1.60247 2.08667 1.48781 2.37501 1.48752H4.55001C4.83834 1.48781 5.11478 1.60247 5.31867 1.80636C5.52255 2.01024 5.63722 2.28668 5.63751 2.57502V4.75002C5.63722 5.03835 5.52255 5.3148 5.31867 5.51868C5.11478 5.72256 4.83834 5.83723 4.55001 5.83752V5.83752ZM2.37501 2.57502V4.75002H4.55001V2.57502H2.37501Z"></path></svg>
+			Token Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-24T18:52:59" title="Wed, 24 Jul 2024 18:52:59 GMT">Jul 24, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					106
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/sweta-14/bert-finetuned-ner"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="sweta-14/bert-finetuned-ner"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/6e806eb2a1446eaef5595af531ae1d5c.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">sweta-14/bert-finetuned-ner</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 18 18" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.075 10.1875H12.1625V11.275H11.075V10.1875Z"></path><path d="M15.425 9.10004H16.5125V10.1875H15.425V9.10004Z"></path><path d="M7.8125 3.66254H8.9V4.75004H7.8125V3.66254Z"></path><path d="M8.90001 12.3625H6.72501V9.09998C6.72472 8.81165 6.61005 8.5352 6.40617 8.33132C6.20228 8.12744 5.92584 8.01277 5.63751 8.01248H2.37501C2.08667 8.01277 1.81023 8.12744 1.60635 8.33132C1.40246 8.5352 1.28779 8.81165 1.28751 9.09998V12.3625C1.28779 12.6508 1.40246 12.9273 1.60635 13.1311C1.81023 13.335 2.08667 13.4497 2.37501 13.45H5.63751V15.625C5.63779 15.9133 5.75246 16.1898 5.95635 16.3936C6.16023 16.5975 6.43667 16.7122 6.72501 16.7125H8.90001C9.18834 16.7122 9.46478 16.5975 9.66867 16.3936C9.87255 16.1898 9.98722 15.9133 9.98751 15.625V13.45C9.98722 13.1616 9.87255 12.8852 9.66867 12.6813C9.46478 12.4774 9.18834 12.3628 8.90001 12.3625V12.3625ZM2.37501 12.3625V9.09998H5.63751V12.3625H2.37501ZM6.72501 15.625V13.45H8.90001V15.625H6.72501Z"></path><path d="M15.425 16.7125H13.25C12.9617 16.7122 12.6852 16.5976 12.4813 16.3937C12.2775 16.1898 12.1628 15.9134 12.1625 15.625V13.45C12.1628 13.1617 12.2775 12.8852 12.4813 12.6814C12.6852 12.4775 12.9617 12.3628 13.25 12.3625H15.425C15.7133 12.3628 15.9898 12.4775 16.1937 12.6814C16.3976 12.8852 16.5122 13.1617 16.5125 13.45V15.625C16.5122 15.9134 16.3976 16.1898 16.1937 16.3937C15.9898 16.5976 15.7133 16.7122 15.425 16.7125ZM13.25 13.45V15.625H15.425V13.45H13.25Z"></path><path d="M15.425 1.48752H12.1625C11.8742 1.48781 11.5977 1.60247 11.3938 1.80636C11.19 2.01024 11.0753 2.28668 11.075 2.57502V5.83752H9.98751C9.69917 5.83781 9.42273 5.95247 9.21885 6.15636C9.01496 6.36024 8.9003 6.63668 8.90001 6.92502V8.01252C8.9003 8.30085 9.01496 8.5773 9.21885 8.78118C9.42273 8.98506 9.69917 9.09973 9.98751 9.10002H11.075C11.3633 9.09973 11.6398 8.98506 11.8437 8.78118C12.0476 8.5773 12.1622 8.30085 12.1625 8.01252V6.92502H15.425C15.7133 6.92473 15.9898 6.81006 16.1937 6.60618C16.3976 6.4023 16.5122 6.12585 16.5125 5.83752V2.57502C16.5122 2.28668 16.3976 2.01024 16.1937 1.80636C15.9898 1.60247 15.7133 1.48781 15.425 1.48752ZM9.98751 8.01252V6.92502H11.075V8.01252H9.98751ZM12.1625 5.83752V2.57502H15.425V5.83752H12.1625Z"></path><path d="M4.55001 5.83752H2.37501C2.08667 5.83723 1.81023 5.72256 1.60635 5.51868C1.40246 5.3148 1.28779 5.03835 1.28751 4.75002V2.57502C1.28779 2.28668 1.40246 2.01024 1.60635 1.80636C1.81023 1.60247 2.08667 1.48781 2.37501 1.48752H4.55001C4.83834 1.48781 5.11478 1.60247 5.31867 1.80636C5.52255 2.01024 5.63722 2.28668 5.63751 2.57502V4.75002C5.63722 5.03835 5.52255 5.3148 5.31867 5.51868C5.11478 5.72256 4.83834 5.83723 4.55001 5.83752V5.83752ZM2.37501 2.57502V4.75002H4.55001V2.57502H2.37501Z"></path></svg>
+			Token Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-25T10:02:45" title="Thu, 25 Jul 2024 10:02:45 GMT">Jul 25, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					110
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/jaydip-tss/bert-finetuned-ner"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="jaydip-tss/bert-finetuned-ner"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/bc057d5e7b8f49db98a551e481c5146a.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">jaydip-tss/bert-finetuned-ner</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 18 18" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.075 10.1875H12.1625V11.275H11.075V10.1875Z"></path><path d="M15.425 9.10004H16.5125V10.1875H15.425V9.10004Z"></path><path d="M7.8125 3.66254H8.9V4.75004H7.8125V3.66254Z"></path><path d="M8.90001 12.3625H6.72501V9.09998C6.72472 8.81165 6.61005 8.5352 6.40617 8.33132C6.20228 8.12744 5.92584 8.01277 5.63751 8.01248H2.37501C2.08667 8.01277 1.81023 8.12744 1.60635 8.33132C1.40246 8.5352 1.28779 8.81165 1.28751 9.09998V12.3625C1.28779 12.6508 1.40246 12.9273 1.60635 13.1311C1.81023 13.335 2.08667 13.4497 2.37501 13.45H5.63751V15.625C5.63779 15.9133 5.75246 16.1898 5.95635 16.3936C6.16023 16.5975 6.43667 16.7122 6.72501 16.7125H8.90001C9.18834 16.7122 9.46478 16.5975 9.66867 16.3936C9.87255 16.1898 9.98722 15.9133 9.98751 15.625V13.45C9.98722 13.1616 9.87255 12.8852 9.66867 12.6813C9.46478 12.4774 9.18834 12.3628 8.90001 12.3625V12.3625ZM2.37501 12.3625V9.09998H5.63751V12.3625H2.37501ZM6.72501 15.625V13.45H8.90001V15.625H6.72501Z"></path><path d="M15.425 16.7125H13.25C12.9617 16.7122 12.6852 16.5976 12.4813 16.3937C12.2775 16.1898 12.1628 15.9134 12.1625 15.625V13.45C12.1628 13.1617 12.2775 12.8852 12.4813 12.6814C12.6852 12.4775 12.9617 12.3628 13.25 12.3625H15.425C15.7133 12.3628 15.9898 12.4775 16.1937 12.6814C16.3976 12.8852 16.5122 13.1617 16.5125 13.45V15.625C16.5122 15.9134 16.3976 16.1898 16.1937 16.3937C15.9898 16.5976 15.7133 16.7122 15.425 16.7125ZM13.25 13.45V15.625H15.425V13.45H13.25Z"></path><path d="M15.425 1.48752H12.1625C11.8742 1.48781 11.5977 1.60247 11.3938 1.80636C11.19 2.01024 11.0753 2.28668 11.075 2.57502V5.83752H9.98751C9.69917 5.83781 9.42273 5.95247 9.21885 6.15636C9.01496 6.36024 8.9003 6.63668 8.90001 6.92502V8.01252C8.9003 8.30085 9.01496 8.5773 9.21885 8.78118C9.42273 8.98506 9.69917 9.09973 9.98751 9.10002H11.075C11.3633 9.09973 11.6398 8.98506 11.8437 8.78118C12.0476 8.5773 12.1622 8.30085 12.1625 8.01252V6.92502H15.425C15.7133 6.92473 15.9898 6.81006 16.1937 6.60618C16.3976 6.4023 16.5122 6.12585 16.5125 5.83752V2.57502C16.5122 2.28668 16.3976 2.01024 16.1937 1.80636C15.9898 1.60247 15.7133 1.48781 15.425 1.48752ZM9.98751 8.01252V6.92502H11.075V8.01252H9.98751ZM12.1625 5.83752V2.57502H15.425V5.83752H12.1625Z"></path><path d="M4.55001 5.83752H2.37501C2.08667 5.83723 1.81023 5.72256 1.60635 5.51868C1.40246 5.3148 1.28779 5.03835 1.28751 4.75002V2.57502C1.28779 2.28668 1.40246 2.01024 1.60635 1.80636C1.81023 1.60247 2.08667 1.48781 2.37501 1.48752H4.55001C4.83834 1.48781 5.11478 1.60247 5.31867 1.80636C5.52255 2.01024 5.63722 2.28668 5.63751 2.57502V4.75002C5.63722 5.03835 5.52255 5.3148 5.31867 5.51868C5.11478 5.72256 4.83834 5.83723 4.55001 5.83752V5.83752ZM2.37501 2.57502V4.75002H4.55001V2.57502H2.37501Z"></path></svg>
+			Token Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-25T09:24:28" title="Thu, 25 Jul 2024 09:24:28 GMT">Jul 25, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					121
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Augustin99/test_trainer"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Augustin99/test_trainer"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/97d8401e5ae9da7b7d675aa6ba334409.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Augustin99/test_trainer</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-25T21:03:08" title="Thu, 25 Jul 2024 21:03:08 GMT">Jul 25, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					162
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/rakibul075/test_trainer"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="rakibul075/test_trainer"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/defdf125a6f22bdbb23086016b9a017e.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">rakibul075/test_trainer</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-25T21:25:30" title="Thu, 25 Jul 2024 21:25:30 GMT">Jul 25, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					162
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/Naima12/Bert-base-cased-Updated-Model_03"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="Naima12/Bert-base-cased-Updated-Model_03"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/f41b269939b4ac2385d4a43c3e2465d5.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">Naima12/Bert-base-cased-Updated-Model_03</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg class="mr-1.5 text-[.8rem] flex-none" height="1em" preserveaspectratio="xMidYMid meet" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2 9h9V2H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 19h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M2 29h9v-7H2zm2-5h5v3H4z" fill="currentColor"></path><path d="M27 9h-9l3.41-3.59L20 4l-6 6l6 6l1.41-1.41L18 11h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H15v2h12a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3z" fill="currentColor"></path></svg>
+			Question Answering
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-26T04:43:24" title="Fri, 26 Jul 2024 04:43:24 GMT">Jul 26, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					120
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/rockerritesh/covideqa_15.4k_news"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="rockerritesh/covideqa_15.4k_news"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="https://cdn-avatars.huggingface.co/v1/production/uploads/1667483621462-60efd27e75db42c7e471b5d2.jpeg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">rockerritesh/covideqa_15.4k_news</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-26T09:36:27" title="Fri, 26 Jul 2024 09:36:27 GMT">Jul 26, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					91
+				
+	
+				
+
+				</div></div>
+</a></article><article class="overview-card-wrapper group/repo"><a class="flex items-center justify-between gap-4 p-2" href="/saisuryateja-intel/test_trainer4"><div class="w-full truncate"><header class="flex items-center mb-0.5" title="saisuryateja-intel/test_trainer4"><img alt="" class="w-3.5 h-3.5 rounded-full mr-1.5 flex-none flex-none" crossorigin="anonymous" src="/avatars/444a9f7fd7ab8e8dd9454a596b9a9c0c.svg"/>
+<h4 class="text-md truncate font-mono text-black dark:group-hover/repo:text-yellow-500 group-hover/repo:text-indigo-600 text-smd">saisuryateja-intel/test_trainer4</h4>
+</header>
+<div class="mr-1 flex items-center overflow-hidden whitespace-nowrap text-sm leading-tight text-gray-400"><svg aria-hidden="true" class="mr-1.5 text-[.8rem] flex-none" fill="currentColor" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" style="transform: rotate(360deg);" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="10" cy="20" fill="currentColor" r="2"></circle><circle cx="10" cy="28" fill="currentColor" r="2"></circle><circle cx="10" cy="14" fill="currentColor" r="2"></circle><circle cx="28" cy="4" fill="currentColor" r="2"></circle><circle cx="22" cy="6" fill="currentColor" r="2"></circle><circle cx="28" cy="10" fill="currentColor" r="2"></circle><circle cx="20" cy="12" fill="currentColor" r="2"></circle><circle cx="28" cy="22" fill="currentColor" r="2"></circle><circle cx="26" cy="28" fill="currentColor" r="2"></circle><circle cx="20" cy="26" fill="currentColor" r="2"></circle><circle cx="22" cy="20" fill="currentColor" r="2"></circle><circle cx="16" cy="4" fill="currentColor" r="2"></circle><circle cx="4" cy="24" fill="currentColor" r="2"></circle><circle cx="4" cy="16" fill="currentColor" r="2"></circle></svg>
+			Text Classification
+			<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<span class="truncate">Updated
+					<time datetime="2024-07-26T10:48:50" title="Fri, 26 Jul 2024 10:48:50 GMT">Jul 26, 2024</time></span>
+<span class="px-1.5 text-gray-300 dark:text-gray-500">• </span>
+<svg aria-hidden="true" class="flex-none w-3 text-gray-400 mr-0.5" focusable="false" height="1em" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26 24v4H6v-4H4v4a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2v-4zm0-10l-1.41-1.41L17 20.17V2h-2v18.17l-7.59-7.58L6 14l10 10l10-10z" fill="currentColor"></path></svg>
+					106
+				
+	
+				
+
+				</div></div>
+</a></article></div></div>
+<nav><ul class="flex select-none items-center justify-between space-x-2 text-gray-700 sm:justify-center mt-10 mx-auto"><li><a class="flex items-center rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:google-bert%2Fbert-base-cased&amp;p=48&amp;sort=trending"><svg aria-hidden="true" class="mr-1.5" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M10 16L20 6l1.4 1.4l-8.6 8.6l8.6 8.6L20 26z" fill="currentColor"></path></svg>
+		Previous</a></li>
+<li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:google-bert%2Fbert-base-cased&amp;p=0&amp;sort=trending">1</a>
+</li><li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 pointer-events-none cursor-default" href="#">...</a>
+</li><li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:google-bert%2Fbert-base-cased&amp;p=47&amp;sort=trending">48</a>
+</li><li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:google-bert%2Fbert-base-cased&amp;p=48&amp;sort=trending">49</a>
+</li><li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 bg-gray-50 font-semibold ring-1 ring-inset ring-gray-200 dark:bg-gray-900 dark:text-yellow-500 dark:ring-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:google-bert%2Fbert-base-cased&amp;p=49&amp;sort=trending">50</a>
+</li><li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:google-bert%2Fbert-base-cased&amp;p=50&amp;sort=trending">51</a>
+</li><li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:google-bert%2Fbert-base-cased&amp;p=51&amp;sort=trending">52</a>
+</li><li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 pointer-events-none cursor-default" href="#">...</a>
+</li><li class="hidden sm:block"><a class="rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:google-bert%2Fbert-base-cased&amp;p=71&amp;sort=trending">72</a>
+</li>
+<li><a class="flex items-center rounded-lg px-2.5 py-1 hover:bg-gray-50 dark:hover:bg-gray-800" href="?other=base_model:finetune:google-bert%2Fbert-base-cased&amp;p=50&amp;sort=trending">Next
+		<svg aria-hidden="true" class="ml-1.5 transform rotate-180" focusable="false" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 32 32" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M10 16L20 6l1.4 1.4l-8.6 8.6l8.6 8.6L20 26z" fill="currentColor"></path></svg></a></li></ul></nav></section>

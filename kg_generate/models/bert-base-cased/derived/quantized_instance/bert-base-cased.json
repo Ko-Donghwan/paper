@@ -1,0 +1,6 @@
+{
+    "quantized": [
+        "Xenova/bert-base-cased",
+        "wdavies/extract-answer-from-text"
+    ]
+}

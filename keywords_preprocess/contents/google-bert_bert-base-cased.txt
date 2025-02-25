@@ -1,0 +1,285 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-c2Ds58_yUynrFH7y8p33G">
+<!-- HTML_TAG_START --><h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#bert-base-model-cased" id="bert-base-model-cased" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		BERT base model (cased)
+	</span>
+</h1>
+<p>Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in
+<a href="https://arxiv.org/abs/1810.04805" rel="nofollow">this paper</a> and first released in
+<a href="https://github.com/google-research/bert" rel="nofollow">this repository</a>. This model is case-sensitive: it makes a difference between
+english and English.</p>
+<p>Disclaimer: The team releasing BERT did not write a model card for this model so this model card has been written by
+the Hugging Face team.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-description" id="model-description" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model description
+	</span>
+</h2>
+<p>BERT is a transformers model pretrained on a large corpus of English data in a self-supervised fashion. This means it
+was pretrained on the raw texts only, with no humans labelling them in any way (which is why it can use lots of
+publicly available data) with an automatic process to generate inputs and labels from those texts. More precisely, it
+was pretrained with two objectives:</p>
+<ul>
+<li>Masked language modeling (MLM): taking a sentence, the model randomly masks 15% of the words in the input then run
+the entire masked sentence through the model and has to predict the masked words. This is different from traditional
+recurrent neural networks (RNNs) that usually see the words one after the other, or from autoregressive models like
+GPT which internally mask the future tokens. It allows the model to learn a bidirectional representation of the
+sentence.</li>
+<li>Next sentence prediction (NSP): the models concatenates two masked sentences as inputs during pretraining. Sometimes
+they correspond to sentences that were next to each other in the original text, sometimes not. The model then has to
+predict if the two sentences were following each other or not.</li>
+</ul>
+<p>This way, the model learns an inner representation of the English language that can then be used to extract features
+useful for downstream tasks: if you have a dataset of labeled sentences for instance, you can train a standard
+classifier using the features produced by the BERT model as inputs.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#intended-uses--limitations" id="intended-uses--limitations" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Intended uses &amp; limitations
+	</span>
+</h2>
+<p>You can use the raw model for either masked language modeling or next sentence prediction, but it's mostly intended to
+be fine-tuned on a downstream task. See the <a href="https://huggingface.co/models?filter=bert" rel="nofollow">model hub</a> to look for
+fine-tuned versions on a task that interests you.</p>
+<p>Note that this model is primarily aimed at being fine-tuned on tasks that use the whole sentence (potentially masked)
+to make decisions, such as sequence classification, token classification or question answering. For tasks such as text
+generation you should look at model like GPT2.</p>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#how-to-use" id="how-to-use" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		How to use
+	</span>
+</h3>
+<p>You can use this model directly with a pipeline for masked language modeling:</p>
+<pre><code class="language-python"><span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> pipeline
+<span class="hljs-meta">&gt;&gt;&gt; </span>unmasker = pipeline(<span class="hljs-string">'fill-mask'</span>, model=<span class="hljs-string">'bert-base-cased'</span>)
+<span class="hljs-meta">&gt;&gt;&gt; </span>unmasker(<span class="hljs-string">"Hello I'm a [MASK] model."</span>)
+
+[{<span class="hljs-string">'sequence'</span>: <span class="hljs-string">"[CLS] Hello I'm a fashion model. [SEP]"</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.09019174426794052</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">4633</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'fashion'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">"[CLS] Hello I'm a new model. [SEP]"</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.06349995732307434</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">1207</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'new'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">"[CLS] Hello I'm a male model. [SEP]"</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.06228214129805565</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">2581</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'male'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">"[CLS] Hello I'm a professional model. [SEP]"</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.0441727414727211</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">1848</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'professional'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">"[CLS] Hello I'm a super model. [SEP]"</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.03326151892542839</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">7688</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'super'</span>}]
+</code></pre>
+<p>Here is how to use this model to get the features of a given text in PyTorch:</p>
+<pre><code class="language-python"><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> BertTokenizer, BertModel
+tokenizer = BertTokenizer.from_pretrained(<span class="hljs-string">'bert-base-cased'</span>)
+model = BertModel.from_pretrained(<span class="hljs-string">"bert-base-cased"</span>)
+text = <span class="hljs-string">"Replace me by any text you'd like."</span>
+encoded_input = tokenizer(text, return_tensors=<span class="hljs-string">'pt'</span>)
+output = model(**encoded_input)
+</code></pre>
+<p>and in TensorFlow:</p>
+<pre><code class="language-python"><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> BertTokenizer, TFBertModel
+tokenizer = BertTokenizer.from_pretrained(<span class="hljs-string">'bert-base-cased'</span>)
+model = TFBertModel.from_pretrained(<span class="hljs-string">"bert-base-cased"</span>)
+text = <span class="hljs-string">"Replace me by any text you'd like."</span>
+encoded_input = tokenizer(text, return_tensors=<span class="hljs-string">'tf'</span>)
+output = model(encoded_input)
+</code></pre>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#limitations-and-bias" id="limitations-and-bias" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Limitations and bias
+	</span>
+</h3>
+<p>Even if the training data used for this model could be characterized as fairly neutral, this model can have biased
+predictions:</p>
+<pre><code class="language-python"><span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> pipeline
+<span class="hljs-meta">&gt;&gt;&gt; </span>unmasker = pipeline(<span class="hljs-string">'fill-mask'</span>, model=<span class="hljs-string">'bert-base-cased'</span>)
+<span class="hljs-meta">&gt;&gt;&gt; </span>unmasker(<span class="hljs-string">"The man worked as a [MASK]."</span>)
+
+[{<span class="hljs-string">'sequence'</span>: <span class="hljs-string">'[CLS] The man worked as a lawyer. [SEP]'</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.04804691672325134</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">4545</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'lawyer'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">'[CLS] The man worked as a waiter. [SEP]'</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.037494491785764694</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">17989</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'waiter'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">'[CLS] The man worked as a cop. [SEP]'</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.035512614995241165</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">9947</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'cop'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">'[CLS] The man worked as a detective. [SEP]'</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.031271643936634064</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">9140</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'detective'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">'[CLS] The man worked as a doctor. [SEP]'</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.027423162013292313</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">3995</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'doctor'</span>}]
+
+<span class="hljs-meta">&gt;&gt;&gt; </span>unmasker(<span class="hljs-string">"The woman worked as a [MASK]."</span>)
+
+[{<span class="hljs-string">'sequence'</span>: <span class="hljs-string">'[CLS] The woman worked as a nurse. [SEP]'</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.16927455365657806</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">7439</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'nurse'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">'[CLS] The woman worked as a waitress. [SEP]'</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.1501094549894333</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">15098</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'waitress'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">'[CLS] The woman worked as a maid. [SEP]'</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.05600163713097572</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">13487</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'maid'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">'[CLS] The woman worked as a housekeeper. [SEP]'</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.04838843643665314</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">26458</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'housekeeper'</span>},
+ {<span class="hljs-string">'sequence'</span>: <span class="hljs-string">'[CLS] The woman worked as a cook. [SEP]'</span>,
+  <span class="hljs-string">'score'</span>: <span class="hljs-number">0.029980547726154327</span>,
+  <span class="hljs-string">'token'</span>: <span class="hljs-number">9834</span>,
+  <span class="hljs-string">'token_str'</span>: <span class="hljs-string">'cook'</span>}]
+</code></pre>
+<p>This bias will also affect all fine-tuned versions of this model.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-data" id="training-data" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training data
+	</span>
+</h2>
+<p>The BERT model was pretrained on <a href="https://yknzhu.wixsite.com/mbweb" rel="nofollow">BookCorpus</a>, a dataset consisting of 11,038
+unpublished books and <a href="https://en.wikipedia.org/wiki/English_Wikipedia" rel="nofollow">English Wikipedia</a> (excluding lists, tables and
+headers).</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-procedure" id="training-procedure" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training procedure
+	</span>
+</h2>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#preprocessing" id="preprocessing" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Preprocessing
+	</span>
+</h3>
+<p>The texts are tokenized using WordPiece and a vocabulary size of 30,000. The inputs of the model are then of the form:</p>
+<pre><code>[CLS] Sentence A [SEP] Sentence B [SEP]
+</code></pre>
+<p>With probability 0.5, sentence A and sentence B correspond to two consecutive sentences in the original corpus and in
+the other cases, it's another random sentence in the corpus. Note that what is considered a sentence here is a
+consecutive span of text usually longer than a single sentence. The only constrain is that the result with the two
+"sentences" has a combined length of less than 512 tokens.</p>
+<p>The details of the masking procedure for each sentence are the following:</p>
+<ul>
+<li>15% of the tokens are masked.</li>
+<li>In 80% of the cases, the masked tokens are replaced by <code>[MASK]</code>.</li>
+<li>In 10% of the cases, the masked tokens are replaced by a random token (different) from the one they replace.</li>
+<li>In the 10% remaining cases, the masked tokens are left as is.</li>
+</ul>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#pretraining" id="pretraining" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Pretraining
+	</span>
+</h3>
+<p>The model was trained on 4 cloud TPUs in Pod configuration (16 TPU chips total) for one million steps with a batch size
+of 256. The sequence length was limited to 128 tokens for 90% of the steps and 512 for the remaining 10%. The optimizer
+used is Adam with a learning rate of 1e-4, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>β</mi><mn>1</mn></msub><mo>=</mo><mn>0.9</mn></mrow>\beta_{1} = 0.9</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.9</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>β</mi><mn>2</mn></msub><mo>=</mo><mn>0.999</mn></mrow>\beta_{2} = 0.999</math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.999</span></span></span></span>, a weight decay of 0.01,
+learning rate warmup for 10,000 steps and linear decay of the learning rate after.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#evaluation-results" id="evaluation-results" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Evaluation results
+	</span>
+</h2>
+<p>When fine-tuned on downstream tasks, this model achieves the following results:</p>
+<p>Glue test results:</p>
+<div class="max-w-full overflow-auto">
+<table>
+<thead><tr>
+<th align="center">Task</th>
+<th align="center">MNLI-(m/mm)</th>
+<th align="center">QQP</th>
+<th align="center">QNLI</th>
+<th align="center">SST-2</th>
+<th align="center">CoLA</th>
+<th align="center">STS-B</th>
+<th align="center">MRPC</th>
+<th align="center">RTE</th>
+<th align="center">Average</th>
+</tr>
+</thead><tbody><tr>
+<td align="center"></td>
+<td align="center">84.6/83.4</td>
+<td align="center">71.2</td>
+<td align="center">90.5</td>
+<td align="center">93.5</td>
+<td align="center">52.1</td>
+<td align="center">85.8</td>
+<td align="center">88.9</td>
+<td align="center">66.4</td>
+<td align="center">79.6</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#bibtex-entry-and-citation-info" id="bibtex-entry-and-citation-info" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		BibTeX entry and citation info
+	</span>
+</h3>
+<pre><code class="language-bibtex">@article{DBLP:journals/corr/abs-1810-04805,
+  author    = {Jacob Devlin and
+               Ming{-}Wei Chang and
+               Kenton Lee and
+               Kristina Toutanova},
+  title     = {{BERT:} Pre-training of Deep Bidirectional Transformers for Language
+               Understanding},
+  journal   = {CoRR},
+  volume    = {abs/1810.04805},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1810.04805},
+  archivePrefix = {arXiv},
+  eprint    = {1810.04805},
+  timestamp = {Tue, 30 Oct 2018 20:39:56 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1810-04805.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</code></pre>
+<a href="https://huggingface.co/exbert/?model=bert-base-cased">
+<img src="https://cdn-media.huggingface.co/exbert/button.png" width="300px"/>
+</a>
+<!-- HTML_TAG_END --></div>

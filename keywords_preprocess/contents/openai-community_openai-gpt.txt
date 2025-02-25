@@ -1,0 +1,409 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-P6ADFuLzZYOEEs5LTh0Ih">
+<!-- HTML_TAG_START --><h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#openai-gpt-1" id="openai-gpt-1" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		OpenAI GPT 1
+	</span>
+</h1>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#table-of-contents" id="table-of-contents" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Table of Contents
+	</span>
+</h2>
+<ul>
+<li><a href="#model-details" rel="nofollow">Model Details</a></li>
+<li><a href="#how-to-get-started-with-the-model" rel="nofollow">How To Get Started With the Model</a></li>
+<li><a href="#uses" rel="nofollow">Uses</a></li>
+<li><a href="#risks-limitations-and-biases" rel="nofollow">Risks, Limitations and Biases</a></li>
+<li><a href="#training" rel="nofollow">Training</a></li>
+<li><a href="#evaluation" rel="nofollow">Evaluation</a></li>
+<li><a href="#environmental-impact" rel="nofollow">Environmental Impact</a></li>
+<li><a href="#technical-specifications" rel="nofollow">Technical Specifications</a></li>
+<li><a href="#citation-information" rel="nofollow">Citation Information</a></li>
+<li><a href="#model-card-authors" rel="nofollow">Model Card Authors</a></li>
+</ul>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-details" id="model-details" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model Details
+	</span>
+</h2>
+<p><strong>Model Description:</strong> <code>openai-gpt</code> (a.k.a. "GPT-1") is the first transformer-based language model created and released by OpenAI. The model is a causal (unidirectional) transformer pre-trained using language modeling on a large corpus with long range dependencies.</p>
+<ul>
+<li><strong>Developed by:</strong> Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever. See <a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf" rel="nofollow">associated research paper</a> and <a href="https://github.com/openai/finetune-transformer-lm" rel="nofollow">GitHub repo</a> for model developers and contributors.</li>
+<li><strong>Model Type:</strong> Transformer-based language model</li>
+<li><strong>Language(s):</strong> English</li>
+<li><strong>License:</strong> <a href="https://github.com/openai/finetune-transformer-lm/blob/master/LICENSE" rel="nofollow">MIT License</a></li>
+<li><strong>Related Models:</strong> <a href="https://huggingface.co/gpt2" rel="nofollow">GPT2</a>, <a href="https://huggingface.co/gpt2-medium" rel="nofollow">GPT2-Medium</a>, <a href="https://huggingface.co/gpt2-large" rel="nofollow">GPT2-Large</a> and <a href="https://huggingface.co/gpt2-xl" rel="nofollow">GPT2-XL</a></li>
+<li><strong>Resources for more information:</strong><ul>
+<li><a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf" rel="nofollow">Research Paper</a></li>
+<li><a href="https://openai.com/blog/language-unsupervised/" rel="nofollow">OpenAI Blog Post</a></li>
+<li><a href="https://github.com/openai/finetune-transformer-lm" rel="nofollow">GitHub Repo</a></li>
+<li>Test the full generation capabilities here: <a href="https://transformer.huggingface.co/doc/gpt" rel="nofollow">https://transformer.huggingface.co/doc/gpt</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#how-to-get-started-with-the-model" id="how-to-get-started-with-the-model" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		How to Get Started with the Model
+	</span>
+</h2>
+<p>Use the code below to get started with the model. You can use this model directly with a pipeline for text generation. Since the generation relies on some randomness, we
+set a seed for reproducibility:</p>
+<pre><code class="language-python"><span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> pipeline, set_seed
+<span class="hljs-meta">&gt;&gt;&gt; </span>generator = pipeline(<span class="hljs-string">'text-generation'</span>, model=<span class="hljs-string">'openai-gpt'</span>)
+<span class="hljs-meta">&gt;&gt;&gt; </span>set_seed(<span class="hljs-number">42</span>)
+<span class="hljs-meta">&gt;&gt;&gt; </span>generator(<span class="hljs-string">"Hello, I'm a language model,"</span>, max_length=<span class="hljs-number">30</span>, num_return_sequences=<span class="hljs-number">5</span>)
+
+[{<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">"Hello, I'm a language model,'he said, when i was finished.'ah well,'said the man,'that's"</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'Hello, I\'m a language model, " she said. \n she reached the bottom of the shaft and leaned a little further out. it was'</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'Hello, I\'m a language model, " she laughed. " we call that a\'white girl.\'or as we are called by the'</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'Hello, I\'m a language model, " said mr pin. " an\'the ones with the funny hats don\'t. " the rest of'</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'Hello, I\'m a language model, was\'ere \'bout to do some more dancin \', " he said, then his voice lowered to'</span>}]
+</code></pre>
+<p>Here is how to use this model in PyTorch:</p>
+<pre><code class="language-python"><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> OpenAIGPTTokenizer, OpenAIGPTModel
+<span class="hljs-keyword">import</span> torch
+
+tokenizer = OpenAIGPTTokenizer.from_pretrained(<span class="hljs-string">"openai-gpt"</span>)
+model = OpenAIGPTModel.from_pretrained(<span class="hljs-string">"openai-gpt"</span>)
+
+inputs = tokenizer(<span class="hljs-string">"Hello, my dog is cute"</span>, return_tensors=<span class="hljs-string">"pt"</span>)
+outputs = model(**inputs)
+
+last_hidden_states = outputs.last_hidden_state
+</code></pre>
+<p>and in TensorFlow:</p>
+<pre><code class="language-python"><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> OpenAIGPTTokenizer, TFOpenAIGPTModel
+
+tokenizer = OpenAIGPTTokenizer.from_pretrained(<span class="hljs-string">"openai-gpt"</span>)
+model = TFOpenAIGPTModel.from_pretrained(<span class="hljs-string">"openai-gpt"</span>)
+
+inputs = tokenizer(<span class="hljs-string">"Hello, my dog is cute"</span>, return_tensors=<span class="hljs-string">"tf"</span>)
+outputs = model(inputs)
+
+last_hidden_states = outputs.last_hidden_state
+</code></pre>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#uses" id="uses" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Uses
+	</span>
+</h2>
+<h4 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#direct-use" id="direct-use" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Direct Use
+	</span>
+</h4>
+<p>This model can be used for language modeling tasks.</p>
+<h4 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#downstream-use" id="downstream-use" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Downstream Use
+	</span>
+</h4>
+<p>Potential downstream uses of this model include tasks that leverage language models. In the <a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf" rel="nofollow">associated paper</a>, the model developers discuss evaluations of the model for tasks including natural language inference (NLI), question answering, semantic similarity, and text classification.</p>
+<h4 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#misuse-and-out-of-scope-use" id="misuse-and-out-of-scope-use" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Misuse and Out-of-scope Use
+	</span>
+</h4>
+<p>The model was not trained to be factual or true representations of people or events, and therefore using the model to generate such content is out-of-scope for the abilities of this model.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#risks-limitations-and-biases" id="risks-limitations-and-biases" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Risks, Limitations and Biases
+	</span>
+</h2>
+<h4 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#biases" id="biases" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Biases
+	</span>
+</h4>
+<p><strong>CONTENT WARNING: Readers should be aware that language generated by this model can be disturbing or offensive to some and can propagate historical and current stereotypes.</strong></p>
+<p>Significant research has explored bias and fairness issues with language models (see, e.g., <a href="https://aclanthology.org/2021.acl-long.330.pdf" rel="nofollow">Sheng et al. (2021)</a> and <a href="https://dl.acm.org/doi/pdf/10.1145/3442188.3445922" rel="nofollow">Bender et al. (2021)</a>). 
+Predictions generated by this model can include disturbing and harmful stereotypes across protected classes; identity characteristics; and sensitive, social, and occupational groups. For example:</p>
+<pre><code class="language-python"><span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">from</span> transformers <span class="hljs-keyword">import</span> pipeline, set_seed
+<span class="hljs-meta">&gt;&gt;&gt; </span>generator = pipeline(<span class="hljs-string">'text-generation'</span>, model=<span class="hljs-string">'openai-gpt'</span>)
+<span class="hljs-meta">&gt;&gt;&gt; </span>set_seed(<span class="hljs-number">42</span>)
+<span class="hljs-meta">&gt;&gt;&gt; </span>generator(<span class="hljs-string">"The man worked as a"</span>, max_length=<span class="hljs-number">10</span>, num_return_sequences=<span class="hljs-number">5</span>)
+
+[{<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'The man worked as a teacher for the college he'</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'The man worked as a janitor at the club.'</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'The man worked as a bodyguard in america. the'</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'The man worked as a clerk for one of the'</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'The man worked as a nurse, but there was'</span>}]
+
+<span class="hljs-meta">&gt;&gt;&gt; </span>set_seed(<span class="hljs-number">42</span>)
+<span class="hljs-meta">&gt;&gt;&gt; </span>generator(<span class="hljs-string">"The woman worked as a"</span>, max_length=<span class="hljs-number">10</span>, num_return_sequences=<span class="hljs-number">5</span>)
+
+[{<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'The woman worked as a medical intern but is a'</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'The woman worked as a midwife, i know that'</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'The woman worked as a prostitute in a sex club'</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'The woman worked as a secretary for one of the'</span>},
+ {<span class="hljs-string">'generated_text'</span>: <span class="hljs-string">'The woman worked as a nurse, but she had'</span>}]
+</code></pre>
+<p>This bias may also affect fine-tuned versions of this model. Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model.</p>
+<h4 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#risks-and-limitations" id="risks-and-limitations" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Risks and Limitations
+	</span>
+</h4>
+<p>The model developers also wrote in a <a href="https://openai.com/blog/language-unsupervised/" rel="nofollow">blog post</a> about risks and limitations of the model, including: </p>
+<blockquote>
+<ul>
+<li><strong>Compute Requirements:</strong> Many previous approaches to NLP tasks train relatively small models on a single GPU from scratch. Our approach requires an expensive pre-training step - 1 month on 8 GPUs. Luckily, this only has to be done once and we’re releasing our model so others can avoid it. It is also a large model (in comparison to prior work) and consequently uses more compute and memory — we used a 37-layer (12 block) Transformer architecture, and we train on sequences of up to 512 tokens. Most experiments were conducted on 4 and 8 GPU systems. The model does fine-tune to new tasks very quickly which helps mitigate the additional resource requirements.</li>
+<li><strong>The limits and bias of learning about the world through text:</strong> Books and text readily available on the internet do not contain complete or even accurate information about the world. Recent work (<a href="https://arxiv.org/abs/1705.11168" rel="nofollow">Lucy and Gauthier, 2017</a>) has shown that certain kinds of information are difficult to learn via just text and other work (<a href="https://arxiv.org/abs/1803.02324" rel="nofollow">Gururangan et al., 2018</a>) has shown that models learn and exploit biases in data distributions.</li>
+<li><strong>Still brittle generalization:</strong> Although our approach improves performance across a broad range of tasks, current deep learning NLP models still exhibit surprising and counterintuitive behavior - especially when evaluated in a systematic, adversarial, or out-of-distribution way. Our approach is not immune to these issues, though we have observed some indications of progress. Our approach shows improved lexical robustness over previous purely neural approaches to textual entailment. On the dataset introduced in Glockner et al. (2018) our model achieves 83.75%, performing similarly to KIM, which incorporates external knowledge via WordNet.</li>
+</ul>
+</blockquote>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training" id="training" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training
+	</span>
+</h2>
+<h4 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-data" id="training-data" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training Data
+	</span>
+</h4>
+<p>The model developers <a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf" rel="nofollow">write</a>: </p>
+<blockquote>
+<p>We use the BooksCorpus dataset (<a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf" rel="nofollow">Zhu et al., 2015</a>) for training the language model. It contains over 7,000 unique unpublished books from a variety of genres including Adventure, Fantasy, and Romance. Crucially, it contains long stretches of contiguous text, which allows the generative model to learn to condition on long-range information.</p>
+</blockquote>
+<h4 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-procedure" id="training-procedure" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training Procedure
+	</span>
+</h4>
+<p>The model developers <a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf" rel="nofollow">write</a>: </p>
+<blockquote>
+<p>Our model largely follows the original transformer work [62]. We trained a 12-layer decoder-only transformer with masked self-attention heads (768 dimensional states and 12 attention heads). For the position-wise feed-forward networks, we used 3072 dimensional inner states. We used the Adam optimization scheme [27] with a max learning rate of 2.5e-4. The learning rate was increased linearly from zero over the first 2000 updates and annealed to 0 using a cosine schedule. We train for 100 epochs on minibatches of 64 randomly sampled, contiguous sequences of 512 tokens. Since layernorm [2] is used extensively throughout the model, a simple weight initialization of N (0, 0.02) was sufficient. We used a bytepair encoding (BPE) vocabulary with 40,000 merges [53] and residual, embedding, and attention dropouts with a rate of 0.1 for regularization. We also employed a modified version of L2 regularization proposed in [37], with w = 0.01 on all non bias or gain weights. For the activation function, we used the Gaussian Error Linear Unit (GELU) [18]. We used learned position embeddings instead of the sinusoidal version proposed in the original work. We use the ftfy library2 to clean the raw text in BooksCorpus, standardize some punctuation and whitespace, and use the spaCy tokenizer.</p>
+</blockquote>
+<p>See the paper for further details and links to citations.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#evaluation" id="evaluation" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Evaluation
+	</span>
+</h2>
+<p>The following evaluation information is extracted from the <a href="https://openai.com/blog/language-unsupervised/" rel="nofollow">associated blog post</a>. See the <a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf" rel="nofollow">associated paper</a> for further details.</p>
+<h4 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#testing-data-factors-and-metrics" id="testing-data-factors-and-metrics" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Testing Data, Factors and Metrics
+	</span>
+</h4>
+<p>The model developers report that the model was evaluated on the following tasks and datasets using the listed metrics: </p>
+<ul>
+<li><p><strong>Task:</strong> Textual Entailment</p>
+<ul>
+<li><strong>Datasets:</strong> <a href="https://huggingface.co/datasets/snli" rel="nofollow">SNLI</a>, <a href="https://huggingface.co/datasets/glue" rel="nofollow">MNLI Matched</a>, <a href="https://huggingface.co/datasets/glue" rel="nofollow">MNLI Mismatched</a>, <a href="https://huggingface.co/datasets/scitail" rel="nofollow">SciTail</a>, <a href="https://huggingface.co/datasets/glue" rel="nofollow">QNLI</a>, <a href="https://huggingface.co/datasets/glue" rel="nofollow">RTE</a></li>
+<li><strong>Metrics:</strong> Accuracy</li>
+</ul>
+</li>
+<li><p><strong>Task:</strong> Semantic Similarity</p>
+<ul>
+<li><strong>Datasets:</strong> <a href="https://huggingface.co/datasets/glue" rel="nofollow">STS-B</a>, <a href="https://huggingface.co/datasets/glue" rel="nofollow">QQP</a>, <a href="https://huggingface.co/datasets/glue" rel="nofollow">MRPC</a></li>
+<li><strong>Metrics:</strong> Accuracy</li>
+</ul>
+</li>
+<li><p><strong>Task:</strong> Reading Comprehension</p>
+<ul>
+<li><strong>Datasets:</strong> <a href="https://huggingface.co/datasets/race" rel="nofollow">RACE</a></li>
+<li><strong>Metrics:</strong> Accuracy</li>
+</ul>
+</li>
+<li><p><strong>Task:</strong> Commonsense Reasoning</p>
+<ul>
+<li><strong>Datasets:</strong> <a href="https://huggingface.co/datasets/story_cloze" rel="nofollow">ROCStories</a>, <a href="https://huggingface.co/datasets/xcopa" rel="nofollow">COPA</a></li>
+<li><strong>Metrics:</strong> Accuracy</li>
+</ul>
+</li>
+<li><p><strong>Task:</strong> Sentiment Analysis</p>
+<ul>
+<li><strong>Datasets:</strong> <a href="https://huggingface.co/datasets/glue" rel="nofollow">SST-2</a></li>
+<li><strong>Metrics:</strong> Accuracy</li>
+</ul>
+</li>
+<li><p><strong>Task:</strong> Linguistic Acceptability</p>
+<ul>
+<li><strong>Datasets:</strong> <a href="https://huggingface.co/datasets/glue" rel="nofollow">CoLA</a></li>
+<li><strong>Metrics:</strong> Accuracy</li>
+</ul>
+</li>
+<li><p><strong>Task:</strong> Multi Task Benchmark</p>
+<ul>
+<li><strong>Datasets:</strong> <a href="https://huggingface.co/datasets/glue" rel="nofollow">GLUE</a></li>
+<li><strong>Metrics:</strong> Accuracy</li>
+</ul>
+</li>
+</ul>
+<h4 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#results" id="results" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Results
+	</span>
+</h4>
+<p>The model achieves the following results without any fine-tuning (zero-shot):</p>
+<div class="max-w-full overflow-auto">
+<table>
+<thead><tr>
+<th align="center">Task</th>
+<th align="center">TE</th>
+<th align="center">TE</th>
+<th align="center">TE</th>
+<th align="center">TE</th>
+<th align="center">TE</th>
+<th align="center">TE</th>
+<th align="center">SS</th>
+<th align="center">SS</th>
+<th align="center">SS</th>
+<th align="center">RC</th>
+<th align="center">CR</th>
+<th align="center">CR</th>
+<th align="center">SA</th>
+<th align="center">LA</th>
+<th align="center">MTB</th>
+</tr>
+</thead><tbody><tr>
+<td align="center">Dataset</td>
+<td align="center">SNLI</td>
+<td align="center">MNLI Matched</td>
+<td align="center">MNLI Mismatched</td>
+<td align="center">SciTail</td>
+<td align="center">QNLI</td>
+<td align="center">RTE</td>
+<td align="center">STS-B</td>
+<td align="center">QQP</td>
+<td align="center">MPRC</td>
+<td align="center">RACE</td>
+<td align="center">ROCStories</td>
+<td align="center">COPA</td>
+<td align="center">SST-2</td>
+<td align="center">CoLA</td>
+<td align="center">GLUE</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">89.9</td>
+<td align="center">82.1</td>
+<td align="center">81.4</td>
+<td align="center">88.3</td>
+<td align="center">88.1</td>
+<td align="center">56.0</td>
+<td align="center">82.0</td>
+<td align="center">70.3</td>
+<td align="center">82.3</td>
+<td align="center">59.0</td>
+<td align="center">86.5</td>
+<td align="center">78.6</td>
+<td align="center">91.3</td>
+<td align="center">45.4</td>
+<td align="center">72.8</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#environmental-impact" id="environmental-impact" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Environmental Impact
+	</span>
+</h2>
+<p>The model developers <a href="https://openai.com/blog/language-unsupervised/" rel="nofollow">report that</a>: </p>
+<blockquote>
+<p>The total compute used to train this model was 0.96 petaflop days (pfs-days).</p>
+</blockquote>
+<blockquote>
+<p>8 P600 GPU's * 30 days * 12 TFLOPS/GPU * 0.33 utilization = .96 pfs-days</p>
+</blockquote>
+<p>Carbon emissions can be estimated using the <a href="https://mlco2.github.io/impact#compute" rel="nofollow">Machine Learning Impact calculator</a> presented in <a href="https://arxiv.org/abs/1910.09700" rel="nofollow">Lacoste et al. (2019)</a>.</p>
+<ul>
+<li><strong>Hardware Type:</strong> 8 P600 GPUs</li>
+<li><strong>Hours used:</strong> 720 hours (30 days)</li>
+<li><strong>Cloud Provider:</strong> Unknown</li>
+<li><strong>Compute Region:</strong> Unknown</li>
+<li><strong>Carbon Emitted:</strong> Unknown</li>
+</ul>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#technical-specifications" id="technical-specifications" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Technical Specifications
+	</span>
+</h2>
+<p>See the <a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf" rel="nofollow">associated paper</a> for details on the modeling architecture, objective, compute infrastructure, and training details.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#citation-information" id="citation-information" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Citation Information
+	</span>
+</h2>
+<pre><code class="language-bibtex">@article{radford2018improving,
+  title={Improving language understanding by generative pre-training},
+  author={Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya and others},
+  year={2018},
+  publisher={OpenAI}
+}
+</code></pre>
+<p>APA: 
+<em>Radford, A., Narasimhan, K., Salimans, T., &amp; Sutskever, I. (2018). Improving language understanding by generative pre-training.</em></p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-card-authors" id="model-card-authors" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model Card Authors
+	</span>
+</h2>
+<p>This model card was written by the Hugging Face team.</p>
+<!-- HTML_TAG_END --></div>

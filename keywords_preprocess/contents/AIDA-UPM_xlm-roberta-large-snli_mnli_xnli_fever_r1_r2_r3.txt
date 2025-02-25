@@ -1,0 +1,46 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-peGR3iN0DzB8X6Dnt5kpY">
+<!-- HTML_TAG_START --><p>This is a finetuned XLM-RoBERTA model for natural language inference. It has been trained with a massive ammount of data following the ANLI pipeline training. We include data from:</p>
+<ul>
+<li><a href="https://cims.nyu.edu/~sbowman/multinli/" rel="nofollow">mnli</a> {train, dev and test}</li>
+<li><a href="https://nlp.stanford.edu/projects/snli/" rel="nofollow">snli</a> {train, dev and test}</li>
+<li><a href="https://github.com/facebookresearch/XNLI" rel="nofollow">xnli</a> {train, dev and test}</li>
+<li><a href="https://fever.ai/resources.html" rel="nofollow">fever</a> {train, dev and test}</li>
+<li><a href="https://github.com/facebookresearch/anli" rel="nofollow">anli</a> {train}</li>
+</ul>
+<p>The model is validated on ANLI training sets, including R1, R2 and R3. The following results can be expected on the testing splits.</p>
+<div class="max-w-full overflow-auto">
+<table>
+<thead><tr>
+<th>Split</th>
+<th>Accuracy</th>
+</tr>
+</thead><tbody><tr>
+<td>R1</td>
+<td>0.6610</td>
+</tr>
+<tr>
+<td>R2</td>
+<td>0.4990</td>
+</tr>
+<tr>
+<td>R3</td>
+<td>0.4425</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#multilabels" id="multilabels" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Multilabels
+	</span>
+</h1>
+<pre><code>label2id={
+    "contradiction": 0,
+    "entailment": 1,
+    "neutral": 2,
+},
+</code></pre>
+<!-- HTML_TAG_END --></div>

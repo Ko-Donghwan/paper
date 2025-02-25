@@ -1,0 +1,25 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-q34c59GpQSU832J8JUYcx">
+<!-- HTML_TAG_START --><h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#petrained-model-description-open-source-version-of-gpt-3" id="petrained-model-description-open-source-version-of-gpt-3" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Petrained Model Description: Open Source Version of GPT-3
+	</span>
+</h2>
+<p>Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model that uses deep learning to produce human-like text.
+It is the third-generation language prediction model in the GPT-n series (and the successor to GPT-2) created by OpenAI</p>
+<p>GPT-Neo (125M) is a transformer model designed using EleutherAI's replication of the GPT-3 architecture. GPT-Neo refers to the class of models, while 125M represents the number of parameters of this particular pre-trained model.
+and first released in this <a href="https://github.com/EleutherAI/gpt-neo" rel="nofollow">repository</a>. </p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#fine-tuned-model-description-gpt-3-fine-tuned-multi-xscience" id="fine-tuned-model-description-gpt-3-fine-tuned-multi-xscience" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Fine-tuned Model Description: GPT-3 fine-tuned Multi-XScience
+	</span>
+</h2>
+<p>The Open Source version of GPT-3: GPT-Neo(125M) has been fine-tuned on a dataset called "Multi-XScience": <a href="https://github.com/yaolu/Multi-XScience" rel="nofollow">Multi-XScience_Repository</a>: A Large-scale Dataset for Extreme Multi-document Summarization of Scientific Articles.    </p>
+<p>I first fine-tuned and then deployed it using Google "Material Design" (on Anvil): <a href="https://abir-scientific-text-generator.anvil.app/" rel="nofollow">Abir Scientific text Generator</a> </p>
+<p>By fine-tuning GPT-Neo(Open Source version of GPT-3), on Multi-XScience dataset, the model is now able to generate scientific texts(even better than GPT-J(6B).<br/>Try putting the prompt "attention is all" on both my <a href="https://abir-scientific-text-generator.anvil.app/" rel="nofollow">Abir Scientific text Generator</a>  and on the <a href="https://6b.eleuther.ai/" rel="nofollow"> GPT-J Eleuther.ai Demo</a> to understand what I mean.<br/>And Here's a demonstration video for this. <a href="https://www.youtube.com/watch?v=XP8uZfnCYQI" rel="nofollow">Video real-time Demontration</a></p>
+<!-- HTML_TAG_END --></div>

@@ -1,0 +1,4 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-Fy03zh5ZhIUAYfQzVAJqs">
+<!-- HTML_TAG_START --><p>this is a fine tuned GPT2 text generation model on a Hunter x Hunter TV anime series dataset.<br/>you can find a link to the used dataset here : <a href="https://www.kaggle.com/bkoozy/hunter-x-hunter-subtitles" rel="nofollow">https://www.kaggle.com/bkoozy/hunter-x-hunter-subtitles</a>
+you can find a colab notebook for fine-tuning the gpt2 model here : <a href="https://github.com/3koozy/fine-tune-gpt2-HxH/" rel="nofollow">https://github.com/3koozy/fine-tune-gpt2-HxH/</a></p>
+<!-- HTML_TAG_END --></div>

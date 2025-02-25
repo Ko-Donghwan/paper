@@ -1,0 +1,3 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-vtEiuE-e2dNdtbkooa2hx">
+<!-- HTML_TAG_START --><p>This model is the same as <a href="https://huggingface.co/dbmdz/bert-base-german-cased" rel="nofollow">dbmdz/bert-base-german-cased</a>. See the <a href="https://huggingface.co/dbmdz/bert-base-german-cased" rel="nofollow">dbmdz/bert-base-german-cased model card</a> for details on the model.</p>
+<!-- HTML_TAG_END --></div>

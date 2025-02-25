@@ -1,0 +1,13 @@
+{
+    "ModelArchitecture": "transformers",
+    "Purpose": "sequence classification, token classification or question answering",
+    "ModelTrainingTime": "one million steps",
+    "MaintainerContact": null,
+    "RelatedDocumentation": null,
+    "CommunityFeedback": null,
+    "InferenceSpeed": null,
+    "PerformanceMetric": "Glue test results: MNLI-(m/mm), QQP, QNLI, SST-2, CoLA, STS-B, MRPC, RTE",
+    "KnownLimitations": "biased predictions",
+    "IntendedUse": "masked language modeling, next sentence prediction, fine-tuning on downstream tasks",
+    "EthicalConsiderations": "biased predictions"
+}

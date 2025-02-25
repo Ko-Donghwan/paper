@@ -1,0 +1,31 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-IpetAPkIeMIOMkJV2gDtH">
+<!-- HTML_TAG_START --><p>A monolingual T5 model for Persian trained on OSCAR 21.09 (<a href="https://oscar-corpus.com/" rel="nofollow">https://oscar-corpus.com/</a>) corpus with self-supervised method. 35 Gig deduplicated version of Persian data was used for pre-training the model.</p>
+<p>It's similar to the English T5 model but just for Persian. You may need to fine-tune it on your specific task. </p>
+<p>Example code:</p>
+<pre><code>from transformers import T5ForConditionalGeneration,AutoTokenizer
+
+import torch
+
+model_name = "Ahmad/parsT5-base"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = T5ForConditionalGeneration.from_pretrained(model_name)
+
+input_ids = tokenizer.encode('دانش آموزان به &lt;extra_id_0&gt; میروند و &lt;extra_id_1&gt; میخوانند.', return_tensors='pt')
+with torch.no_grad():
+    hypotheses = model.generate(input_ids)
+for h in hypotheses:
+    print(tokenizer.decode(h))
+</code></pre>
+<p>Steps: 725000</p>
+<p>Accuracy: 0.66</p>
+<h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-more" id="training-more" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training More?
+	</span>
+</h1>
+<p>To train the model further please refer to its github repository at:</p>
+<p><a href="https://github.com/puraminy/parsT5" rel="nofollow">https://github.com/puraminy/parsT5</a></p>
+<!-- HTML_TAG_END --></div>

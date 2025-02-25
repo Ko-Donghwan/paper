@@ -1,0 +1,6 @@
+{
+    "dataset": [
+        "legacy-datasets/wikipedia",
+        "bookcorpus/bookcorpus"
+    ]
+}

@@ -1,0 +1,3 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-WZQuiuP3oBHxcobsWUeYN">
+<!-- HTML_TAG_START --><p>Trained on Stephen King's top 50 books as .txt files. </p>
+<!-- HTML_TAG_END --></div>

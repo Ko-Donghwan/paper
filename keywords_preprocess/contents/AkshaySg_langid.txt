@@ -1,0 +1,244 @@
+<div class="model-card-content prose md:px-6 md:-mx-6 lg:-mr-20 lg:pr-20 xl:-mr-24 xl:pr-24 2xl:-mr-36 2xl:pr-36 hf-sanitized hf-sanitized-m27KrabNDipRB9oiYhKZ1">
+<!-- HTML_TAG_START --><h1 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#voxlingua107-ecapa-tdnn-spoken-language-identification-model" id="voxlingua107-ecapa-tdnn-spoken-language-identification-model" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		VoxLingua107 ECAPA-TDNN Spoken Language Identification Model
+	</span>
+</h1>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#model-description" id="model-description" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Model description
+	</span>
+</h2>
+<p>This is a spoken language recognition model trained on the VoxLingua107 dataset using SpeechBrain.
+The model uses the ECAPA-TDNN architecture that has previously been used for speaker recognition.</p>
+<p>The model can classify a speech utterance according to the language spoken.
+It covers 107 different languages (
+Abkhazian, 
+Afrikaans, 
+Amharic, 
+Arabic, 
+Assamese, 
+Azerbaijani, 
+Bashkir, 
+Belarusian, 
+Bulgarian, 
+Bengali, 
+Tibetan, 
+Breton, 
+Bosnian, 
+Catalan, 
+Cebuano, 
+Czech, 
+Welsh, 
+Danish, 
+German, 
+Greek, 
+English, 
+Esperanto, 
+Spanish, 
+Estonian, 
+Basque, 
+Persian, 
+Finnish, 
+Faroese, 
+French, 
+Galician, 
+Guarani, 
+Gujarati, 
+Manx, 
+Hausa, 
+Hawaiian, 
+Hindi, 
+Croatian, 
+Haitian, 
+Hungarian, 
+Armenian, 
+Interlingua, 
+Indonesian, 
+Icelandic, 
+Italian, 
+Hebrew, 
+Japanese, 
+Javanese, 
+Georgian, 
+Kazakh, 
+Central Khmer, 
+Kannada, 
+Korean, 
+Latin, 
+Luxembourgish, 
+Lingala, 
+Lao, 
+Lithuanian, 
+Latvian, 
+Malagasy, 
+Maori, 
+Macedonian, 
+Malayalam, 
+Mongolian, 
+Marathi, 
+Malay, 
+Maltese, 
+Burmese, 
+Nepali, 
+Dutch, 
+Norwegian Nynorsk, 
+Norwegian, 
+Occitan, 
+Panjabi, 
+Polish, 
+Pushto, 
+Portuguese, 
+Romanian, 
+Russian, 
+Sanskrit, 
+Scots, 
+Sindhi, 
+Sinhala, 
+Slovak, 
+Slovenian, 
+Shona, 
+Somali, 
+Albanian, 
+Serbian, 
+Sundanese, 
+Swedish, 
+Swahili, 
+Tamil, 
+Telugu, 
+Tajik, 
+Thai, 
+Turkmen, 
+Tagalog, 
+Turkish, 
+Tatar, 
+Ukrainian, 
+Urdu, 
+Uzbek, 
+Vietnamese, 
+Waray, 
+Yiddish, 
+Yoruba, 
+Mandarin Chinese).</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#intended-uses--limitations" id="intended-uses--limitations" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Intended uses &amp; limitations
+	</span>
+</h2>
+<p>The model has two uses:</p>
+<ul>
+<li>use 'as is' for spoken language recognition</li>
+<li>use as an utterance-level feature (embedding) extractor, for creating a dedicated language ID model on your own data</li>
+</ul>
+<p>The model is trained on automatically collected YouTube data. For more 
+information about the dataset, see <a href="http://bark.phon.ioc.ee/voxlingua107/" rel="nofollow">here</a>.</p>
+<h4 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#how-to-use" id="how-to-use" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		How to use
+	</span>
+</h4>
+<pre><code class="language-python"><span class="hljs-keyword">import</span> torchaudio
+<span class="hljs-keyword">from</span> speechbrain.pretrained <span class="hljs-keyword">import</span> EncoderClassifier
+language_id = EncoderClassifier.from_hparams(source=<span class="hljs-string">"TalTechNLP/voxlingua107-epaca-tdnn"</span>, savedir=<span class="hljs-string">"tmp"</span>)
+<span class="hljs-comment"># Download Thai language sample from Omniglot and cvert to suitable form</span>
+signal = language_id.load_audio(<span class="hljs-string">"https://omniglot.com/soundfiles/udhr/udhr_th.mp3"</span>)
+prediction =  language_id.classify_batch(signal)
+<span class="hljs-built_in">print</span>(prediction)
+  (tensor([[<span class="hljs-number">0.3210</span>, <span class="hljs-number">0.3751</span>, <span class="hljs-number">0.3680</span>, <span class="hljs-number">0.3939</span>, <span class="hljs-number">0.4026</span>, <span class="hljs-number">0.3644</span>, <span class="hljs-number">0.3689</span>, <span class="hljs-number">0.3597</span>, <span class="hljs-number">0.3508</span>,
+           <span class="hljs-number">0.3666</span>, <span class="hljs-number">0.3895</span>, <span class="hljs-number">0.3978</span>, <span class="hljs-number">0.3848</span>, <span class="hljs-number">0.3957</span>, <span class="hljs-number">0.3949</span>, <span class="hljs-number">0.3586</span>, <span class="hljs-number">0.4360</span>, <span class="hljs-number">0.3997</span>,
+           <span class="hljs-number">0.4106</span>, <span class="hljs-number">0.3886</span>, <span class="hljs-number">0.4177</span>, <span class="hljs-number">0.3870</span>, <span class="hljs-number">0.3764</span>, <span class="hljs-number">0.3763</span>, <span class="hljs-number">0.3672</span>, <span class="hljs-number">0.4000</span>, <span class="hljs-number">0.4256</span>,
+           <span class="hljs-number">0.4091</span>, <span class="hljs-number">0.3563</span>, <span class="hljs-number">0.3695</span>, <span class="hljs-number">0.3320</span>, <span class="hljs-number">0.3838</span>, <span class="hljs-number">0.3850</span>, <span class="hljs-number">0.3867</span>, <span class="hljs-number">0.3878</span>, <span class="hljs-number">0.3944</span>,
+           <span class="hljs-number">0.3924</span>, <span class="hljs-number">0.4063</span>, <span class="hljs-number">0.3803</span>, <span class="hljs-number">0.3830</span>, <span class="hljs-number">0.2996</span>, <span class="hljs-number">0.4187</span>, <span class="hljs-number">0.3976</span>, <span class="hljs-number">0.3651</span>, <span class="hljs-number">0.3950</span>,
+           <span class="hljs-number">0.3744</span>, <span class="hljs-number">0.4295</span>, <span class="hljs-number">0.3807</span>, <span class="hljs-number">0.3613</span>, <span class="hljs-number">0.4710</span>, <span class="hljs-number">0.3530</span>, <span class="hljs-number">0.4156</span>, <span class="hljs-number">0.3651</span>, <span class="hljs-number">0.3777</span>,
+           <span class="hljs-number">0.3813</span>, <span class="hljs-number">0.6063</span>, <span class="hljs-number">0.3708</span>, <span class="hljs-number">0.3886</span>, <span class="hljs-number">0.3766</span>, <span class="hljs-number">0.4023</span>, <span class="hljs-number">0.3785</span>, <span class="hljs-number">0.3612</span>, <span class="hljs-number">0.4193</span>,
+           <span class="hljs-number">0.3720</span>, <span class="hljs-number">0.4406</span>, <span class="hljs-number">0.3243</span>, <span class="hljs-number">0.3866</span>, <span class="hljs-number">0.3866</span>, <span class="hljs-number">0.4104</span>, <span class="hljs-number">0.4294</span>, <span class="hljs-number">0.4175</span>, <span class="hljs-number">0.3364</span>,
+           <span class="hljs-number">0.3595</span>, <span class="hljs-number">0.3443</span>, <span class="hljs-number">0.3565</span>, <span class="hljs-number">0.3776</span>, <span class="hljs-number">0.3985</span>, <span class="hljs-number">0.3778</span>, <span class="hljs-number">0.2382</span>, <span class="hljs-number">0.4115</span>, <span class="hljs-number">0.4017</span>,
+           <span class="hljs-number">0.4070</span>, <span class="hljs-number">0.3266</span>, <span class="hljs-number">0.3648</span>, <span class="hljs-number">0.3888</span>, <span class="hljs-number">0.3907</span>, <span class="hljs-number">0.3755</span>, <span class="hljs-number">0.3631</span>, <span class="hljs-number">0.4460</span>, <span class="hljs-number">0.3464</span>,
+           <span class="hljs-number">0.3898</span>, <span class="hljs-number">0.3661</span>, <span class="hljs-number">0.3883</span>, <span class="hljs-number">0.3772</span>, <span class="hljs-number">0.9289</span>, <span class="hljs-number">0.3687</span>, <span class="hljs-number">0.4298</span>, <span class="hljs-number">0.4211</span>, <span class="hljs-number">0.3838</span>,
+           <span class="hljs-number">0.3521</span>, <span class="hljs-number">0.3515</span>, <span class="hljs-number">0.3465</span>, <span class="hljs-number">0.4772</span>, <span class="hljs-number">0.4043</span>, <span class="hljs-number">0.3844</span>, <span class="hljs-number">0.3973</span>, <span class="hljs-number">0.4343</span>]]), tensor([<span class="hljs-number">0.9289</span>]), tensor([<span class="hljs-number">94</span>]), [<span class="hljs-string">'th'</span>])
+<span class="hljs-comment"># The scores in the prediction[0] tensor can be interpreted as cosine scores between</span>
+<span class="hljs-comment"># the languages and the given utterance (i.e., the larger the better)</span>
+<span class="hljs-comment"># The identified language ISO code is given in prediction[3]</span>
+<span class="hljs-built_in">print</span>(prediction[<span class="hljs-number">3</span>])
+  [<span class="hljs-string">'th'</span>]
+  
+<span class="hljs-comment"># Alternatively, use the utterance embedding extractor:</span>
+emb =  language_id.encode_batch(signal)
+<span class="hljs-built_in">print</span>(emb.shape)
+  torch.Size([<span class="hljs-number">1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">256</span>])
+</code></pre>
+<h4 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#limitations-and-bias" id="limitations-and-bias" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Limitations and bias
+	</span>
+</h4>
+<p>Since the model is trained on VoxLingua107, it has many limitations and biases, some of which are:</p>
+<ul>
+<li>Probably it's accuracy on smaller languages  is quite limited</li>
+<li>Probably it works worse on female speech than male speech (because YouTube data includes much more male speech)</li>
+<li>Based on subjective experiments, it doesn't work well on speech with a foreign accent</li>
+<li>Probably it doesn't work well on children's speech and on persons with speech disorders</li>
+</ul>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-data" id="training-data" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training data
+	</span>
+</h2>
+<p>The model is trained on <a href="http://bark.phon.ioc.ee/voxlingua107/" rel="nofollow">VoxLingua107</a>.</p>
+<p>VoxLingua107 is a speech dataset for training spoken language identification models. 
+The dataset consists of short speech segments automatically extracted from YouTube videos and labeled according the language of the video title and description, with some post-processing steps to filter out false positives.</p>
+<p>VoxLingua107 contains data for 107 languages. The total amount of speech in the training set is 6628 hours. 
+The average amount of data per language is 62 hours. However, the real amount per language varies a lot. There is also a seperate development set containing 1609 speech segments from 33 languages, validated by at least two volunteers to really contain the given language.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#training-procedure" id="training-procedure" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Training procedure
+	</span>
+</h2>
+<p>We used <a href="https://github.com/speechbrain/speechbrain" rel="nofollow">SpeechBrain</a> to train the model.
+Training recipe will be published soon.</p>
+<h2 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#evaluation-results" id="evaluation-results" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		Evaluation results
+	</span>
+</h2>
+<p>Error rate: 7% on the development dataset</p>
+<h3 class="relative group flex items-center">
+<a class="block pr-1.5 text-lg md:absolute md:p-1.5 md:opacity-0 md:group-hover:opacity-100 md:right-full" href="#bibtex-entry-and-citation-info" id="bibtex-entry-and-citation-info" rel="nofollow">
+<span class="header-link"><svg aria-hidden="true" class="text-gray-500 hover:text-black dark:hover:text-gray-200 w-4" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 256 256" width="1em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M167.594 88.393a8.001 8.001 0 0 1 0 11.314l-67.882 67.882a8 8 0 1 1-11.314-11.315l67.882-67.881a8.003 8.003 0 0 1 11.314 0zm-28.287 84.86l-28.284 28.284a40 40 0 0 1-56.567-56.567l28.284-28.284a8 8 0 0 0-11.315-11.315l-28.284 28.284a56 56 0 0 0 79.196 79.197l28.285-28.285a8 8 0 1 0-11.315-11.314zM212.852 43.14a56.002 56.002 0 0 0-79.196 0l-28.284 28.284a8 8 0 1 0 11.314 11.314l28.284-28.284a40 40 0 0 1 56.568 56.567l-28.285 28.285a8 8 0 0 0 11.315 11.314l28.284-28.284a56.065 56.065 0 0 0 0-79.196z" fill="currentColor"></path></svg></span>
+</a>
+<span>
+		BibTeX entry and citation info
+	</span>
+</h3>
+<pre><code class="language-bibtex">@inproceedings{valk2021slt,
+  title={{VoxLingua107}: a Dataset for Spoken Language Recognition},
+  author={J{\"o}rgen Valk and Tanel Alum{\"a}e},
+  booktitle={Proc. IEEE SLT Workshop},
+  year={2021},
+}
+</code></pre>
+<!-- HTML_TAG_END --></div>
